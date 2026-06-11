@@ -2,13 +2,13 @@
 
 > Problem list from [0x3F's LeetCode Problem Lists](https://leetcode.cn/circle/discuss/g6KTKL/)
 
-前言
+Preface
 
-**如果做题时没有思路，推荐看看本文第五章的「思考清单」。**
+**If you have no idea when solving a problem, check the "Thinking Checklist" in Chapter 5.**
 
 ------
 
-### §1.1 从最小/最大开始贪心
+### §1.1 Greedy from Min/Max
 
 *   [3074. Apple Redistribution Into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/) 1198
 *   [3545. Minimum Deletions for at Most K Distinct Characters](https://leetcode.com/problems/minimum-deletions-for-at-most-k-distinct-characters/) 1211
@@ -59,14 +59,14 @@
 *   [2557. Maximum Number of Integers to Choose from a Range Ii](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-ii/) (Premium)
 *   [LCS 02. Wqxacv](https://leetcode.com/problems/WqXACV/)
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [624. Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/)
 *   [910. Smallest Range Ii](https://leetcode.com/problems/smallest-range-ii/) 2135
 *   [2835. Minimum Operations to Form Subsequence with Target Sum](https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum/) 2207
 *   [3366. Minimum Array Sum](https://leetcode.com/problems/minimum-array-sum/) 2900
 
-### §1.2 单序列配对
+### §1.2 Single Sequence Pairing
 
 *   [2144. Minimum Cost of Buying Candies with Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) 1261
 *   [561. Array Partition](https://leetcode.com/problems/array-partition/) 1300
@@ -75,7 +75,7 @@
 *   [2592. Maximize Greatness of an Array](https://leetcode.com/problems/maximize-greatness-of-an-array/) 1569
 *   [2576. Find the Maximum Number of Marked Indices](https://leetcode.com/problems/find-the-maximum-number-of-marked-indices/) 1843
 
-### §1.3 双序列配对
+### §1.3 Dual Sequence Pairing
 
 *   [2037. Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/) 1357
 *   [455. Assign Cookies](https://leetcode.com/problems/assign-cookies/) 1381
@@ -89,7 +89,7 @@
 *   [2071. Maximum Number of Tasks You Can Assign](https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/) 2648
 *   [2323. Find Minimum Time to Finish All Jobs Ii](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs-ii/) (Premium)
 
-### §1.4 从最左/最右开始贪心
+### §1.4 Greedy from Left/Right
 
 *   [3402. Minimum Operations to Make Columns Strictly Increasing](https://leetcode.com/problems/minimum-operations-to-make-columns-strictly-increasing/) 1246
 *   [3191. Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/) 1312
@@ -117,7 +117,7 @@
 *   [3449. Maximize the Minimum Game Score](https://leetcode.com/problems/maximize-the-minimum-game-score/) 2748
 *   [2422. Merge Operations to Turn Array Into a Palindrome](https://leetcode.com/problems/merge-operations-to-turn-array-into-a-palindrome/) (Premium)
 
-### §1.5 划分型贪心
+### §1.5 Partition Greedy
 
 *   [1221. Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) 1220
 *   [2405. Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/) 1355
@@ -129,7 +129,7 @@
 *   [2436. Minimum Split Into Subarrays with Gcd Greater than One](https://leetcode.com/problems/minimum-split-into-subarrays-with-gcd-greater-than-one/) (Premium)
 *   [2892. Minimizing Array after Replacing Pairs with Their Product](https://leetcode.com/problems/minimizing-array-after-replacing-pairs-with-their-product/) (Premium)
 
-### §1.6 先枚举，再贪心
+### §1.6 Enumerate Then Greedy
 
 *   [2171. Removing Minimum Number of Magic Beans](https://leetcode.com/problems/removing-minimum-number-of-magic-beans/) 1748
 *   [3085. Minimum Deletions to Make String K Special](https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/) 1765
@@ -138,7 +138,7 @@
 *   [2910. Minimum Number of Groups to Create a Valid Assignment](https://leetcode.com/problems/minimum-number-of-groups-to-create-a-valid-assignment/) 2132
 *   [2234. Maximum Total Beauty of the Gardens](https://leetcode.com/problems/maximum-total-beauty-of-the-gardens/) 2562
 
-### §1.7 交换论证法
+### §1.7 Exchange Argument
 
 *   [2895. Minimum Processing Time](https://leetcode.com/problems/minimum-processing-time/) 1352
 *   [3457. Eat Pizzas](https://leetcode.com/problems/eat-pizzas/) 1704
@@ -147,28 +147,28 @@
 *   [2136. Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/) 2033
 *   [2561. Rearranging Fruits](https://leetcode.com/problems/rearranging-fruits/) 2222
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [179. Largest Number](https://leetcode.com/problems/largest-number/)
 *   [3309. Maximum Possible Number by Binary Concatenation](https://leetcode.com/problems/maximum-possible-number-by-binary-concatenation/)
 
-**相似题目**：
+**Similar Problems**:
 
 *   [2412. Minimum Money Required before Transactions](https://leetcode.com/problems/minimum-money-required-before-transactions/) 2092
 
-### §1.8 相邻不同
+### §1.8 Adjacent Distinct
 
-**问题一**：给定数组 a，能否重新排列其中的元素，使得所有相邻元素均不同？如果能，输出重排后的数组。
+**Problem 1**: Given array a, can we rearrange its elements so that all adjacent elements are different? If yes, output the rearranged array.
 
-**答**：如果 m≤n−m+1，则可以做到，否则无法做到。
+**A**: If m≤n−m+1, it is possible; otherwise not.
 
-**问题二**：给定数组 a，每次操作，删除 a 中的两个不同元素。最多能操作多少次？
+**Problem 2**: Given array a, each operation deletes two different elements. What is the maximum number of operations?
 
-**答**：最多操作 min(⌊2n​⌋,n−m) 次。
+**A**: At most min(⌊2n​⌋,n−m) operations.
 
-**问题三**：给定数组 a，每次操作，删除 a 中的**至多**两个不同元素。最少要操作多少次？
+**Problem 3**: Given array a, each operation deletes **at most** two different elements. What is the minimum number of operations?
 
-**答**：最少操作 max(⌈2n​⌉,m) 次。
+**A**: At least max(⌈2n​⌉,m) operations.
 
 *   [2335. Minimum Amount of Time to Fill Cups](https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/) 1360
 *   [3659. Partition Array Into K Distinct Groups](https://leetcode.com/problems/partition-array-into-k-distinct-groups/) 1440
@@ -183,12 +183,12 @@
 *   [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) n
 *   [358. Rearrange String K Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/) (Premium)
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [984. String Without Aaa or Bbb](https://leetcode.com/problems/string-without-aaa-or-bbb/)
 *   [1405. Longest Happy String](https://leetcode.com/problems/longest-happy-string/) 1821
 
-### §1.9 反悔贪心
+### §1.9 Regret Greedy
 
 *   [LCP 30. P0nxjo](https://leetcode.com/problems/p0NxJO/) 1900
 *   [1642. Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/) 1962
@@ -202,40 +202,40 @@
 
 ------
 
-*   **不相交区间**（单机器调度/活动安排）：给定一些区间，从中选出尽量多的两两互不相交的区间。
-*   **区间分组**（任务调度/会议室）：给定一些区间，把这些区间分成最少的组，使得每组内的区间互不相交。
-*   **区间选点**（射气球，Interval Stabbing）：给定一些区间，在数轴上放置最少的点，使得每个区间都包含至少一个点。最少要放置多少个点？
-*   **区间覆盖**（灌溉花园）：给定一些区间，从中选出尽量少的区间，覆盖一条指定线段 \[s,t\]。
+*   **Non-overlapping Intervals** (Single machine scheduling / Activity selection): Select as many mutually non-overlapping intervals as possible.
+*   **Interval Grouping** (Task scheduling / Meeting rooms): Partition intervals into minimum groups where intervals within each group are non-overlapping.
+*   **Interval Stabbing** (Burst balloons): Place minimum points on the number line so each interval contains at least one point.
+*   **Interval Covering** (Watering garden): Select minimum intervals to cover a given segment \[s,t\].
 
-### §2.1 不相交区间
+### §2.1 Non-overlapping Intervals
 
 *   [435. Non Overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) 1700
 *   [646. Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/)
 *   [1520. Maximum Number of Non Overlapping Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/) 2363
 *   [3458. Select K Disjoint Special Substrings](https://leetcode.com/problems/select-k-disjoint-special-substrings/)
 
-**变形**：每个区间有各自的分数，从中选一些两两互不相交的区间，最大化得分之和。详见 [动态规划题单](https://leetcode.cn/circle/discuss/tXLS3i/) 中的「§5.4 不相交区间」。
+**Variation**: Each interval has a score. Select non-overlapping intervals to maximize total score. See [DP Problem List](https://leetcode.cn/circle/discuss/tXLS3i/) §5.4.
 
-### §2.2 区间分组
+### §2.2 Interval Grouping
 
 *   [2406. Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/) 1713
 *   [253. Meeting Rooms Ii](https://leetcode.com/problems/meeting-rooms-ii/) (Premium)
 
-### §2.3 区间选点
+### §2.3 Interval Stabbing
 
 *   [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) 1700
 *   [757. Set Intersection Size at Least Two](https://leetcode.com/problems/set-intersection-size-at-least-two/) 2379
 *   [2589. Minimum Time to Complete All Tasks](https://leetcode.com/problems/minimum-time-to-complete-all-tasks/) 2381
 *   [LCP 32. T3fkg1](https://leetcode.com/problems/t3fKg1/)
 
-### §2.4 区间覆盖
+### §2.4 Interval Covering
 
 
 *   [45. Jump Game Ii](https://leetcode.com/problems/jump-game-ii/) 1700
 *   [1024. Video Stitching](https://leetcode.com/problems/video-stitching/) 1746
 *   [1326. Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/) 1885
 
-### §2.5 合并区间
+### §2.5 Merge Intervals
 
 *   [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 *   [57. Insert Interval](https://leetcode.com/problems/insert-interval/)
@@ -252,7 +252,7 @@
 *   [759. Employee Free Time](https://leetcode.com/problems/employee-free-time/) (Premium)
 *   [2655. Find Maximal Uncovered Ranges](https://leetcode.com/problems/find-maximal-uncovered-ranges/) (Premium)
 
-### §2.6 Others区间贪心
+### §2.6 Other Interval Greedy
 
 *   [1288. Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)
 *   [2054. Two Best Non Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events/) 1883
@@ -261,14 +261,14 @@
 
 -------
 
-### §3.1 字典序最小/最大
+### §3.1 Lexicographically Smallest/Largest
 
-**字典序**的定义如下：
+Definition of **lexicographic order**:
 
-*   对于两个字符串 a 和 b，从左到右依次比较字符 a\[i\] 和 b\[i\] 的 ASCII 值的大小。
-*   a\[i\]\=b\[i\] 时，如果 a\[i\]<b\[i\]，那么 a 的字典序更小，否则 b 的字典序更小。
-*   如果没有出现 a\[i\]\=b\[i\]，则短的字符串字典序更小。
-*   如果两个字符串的长度和内容均相同，那么两个字符串的字典序一样。
+*   For strings a and b, compare characters a\[i\] and b\[i\] from left to right by ASCII value.
+*   When a\[i\]!=b\[i\], if a\[i\]<b\[i\], then a is lexicographically smaller; otherwise b is.
+*   If no a\[i\]!=b\[i\] occurs, the shorter string is lexicographically smaller.
+*   If two strings have equal length and content, they have the same lexicographic order.
 
 *   [1323. Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) 1194
 *   [3216. Lexicographically Smallest String after a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/) 1243
@@ -302,7 +302,7 @@
 *   [555. Split Concatenated Strings](https://leetcode.com/problems/split-concatenated-strings/) (Premium)
 *   [3088. Make String Anti Palindrome](https://leetcode.com/problems/make-string-anti-palindrome/) (Premium)
 
-**倒序贪心**：
+**Reverse Greedy**:
 
 *   [3720. Lexicographically Smallest Permutation Greater than Target](https://leetcode.com/problems/lexicographically-smallest-permutation-greater-than-target/) 1958
 *   [3734. Lexicographically Smallest Palindromic Permutation Greater than Target](https://leetcode.com/problems/lexicographically-smallest-palindromic-permutation-greater-than-target/) 2330
@@ -311,7 +311,7 @@
 *   [3646. Next Special Palindrome Number](https://leetcode.com/problems/next-special-palindrome-number/)
 *   [3348. Smallest Divisible Digit Product Ii](https://leetcode.com/problems/smallest-divisible-digit-product-ii/) 3101
 
-### §3.2 回文串贪心
+### §3.2 Palindrome Greedy
 
 *   [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) 1250
 *   [2697. Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/) 1304
@@ -333,7 +333,7 @@
 *   [1842. Next Palindrome Using Same Digits](https://leetcode.com/problems/next-palindrome-using-same-digits/) (Premium)
 *   [3088. Make String Anti Palindrome](https://leetcode.com/problems/make-string-anti-palindrome/) (Premium)
 
-### §3.3 合法括号字符串
+### §3.3 Valid Parentheses String
 
 ------
 
@@ -348,13 +348,13 @@
 *   [LCS 01. Ju9xwi](https://leetcode.com/problems/Ju9Xwi/)
 *   [397. Integer Replacement](https://leetcode.com/problems/integer-replacement/)
 
-### §4.2 乘积贪心
+### §4.2 Product Greedy
 
 *   [628. Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)
 *   [3732. Maximum Product of Three Elements after One Replacement](https://leetcode.com/problems/maximum-product-of-three-elements-after-one-replacement/) 1529
 *   [1567. Maximum Length of Subarray with Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/) 1710
 
-### §4.3 排序不等式
+### §4.3 Rearrangement Inequality
 
 a\[0\]⋅b\[0\]+a\[1\]⋅b\[1\]+⋯+a\[n−1\]⋅b\[n−1\]
 
@@ -366,16 +366,16 @@ a\[0\]⋅b\[0\]+a\[1\]⋅b\[1\]+⋯+a\[n−1\]⋅b\[n−1\]
 *   [1874. Minimize Product Sum of Two Arrays](https://leetcode.com/problems/minimize-product-sum-of-two-arrays/) (Premium)
 *   [2268. Minimum Number of Keypresses](https://leetcode.com/problems/minimum-number-of-keypresses/) (Premium)
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [2561. Rearranging Fruits](https://leetcode.com/problems/rearranging-fruits/) 2222  min
 *   [3547. Maximum Sum of Edge Values in a Graph](https://leetcode.com/problems/maximum-sum-of-edge-values-in-a-graph/) /
 
-### §4.4 均值不等式
+### §4.4 AM-GM Inequality
 
-**栅栏问题**：长为 n 米的篱笆栅栏，围成一个矩形，矩形面积最大是多少？
+**Fence problem**: A fence of n meters forms a rectangle. What is the maximum area?
 
-**变形**：长为 n 米的栅栏分成 k 份，每份围成一个正方形，面积之和最小是多少？
+**Variation**: Divide an n-meter fence into k parts, each forming a square. What is the minimum total area?
 
 *   [3081. Replace Question Marks in String to Minimize its Value](https://leetcode.com/problems/replace-question-marks-in-string-to-minimize-its-value/) 1905
 *   [1969. Minimum Non Zero Product of the Array Elements](https://leetcode.com/problems/minimum-non-zero-product-of-the-array-elements/) 1967
@@ -383,9 +383,9 @@ a\[0\]⋅b\[0\]+a\[1\]⋅b\[1\]+⋯+a\[n−1\]⋅b\[n−1\]
 *   [3723. Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/) 1537
 *   [2897. Apply Operations on Array to Maximize Sum of Squares](https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares/) 2301
 
-### §4.5 中位数贪心
+### §4.5 Median Greedy
 
-[证明](/link/?target=https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F1922938031687595039)
+[Proof](/link/?target=https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F1922938031687595039)
 
 *   [462. Minimum Moves to Equal Array Elements Ii](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)
 *   [2033. Minimum Operations to Make a Uni Value Grid](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/) 1672
@@ -398,16 +398,16 @@ a\[0\]⋅b\[0\]+a\[1\]⋅b\[1\]+⋯+a\[n−1\]⋅b\[n−1\]
 *   [3086. Minimum Moves to Pick K Ones](https://leetcode.com/problems/minimum-moves-to-pick-k-ones/) 2673
 *   [LCP 24. 5txkek](https://leetcode.com/problems/5TxKeK/)
 *   [3441. Minimum Cost Good Caption](https://leetcode.com/problems/minimum-cost-good-caption/)
-*   [棋盘整理](https://leetcode.com/contest/2025_pudong_ai/problems/1Hxnb6/) 二维
+*   [Board Rearrangement](https://leetcode.com/contest/2025_pudong_ai/problems/1Hxnb6/) 2D
 *   [296. Best Meeting Point](https://leetcode.com/problems/best-meeting-point/) (Premium)
 
-### §4.6 归纳法
+### §4.6 Induction
 
 *   [2952. Minimum Number of Coins to Be Added](https://leetcode.com/problems/minimum-number-of-coins-to-be-added/) 1784
 *   [330. Patching Array](https://leetcode.com/problems/patching-array/)
 *   [1798. Maximum Number of Consecutive Values You Can Make](https://leetcode.com/problems/maximum-number-of-consecutive-values-you-can-make/) 1931
 
-### §4.7 Others数学贪心
+### §4.7 Other Math Greedy
 
 *   [1414. Find the Minimum Number of Fibonacci Numbers Whose Sum is K](https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/) 1466
 *   [3107. Minimum Operations to Make Median of Array Equal to K](https://leetcode.com/problems/minimum-operations-to-make-median-of-array-equal-to-k/) 1605
@@ -416,15 +416,15 @@ a\[0\]⋅b\[0\]+a\[1\]⋅b\[1\]+⋯+a\[n−1\]⋅b\[n−1\]
 
 -----
 
-**思考清单**
+**Thinking Checklist**
 
-*   **小型数组**：nums 只有 1 个数？只有 2 个数？只有 3 个数？
-*   **万里挑一**：nums 所有数都相同？只有一个数不一样？有两个数不一样？某个数特别大？
-*   **黑白世界**：只有两种数？例如 \[0,1,0,1,0,1\] 或者 ababab。
-*   **反向思考**：如果答案是 1，输入会是什么样的？如果答案是 2？是 nums\[0\]？是 nums\[1\]？
-*   **枚举归纳**：试试小范围打表，暴力枚举所有情况，找规律。
+*   **Small arrays**: nums has only 1 element? Only 2? Only 3?
+*   **One in a million**: All numbers in nums are the same? Only one is different? Two are different? One is very large?
+*   **Binary world**: Only two distinct values? e.g., \[0,1,0,1,0,1\] or ababab.
+*   **Reverse thinking**: If the answer is 1, what does the input look like? If it's 2? Is it nums\[0\]? nums\[1\]?
+*   **Enumerate and induce**: Try brute-force on small inputs, enumerate all cases, find patterns.
 
-### §5.1 从特殊到一般
+### §5.1 From Special to General
 
 *   [2745. Construct the Longest New String](https://leetcode.com/problems/construct-the-longest-new-string/) 1607  z\=0 ，z\=1 ，z\=2
 *   [2611. Mice and Cheese](https://leetcode.com/problems/mice-and-cheese/) 1663  k\=1 ，k\=2
@@ -441,7 +441,7 @@ a\[0\]⋅b\[0\]+a\[1\]⋅b\[1\]+⋯+a\[n−1\]⋅b\[n−1\]
 *   [3357. Minimize the Maximum Adjacent Element Difference](https://leetcode.com/problems/minimize-the-maximum-adjacent-element-difference/) 3077
 *   [3431. Minimum Unlocked Indices to Sort Nums](https://leetcode.com/problems/minimum-unlocked-indices-to-sort-nums/) (Premium)
 
-### §5.2 脑筋急转弯
+### §5.2 Brain Teasers
 
 *   [2733. Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/) 1148
 *   [3432. Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) 1200
@@ -490,7 +490,7 @@ a\[0\]⋅b\[0\]+a\[1\]⋅b\[1\]+⋯+a\[n−1\]⋅b\[n−1\]
 *   [3125. Maximum Number that Makes Result of Bitwise and Zero](https://leetcode.com/problems/maximum-number-that-makes-result-of-bitwise-and-zero/) (Premium)
 *   [1794. Count Pairs of Equal Substrings with Minimum Difference](https://leetcode.com/problems/count-pairs-of-equal-substrings-with-minimum-difference/) (Premium)
 
-### §5.3 逆向思维
+### §5.3 Reverse Thinking
 
 *   [2139. Minimum Moves to Reach Target Score](https://leetcode.com/problems/minimum-moves-to-reach-target-score/) 1417
 *   [3147. Taking Maximum Energy from the Mystic Dungeon](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/) 1460
@@ -511,7 +511,7 @@ a\[0\]⋅b\[0\]+a\[1\]⋅b\[1\]+⋯+a\[n−1\]⋅b\[n−1\]
 *   [936. Stamping the Sequence](https://leetcode.com/problems/stamping-the-sequence/) 2583
 *   [3141. Maximum Hamming Distances](https://leetcode.com/problems/maximum-hamming-distances/) (Premium)
 
-**时光倒流**：
+**Time Reversal**:
 
 *   [3607. Power Grid Maintenance](https://leetcode.com/problems/power-grid-maintenance/) 1700
 *   [2718. Sum of Matrix after Queries](https://leetcode.com/problems/sum-of-matrix-after-queries/) 1769
@@ -520,7 +520,7 @@ a\[0\]⋅b\[0\]+a\[1\]⋅b\[1\]+⋯+a\[n−1\]⋅b\[n−1\]
 *   [2382. Maximum Segment Sum after Removals](https://leetcode.com/problems/maximum-segment-sum-after-removals/) 2136
 *   [803. Bricks Falling When Hit](https://leetcode.com/problems/bricks-falling-when-hit/) 2765
 
-### §5.4 等价转换
+### §5.4 Equivalent Transformation
 
 *   [453. Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/)
 *   [3375. Minimum Operations to Make Array Values Equal to K](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/) 1383
@@ -536,7 +536,7 @@ a\[0\]⋅b\[0\]+a\[1\]⋅b\[1\]+⋯+a\[n−1\]⋅b\[n−1\]
 
 -----
 
-**构造题**会给定一些约束，我们要构造一个**满足这些约束**的数组/字符串等。
+**Construction problems** give constraints, and we need to construct an array/string that **satisfies all constraints**.
 
 *   [1304. Find N Unique Integers Sum Up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) 1167
 *   [942. Di String Match](https://leetcode.com/problems/di-string-match/) 1444
@@ -585,7 +585,7 @@ a\[0\]⋅b\[0\]+a\[1\]⋅b\[1\]+⋯+a\[n−1\]⋅b\[n−1\]
 *   [1810. Minimum Path Cost in a Hidden Grid](https://leetcode.com/problems/minimum-path-cost-in-a-hidden-grid/) (Premium)
 *   [1274. Number of Ships in a Rectangle](https://leetcode.com/problems/number-of-ships-in-a-rectangle/) (Premium)
 
-八、其他
+## Others
 ----
 
 *   [2740. Find the Value of the Partition](https://leetcode.com/problems/find-the-value-of-the-partition/) 1302
@@ -613,13 +613,13 @@ a\[0\]⋅b\[0\]+a\[1\]⋅b\[1\]+⋯+a\[n−1\]⋅b\[n−1\]
 *   [3460. Longest Common Prefix after at Most One Removal](https://leetcode.com/problems/longest-common-prefix-after-at-most-one-removal/) (Premium)
 *   [2753. Count Houses in a Circular Street Ii](https://leetcode.com/problems/count-houses-in-a-circular-street-ii/) (Premium)
 
-答疑
+FAQ
 
-**问**：贪心和 DP 的区别是什么？
+**Q**: What is the difference between greedy and DP?
 
-**答**：DP 可以视为带记忆化的暴力搜索，只要不遗漏任何分支，答案一定是对的。贪心可以视为带剪枝的搜索，如果贪心策略不对，就容易贪过头，把正确的分支给剪掉。
+**A**: DP can be viewed as memoized brute-force search — as long as no branches are missed, the answer is correct. Greedy can be viewed as pruned search — an incorrect greedy strategy may prune the correct branch.
 
-**问**：有没有万能方法，判断一道题是贪心还是 DP？
+**Q**: Is there a universal way to determine if a problem is greedy or DP?
 
-**答**：很难。如果不知道题目类型，把 DP 想成贪心的大有人在。我的建议是**先思考 DP 能不能做，再思考贪心**。如果 DP 的时间复杂度足以通过题目，就不用思考贪心策略了。
+**A**: It's hard. Many people mistake DP for greedy. My advice: **first consider if DP works, then think about greedy**. If DP's time complexity is sufficient, no need to think about greedy.
 

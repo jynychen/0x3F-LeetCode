@@ -6,7 +6,7 @@
 
 ### §1.1 Basics
 
-模板：
+Template:
 
 Python3
 
@@ -66,13 +66,13 @@ Go
 *   [2282. Number of People that Can Be Seen in a Grid](https://leetcode.com/problems/number-of-people-that-can-be-seen-in-a-grid/) (Premium)
 *   [3555. Smallest Subarray to Sort in Every Sliding Window](https://leetcode.com/problems/smallest-subarray-to-sort-in-every-sliding-window/) (Premium)
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [962. Maximum Width Ramp](https://leetcode.com/problems/maximum-width-ramp/) 1608
 *   [3542. Minimum Operations to Convert All Elements to Zero](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) 1890
 *   [1124. Longest Well Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/) 1908
 
-二、矩形
+## Rectangle
 ----
 
 *   [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
@@ -95,7 +95,7 @@ Go
 *   [3430. Maximum and Minimum Sums of at Most Size K Subarrays](https://leetcode.com/problems/maximum-and-minimum-sums-of-at-most-size-k-subarrays/) 2645
 *   [3359. Find Sorted Submatrices with Maximum Element at Most K](https://leetcode.com/problems/find-sorted-submatrices-with-maximum-element-at-most-k/) (Premium)
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [2334. Subarray with Elements Greater than Varying Threshold](https://leetcode.com/problems/subarray-with-elements-greater-than-varying-threshold/) 2381
 *   [2962. Count Subarrays Where Max Element Appears at Least K Times/solutions/2560940/hua Dong Chuang Kou Fu Ti Dan Pythonjava Xvwg](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/solutions/2560940/hua-dong-chuang-kou-fu-ti-dan-pythonjava-xvwg/)
@@ -106,7 +106,7 @@ Go
 *   [402. Remove K Digits](https://leetcode.com/problems/remove-k-digits/) 1800
 *   [1673. Find the Most Competitive Subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence/) 1802
 *   [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) 2185
-*   [316 扩展：重复个数不超过 limit](https://leetcode.com/contest/tianchi2022/problems/ev2bru/)
+*   [316 Extension: Repeat Count at Most limit](https://leetcode.com/contest/tianchi2022/problems/ev2bru/)
 *   [1081. Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)
 *   [321. Create Maximum Number](https://leetcode.com/problems/create-maximum-number/)
 *   [2030. Smallest K Length Subsequence with Occurrences of a Letter](https://leetcode.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/) 2562

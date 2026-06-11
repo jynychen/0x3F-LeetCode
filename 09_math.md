@@ -2,14 +2,14 @@
 
 > Problem list from [0x3F's LeetCode Problem Lists](https://leetcode.cn/circle/discuss/IYT3ss/)
 
-前言
+Preface
 
 ## Number Theory
 ----
 
-### §1.1 判断质数
+### §1.1 Primality Test
 
-模板：
+Template:
 
 Python3
 
@@ -31,7 +31,7 @@ Go
 *   [3044. Most Frequent Prime](https://leetcode.com/problems/most-frequent-prime/) 1737
 *   [866. Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) 1938
 
-### §1.2 预处理质数（筛质数）
+### §1.2 Sieve of Primes
 
 Python3
 
@@ -56,7 +56,7 @@ Go
 *   [2523. Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/) 1650
 *   [2601. Prime Subtraction Operation](https://leetcode.com/problems/prime-subtraction-operation/) 1779
 
-### §1.3 质因数分解
+### §1.3 Prime Factorization
 
 Python3
 
@@ -69,7 +69,7 @@ Go
     MX = 1_000_001
     prime_factors = [[] for _ in range(MX)]
     for i in range(2, MX):
-        if not prime_factors[i]:  # i 是质数
+        if not prime_factors[i]:  # i is prime
                 prime_factors[j].append(i)
 
 Python3
@@ -83,7 +83,7 @@ Go
     MX = 1_000_001
     lpf = [0] * MX
     for i in range(2, MX):
-        if lpf[i] == 0:  # i 是质数
+        if lpf[i] == 0:  # i is prime
             for j in range(i, MX, i):
                     lpf[j] = i
 
@@ -113,12 +113,12 @@ Go
 *   [2338. Count the Number of Ideal Arrays](https://leetcode.com/problems/count-the-number-of-ideal-arrays/) 2615  Min\_25
 *   [LCP 14. Qie Fen Shu Zu](https://leetcode.com/problems/qie-fen-shu-zu/)
 
-### §1.4 阶乘分解
+### §1.4 Factorial Decomposition
 
 *   [172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)
 *   [793. Preimage Size of Factorial Zeroes Function](https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function/) 2100
 
-### §1.5 因子
+### §1.5 Divisors
 
 Python3
 
@@ -148,7 +148,7 @@ Go
 *   [625. Minimum Factorization](https://leetcode.com/problems/minimum-factorization/) (Premium)
 *   [2847. Smallest Number with Given Digit Product](https://leetcode.com/problems/smallest-number-with-given-digit-product/) (Premium)
 
-### §1.6 最大公约数（GCD）
+### §1.6 Greatest Common Divisor (GCD)
 
 Java
 
@@ -191,7 +191,7 @@ Go
 *   [2464. Minimum Subarrays in a Valid Split](https://leetcode.com/problems/minimum-subarrays-in-a-valid-split/) (Premium)
 *   [2941. Maximum Gcd Sum of a Subarray](https://leetcode.com/problems/maximum-gcd-sum-of-a-subarray/) (Premium) logTrick
 
-### §1.7 最小公倍数（LCM）
+### §1.7 Least Common Multiple (LCM)
 
 *   [2413. Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) 1145
 *   [3334. Find the Maximum Factor Score of Array](https://leetcode.com/problems/find-the-maximum-factor-score-of-array/) 1519
@@ -199,14 +199,14 @@ Go
 *   [2197. Replace Non Coprime Numbers in Array](https://leetcode.com/problems/replace-non-coprime-numbers-in-array/) 2057
 *   [2470. Number of Subarrays with Lcm Equal to K](https://leetcode.com/problems/number-of-subarrays-with-lcm-equal-to-k/) logTrick
 
-### §1.8 互质
+### §1.8 Coprime
 
 *   [2748. Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs/) 1301
 *   [1447. Simplified Fractions](https://leetcode.com/problems/simplified-fractions/) 1400
 *   [1766. Tree of Coprimes](https://leetcode.com/problems/tree-of-coprimes/) 2232
 *   [3411. Maximum Subarray with Equal Products](https://leetcode.com/problems/maximum-subarray-with-equal-products/) 2300
 
-### §1.9 同余
+### §1.9 Modular Arithmetic
 
 *   [2453. Destroy Sequential Targets](https://leetcode.com/problems/destroy-sequential-targets/) 1762
 *   [2598. Smallest Missing Non Negative Integer after Operations](https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/) 1846
@@ -223,7 +223,7 @@ Go
 ## Combinatorics
 ------
 
-### §2.1 乘法原理
+### §2.1 Multiplication Principle
 
 *   [3128. Right Triangles](https://leetcode.com/problems/right-triangles/) 1541
 *   [1573. Number of Ways to Split a String](https://leetcode.com/problems/number-of-ways-to-split-a-string/) 1591
@@ -239,7 +239,7 @@ Go
 *   [1617. Count Subtrees with Max Distance Between Cities](https://leetcode.com/problems/count-subtrees-with-max-distance-between-cities/)
 *   [2450. Number of Distinct Binary Strings after Applying Operations](https://leetcode.com/problems/number-of-distinct-binary-strings-after-applying-operations/) (Premium)
 
-### §2.2 组合计数
+### §2.2 Combinatorics
 
 *   [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
 *   [357. Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)
@@ -276,7 +276,7 @@ Go
 *   [634. Find the Derangement of an Array](https://leetcode.com/problems/find-the-derangement-of-an-array/) (Premium)
 *   [1692. Count Ways to Distribute Candies](https://leetcode.com/problems/count-ways-to-distribute-candies/) (Premium)
 
-### §2.3 放球问题
+### §2.3 Balls and Boxes
 
 *   [1641. Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/) 1519
 *   [1621. Number of Sets of K Non Overlapping Line Segments](https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/) 2198
@@ -284,11 +284,11 @@ Go
 *   [1735. Count Ways to Make Array with Product](https://leetcode.com/problems/count-ways-to-make-array-with-product/) 2500
 *   [2338. Count the Number of Ideal Arrays](https://leetcode.com/problems/count-the-number-of-ideal-arrays/) 2615
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [3669. Balanced K Factor Decomposition](https://leetcode.com/problems/balanced-k-factor-decomposition/) ，
 
-### §2.4 容斥原理
+### §2.4 Inclusion-Exclusion Principle
 
 *   [2652. Sum Multiples](https://leetcode.com/problems/sum-multiples/)
 *   [878. Nth Magical Number](https://leetcode.com/problems/nth-magical-number/) 1897
@@ -301,7 +301,7 @@ Go
 *   [3336. Find the Number of Subsequences with Equal Gcd](https://leetcode.com/problems/find-the-number-of-subsequences-with-equal-gcd/)
 *   [2927. Distribute Candies Among Children Iii](https://leetcode.com/problems/distribute-candies-among-children-iii/) (Premium)
 
-### §2.5 贡献法
+### §2.5 Contribution Method
 
 *   [2063. Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/) 1663
 *   [1588. Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)
@@ -311,12 +311,12 @@ Go
 *   [3426. Manhattan Distances of All Arrangements of Pieces](https://leetcode.com/problems/manhattan-distances-of-all-arrangements-of-pieces/) 2443
 *   [2763. Sum of Imbalance Numbers of All Subarrays](https://leetcode.com/problems/sum-of-imbalance-numbers-of-all-subarrays/) O(n) 2700
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [979. Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/) 1709
 *   [2477. Minimum Fuel Cost to Report to the Capital](https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/) 2012
 
-### §2.6 生成函数（母函数）
+### §2.6 Generating Functions
 
 *   [1155. Number of Dice Rolls with Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)
 *   [629. K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)
@@ -334,10 +334,10 @@ Go
 *   [808. Soup Servings](https://leetcode.com/problems/soup-servings/) 2397
 *   [LCR 185. Nge Tou Zi De Dian Shu Lcof](https://leetcode.com/problems/nge-tou-zi-de-dian-shu-lcof/)
 *   [LCP 11. Qi Wang Ge Shu Tong Ji](https://leetcode.com/problems/qi-wang-ge-shu-tong-ji/)
-*   [九坤-04. 筹码游戏](https://leetcode.com/contest/ubiquant2022/problems/I3Gm2h/)
+*   [Ubiquant-04. Chip Game](https://leetcode.com/contest/ubiquant2022/problems/I3Gm2h/)
 *   [1230. Toss Strange Coins](https://leetcode.com/problems/toss-strange-coins/) (Premium)
 
-**随机数据下显著更快的算法**：
+**Significantly Faster Algorithms on Random Data**:
 
 *   [3494. Find the Minimum Amount of Time to Brew Potions](https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions/)
 
@@ -372,18 +372,18 @@ Go
 ## Computational Geometry
 ------
 
-### §5.1 点、线
+### §5.1 Points and Lines
 
 *   [1232. Check If it is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) 1247
 *   [2280. Minimum Lines to Represent a Line Chart](https://leetcode.com/problems/minimum-lines-to-represent-a-line-chart/) 1681
 *   [1610. Maximum Number of Visible Points](https://leetcode.com/problems/maximum-number-of-visible-points/) 2147
-*   [面试题 16.03. Intersection Lcci](https://leetcode.com/problems/intersection-lcci/)
-*   [面试题 16.13. Bisect Squares Lcci](https://leetcode.com/problems/bisect-squares-lcci/)
-*   [面试题 16.14. Best Line Lcci](https://leetcode.com/problems/best-line-lcci/)
+*   [Interview 16.03. Intersection Lcci](https://leetcode.com/problems/intersection-lcci/)
+*   [Interview 16.13. Bisect Squares Lcci](https://leetcode.com/problems/bisect-squares-lcci/)
+*   [Interview 16.14. Best Line Lcci](https://leetcode.com/problems/best-line-lcci/)
 *   [LCP 37. Zui Xiao Ju Xing Mian Ji](https://leetcode.com/problems/zui-xiao-ju-xing-mian-ji/)
 *   [2152. Minimum Number of Lines to Cover Points](https://leetcode.com/problems/minimum-number-of-lines-to-cover-points/) (Premium)
 
-### §5.2 圆
+### §5.2 Circle
 
 *   [1401. Circle and Rectangle Overlapping](https://leetcode.com/problems/circle-and-rectangle-overlapping/) 1709
 *   [1453. Maximum Number of Darts Inside of a Circular Dartboard](https://leetcode.com/problems/maximum-number-of-darts-inside-of-a-circular-dartboard/) 2202
@@ -391,7 +391,7 @@ Go
 *   [3235. Check If the Rectangle Corner is Reachable](https://leetcode.com/problems/check-if-the-rectangle-corner-is-reachable/)
 *   [1924. Erect the Fence Ii](https://leetcode.com/problems/erect-the-fence-ii/) (Premium) Welzl
 
-### §5.3 矩形、多边形
+### §5.3 Rectangles and Polygons
 
 *   [836. Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) 1443
 *   [223. Rectangle Area](https://leetcode.com/problems/rectangle-area/)
@@ -401,7 +401,7 @@ Go
 *   [3625. Count Number of Trapezoids Ii](https://leetcode.com/problems/count-number-of-trapezoids-ii/) 2643
 *   [469. Convex Polygon](https://leetcode.com/problems/convex-polygon/) (Premium)
 
-### §5.4 凸包
+### §5.4 Convex Hull
 
 *   [587. Erect the Fence](https://leetcode.com/problems/erect-the-fence/)
 *   [812. Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/)
@@ -410,7 +410,7 @@ Go
 ## Randomized Algorithms
 ------
 
-### §6.1 随机数
+### §6.1 Random Numbers
 
 *   [398. Random Pick Index](https://leetcode.com/problems/random-pick-index/)
 *   [382. Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)
@@ -424,17 +424,17 @@ Go
 *   [380. Insert Delete Getrandom O1](https://leetcode.com/problems/insert-delete-getrandom-o1/)
 *   [381. Insert Delete Getrandom O1 Duplicates Allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)
 
-### §6.2 随机化技巧
+### §6.2 Randomization Techniques
 
 *   [1317. Convert Integer to the Sum of Two No Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) 1278
 *   [1968. Array with Elements Not Equal to Average of Neighbors](https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/) 1499
 *   [1157. Online Majority Element in Subarray](https://leetcode.com/problems/online-majority-element-in-subarray/) 2205
 *   [3680. Generate Schedule](https://leetcode.com/problems/generate-schedule/) 2378
 
-七、杂项
+## Miscellaneous
 ----
 
-### §7.1 回文数
+### §7.1 Palindrome Numbers
 
 Python3
 
@@ -477,12 +477,12 @@ Go
 *   [3646. Next Special Palindrome Number](https://leetcode.com/problems/next-special-palindrome-number/) 2445
 *   [479. Largest Palindrome Product](https://leetcode.com/problems/largest-palindrome-product/)
 
-### §7.2 整数拆分
+### §7.2 Integer Partition
 
 *   [343. Integer Break](https://leetcode.com/problems/integer-break/)
 *   [1808. Maximize Number of Nice Divisors](https://leetcode.com/problems/maximize-number-of-nice-divisors/) 2070
 
-### §7.3 曼哈顿距离
+### §7.3 Manhattan Distance
 
 *   [3443. Maximum Manhattan Distance after K Changes](https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/) 1856
 *   [1131. Maximum of Absolute Value Expression](https://leetcode.com/problems/maximum-of-absolute-value-expression/) 2059
@@ -492,7 +492,7 @@ Go
 *   [1956. Minimum Time for K Virus Variants to Spread](https://leetcode.com/problems/minimum-time-for-k-virus-variants-to-spread/) (Premium)
 *   [2613. Beautiful Pairs](https://leetcode.com/problems/beautiful-pairs/) (Premium)
 
-### §7.4 多项式
+### §7.4 Polynomials
 
 *   [611. Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)
 *   [923. 3sum with Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)
@@ -502,12 +502,12 @@ Go
 *   [3078. Match Alphanumerical Pattern in Matrix I](https://leetcode.com/problems/match-alphanumerical-pattern-in-matrix-i/) (Premium)
 *   [3400. Maximum Number of Matching Indices after Right Shifts](https://leetcode.com/problems/maximum-number-of-matching-indices-after-right-shifts/) (Premium)
 
-### §7.5 快速沃尔什变换（FWT）
+### §7.5 Fast Walsh-Hadamard Transform (FWT)
 
 *   [3514. Number of Unique Xor Triplets Ii](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/)
 *   [1723. Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/)
 
-### §7.6 线性基
+### §7.6 Linear Basis
 
 ### §7.7 Others
 

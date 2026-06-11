@@ -16,7 +16,7 @@
 *   [2917. Find the K or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array/) 1389
 *   [693. Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)
 *   [2657. Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/)
-*   [面试题 05.01. Insert Into Bits Lcci](https://leetcode.com/problems/insert-into-bits-lcci/)
+*   [Interview 05.01. Insert Into Bits Lcci](https://leetcode.com/problems/insert-into-bits-lcci/)
 *   [231. Power of Two](https://leetcode.com/problems/power-of-two/)
 *   [342. Power of Four](https://leetcode.com/problems/power-of-four/)
 *   [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
@@ -25,7 +25,7 @@
 *   [2154. Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/) ：O(n) ，O(1)
 *   [3211. Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/)
 
-**用位运算代替数组操作**：
+**Using Bit Operations Instead of Array Operations**:
 
 *   [3690. Split and Merge Array Transformation](https://leetcode.com/problems/split-and-merge-array-transformation/)
 
@@ -64,7 +64,7 @@
 
 ### AND/OR LogTrick
 
-模板：
+Template:
 
 Python3
 
@@ -118,7 +118,7 @@ Go
 *   [3688. Bitwise or of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/)
 *   [2505. Bitwise or of All Subsequence Sums](https://leetcode.com/problems/bitwise-or-of-all-subsequence-sums/) (Premium)
 
-**十进制拆位**
+**Decimal Digit Decomposition**
 
 *   [3153. Sum of Digit Differences of All Pairs](https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs/) 1645
 
@@ -139,7 +139,7 @@ Go
 
 -----
 
-[讲解](/link/?target=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1pm8vzAEXx%2F)
+[Video Explanation](/link/?target=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1pm8vzAEXx%2F)
 
 Python3
 

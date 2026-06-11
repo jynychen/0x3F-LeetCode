@@ -2,10 +2,10 @@
 
 > Problem list from [0x3F's LeetCode Problem Lists](https://leetcode.cn/circle/discuss/SJFwQI/)
 
-## KMP（前缀的后缀）
+## KMP (Prefix Function)
 ------------
 
-模板：
+Template:
 
 Python3
 
@@ -58,7 +58,7 @@ Go
 
 -------------
 
-模板：
+Template:
 
 Python3
 
@@ -88,18 +88,18 @@ Go
 *   [3292. Minimum Number of Valid Strings to Form Target Ii](https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-ii/) 2662
 *   [3474. Lexicographically Smallest Generated String](https://leetcode.com/problems/lexicographically-smallest-generated-string/)
 
-**LCP 数组**
+**LCP Array**
 
 *   [2430. Maximum Deletions on a String](https://leetcode.com/problems/maximum-deletions-on-a-string/) 2102
 *   [3388. Count Beautiful Splits in an Array](https://leetcode.com/problems/count-beautiful-splits-in-an-array/) 2365
 *   [1977. Number of Ways to Separate Numbers](https://leetcode.com/problems/number-of-ways-to-separate-numbers/) 2817
 
-## Manacher 算法（回文串）
+## Manacher Algorithm (Palindrome)
 ------------------
 
-*   判断任意子串是否为回文串。
-*   计算从 s\[i\] 开始的最长回文子串的长度。
-*   计算以 s\[i\] 结尾的最长回文子串的长度。
+*   Check if any substring is a palindrome.
+*   Compute the length of the longest palindromic substring starting from s\[i\].
+*   Compute the length of the longest palindromic substring ending at s\[i\].
 
 *   [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) ****
 *   [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
@@ -119,7 +119,7 @@ Go
 -------
 
 
-**小技巧**：我们可以用字符串哈希比较两个子串的字典序大小。做法是二分长度，计算最长公共前缀（LCP），然后比较 LCP 的下一个字母。时间复杂度：O(logn)。见 3722 题。
+**Tip**: We can use string hashing to compare the lexicographic order of two substrings. Binary search on length to compute the Longest Common Prefix (LCP), then compare the next character after the LCP. Time complexity: O(logn). See problem 3722.
 
 *   [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 *   [187. Repeated Dna Sequences](https://leetcode.com/problems/repeated-dna-sequences/)
@@ -152,12 +152,12 @@ Go
                 break
             }
 
-                // 此外：
-                // ……
+                // additionally:
+                // ...
                 j += k + 1
             } else {
-                // 此外：
-                // ……
+                // additionally:
+                // ...
                 i, j = j, max(j, i+k)+1
             }
         }
@@ -172,10 +172,10 @@ Go
 
 -----
 
-*   见 [数据结构题单](https://leetcode.cn/circle/discuss/mOr1u6/) 第六章。
+*   See [Data Structures Problem List](https://leetcode.cn/circle/discuss/mOr1u6/) Chapter 6.
 
 *   [1032. Stream of Characters](https://leetcode.com/problems/stream-of-characters/) 1970 ****
-*   [面试题 17.17. Multi Search Lcci](https://leetcode.com/problems/multi-search-lcci/) ****
+*   [Interview 17.17. Multi Search Lcci](https://leetcode.com/problems/multi-search-lcci/) ****
 *   [1408. String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/)
 *   [3213. Construct String with Minimum Cost](https://leetcode.com/problems/construct-string-with-minimum-cost/) 2171
 *   [2781. Length of the Longest Valid Substring](https://leetcode.com/problems/length-of-the-longest-valid-substring/) 2204
@@ -198,7 +198,7 @@ Go
 *   [1316. Distinct Echo Substrings](https://leetcode.com/problems/distinct-echo-substrings/)
 *   [3388. Count Beautiful Splits in an Array](https://leetcode.com/problems/count-beautiful-splits-in-an-array/) O(n)
 *   [2564. Substring Xor Queries](https://leetcode.com/problems/substring-xor-queries/)
-*   [面试题 16.18. Pattern Matching Lcci](https://leetcode.com/problems/pattern-matching-lcci/)
+*   [Interview 16.18. Pattern Matching Lcci](https://leetcode.com/problems/pattern-matching-lcci/)
 *   [1698. Number of Distinct Substrings in a String](https://leetcode.com/problems/number-of-distinct-substrings-in-a-string/) (Premium)
 *   [1062. Longest Repeating Substring](https://leetcode.com/problems/longest-repeating-substring/) (Premium)
 *   [3135. Equalize Strings by Adding or Removing Characters at Ends](https://leetcode.com/problems/equalize-strings-by-adding-or-removing-characters-at-ends/) (Premium)
@@ -209,7 +209,7 @@ Go
 *   [1055. Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/) (Premium)
 *   [727. Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/) (Premium)
 
-十、其他
+## Others
 ----
 
 *   [3485. Longest Common Prefix of K Strings after Removal](https://leetcode.com/problems/longest-common-prefix-of-k-strings-after-removal/) 2290 LCP

@@ -2,36 +2,36 @@
 
 > Problem list from [0x3F's LeetCode Problem Lists](https://leetcode.cn/circle/discuss/SqopEo/)
 
-**刷题建议**：初次刷题可以只刷难度低于 1700 分的题目。难度更高的题目常常结合其他算法（数据结构、图论等），等学会其他算法再来刷本题单。
+**Practice Tip**: Beginners can start with problems rated below 1700. Higher-rated problems often combine other algorithms (data structures, graph theory, etc.) — come back after learning those topics.
 
 ## Binary Search
 ------
 
-**需求**
+**Requirement**
 
-**写法**
+**Implementation**
 
-**如果不存在**
+**If not found**
 
 lowerBound(nums,x)
 
-结果为 n
+Result is n
 
 lowerBound(nums,x+1)
 
-结果为 n
+Result is n
 
 lowerBound(nums,x)−1
 
-结果为 −1
+Result is −1
 
 lowerBound(nums,x+1)−1
 
-结果为 −1
+Result is −1
 
-**需求**
+**Requirement**
 
-**写法**
+**Implementation**
 
 lowerBound(nums,x)
 
@@ -69,7 +69,7 @@ n−lowerBound(nums,x+1)
 *   [1182. Shortest Distance to Target Color](https://leetcode.com/problems/shortest-distance-to-target-color/) (Premium)
 *   [2819. Minimum Relative Loss after Buying Chocolates](https://leetcode.com/problems/minimum-relative-loss-after-buying-chocolates/) (Premium)
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [1287. Element Appearing More than 25 in Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/)
 *   [2476. Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/) 1597
@@ -78,21 +78,21 @@ n−lowerBound(nums,x+1)
 ## Binary Search on Answer
 ------
 
-### §2.1 求最小
+### §2.1 Find Minimum
 
-#### 答疑
+#### FAQ
 
-**问**：如何把二分答案与数组上的二分查找联系起来？
+**Q**: How to relate binary search on answer to binary search on arrays?
 
-**答**：假设答案在区间 \[2,5\] 中，我们相当于在一个**虚拟数组** \[check(2),check(3),check(4),check(5)\] 中二分找第一个（或者最后一个）值为 true 的 check(x)。这同样可以用红蓝染色法思考。
+**A**: Suppose the answer is in \[2,5\]. We are essentially binary searching in a **virtual array** \[check(2),check(3),check(4),check(5)\] for the first (or last) true value. This can be understood using the red-blue coloring method.
 
-**问**：有些题目，明明 m 可以是答案，但却不在初始二分区间中。比如闭区间二分初始化 right\=m−1（或者开区间 right\=m），这不会算错吗？
+**Q**: In some problems, m could be the answer but is not in the initial binary search range. For example, closed interval binary search initializes right\=m−1 (or open interval right\=m). Won't this give wrong results?
 
-**答**：不会算错。注意「答案所在区间」和「二分区间」是两个概念。想一想，如果二分的 while 循环每次更新的都是 left，那么最终答案是什么？正好就是 m。一般地，如果一开始就能确定 m 一定可以满足题目要求，那么 m 是不需要在二分区间中的。换句话说，二分区间是「尚未确定是否满足题目要求」的数的范围。那些在区间外面的数，都是已确定的满足（不满足）题目要求的数。
+**A**: No, it won't be wrong. Note that "the range containing the answer" and "the binary search range" are two different concepts. Think about it: if the while loop always updates left, the final answer is exactly m. In general, if we can determine from the start that m definitely satisfies the requirement, then m doesn't need to be in the binary search range. In other words, the binary search range contains numbers whose validity is still undetermined. Numbers outside the range are already confirmed to satisfy (or not satisfy) the requirement.
 
-**问**：什么是循环不变量？
+**Q**: What is a loop invariant?
 
-**答**：想一想，对于求最小的题目，**开区间二分**的写法，为什么最终返回的是 right，而不是别的数？在初始化（循环之前）、循环中、循环结束后，都时时刻刻保证 `check(right) == true` 和 `check(left) == false`，这就叫**循环不变量**。根据循环不变量，循环结束时 left+1\=right，那么 right 就是最小的满足要求的数（因为再 −1 就不满足要求了），所以答案是 right。
+**A**: For finding the minimum with **open interval binary search**, why do we return right? Throughout initialization, the loop, and after the loop, we always maintain `check(right) == true` and `check(left) == false` — this is the **loop invariant**. When the loop ends with left+1\=right, right is the smallest valid number, so the answer is right.
 
 Python3
 
@@ -108,7 +108,7 @@ Go
                 # TODO
 
                 mid = (left + right) // 2
-            # 此时 check(left) == False 而 check(left+1) == check(right) == True
+            # now check(left) == False and check(left+1) == check(right) == True
             return right
 
 *   [1283. Find the Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/) 1542
@@ -124,15 +124,15 @@ Go
 *   [2604. Minimum Time to Eat All Grains](https://leetcode.com/problems/minimum-time-to-eat-all-grains/) (Premium)
 *   [2702. Minimum Operations to Make Numbers Non Positive](https://leetcode.com/problems/minimum-operations-to-make-numbers-non-positive/) (Premium)
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [1870. Minimum Speed to Arrive on Time](https://leetcode.com/problems/minimum-speed-to-arrive-on-time/) 1676
 *   [3453. Separate Squares I](https://leetcode.com/problems/separate-squares-i/) 1735
 
-### §2.2 求最大
+### §2.2 Find Maximum
 
-*   求最小：`check(mid) == true` 时更新 `right = mid`，反之更新 `left = mid`，最后返回 `right`。
-*   求最大：`check(mid) == true` 时更新 `left = mid`，反之更新 `right = mid`，最后返回 `left`。
+*   Find minimum: when `check(mid) == true`, update `right = mid`; otherwise update `left = mid`. Return `right`.
+*   Find maximum: when `check(mid) == true`, update `left = mid`; otherwise update `right = mid`. Return `left`.
 
 Python3
 
@@ -152,7 +152,7 @@ Go
                 if check(mid):
                 else:
                     right = mid
-            # 此时 check(left) == True 而 check(left+1) == check(right) == False
+            # now check(left) == True and check(left+1) == check(right) == False
 
 *   [275. H Index Ii](https://leetcode.com/problems/h-index-ii/)
 *   [2226. Maximum Candies Allocated to K Children](https://leetcode.com/problems/maximum-candies-allocated-to-k-children/) 1646
@@ -173,12 +173,12 @@ Go
 *   [3344. Maximum Sized Array](https://leetcode.com/problems/maximum-sized-array/) (Premium)
 *   [644. Maximum Average Subarray Ii](https://leetcode.com/problems/maximum-average-subarray-ii/) (Premium)
 
-### §2.3 二分间接值
+### §2.3 Binary Search on Indirect Value
 
 *   [3143. Maximum Points Inside the Square](https://leetcode.com/problems/maximum-points-inside-the-square/) 1697
 *   [1648. Sell Diminishing Valued Colored Balls](https://leetcode.com/problems/sell-diminishing-valued-colored-balls/) 2050
 
-### §2.4 最小化最大值
+### §2.4 Minimize Maximum
 
 *   [410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)
 *   [2064. Minimized Maximum of Products Distributed to Any Store](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/) 1886
@@ -197,7 +197,7 @@ Go
 *   [LCP 12. Xiao Zhang Shua Ti Ji Hua](https://leetcode.com/problems/xiao-zhang-shua-ti-ji-hua/)
 *   [774. Minimize Max Distance to Gas Station](https://leetcode.com/problems/minimize-max-distance-to-gas-station/) (Premium)
 
-### §2.5 最大化最小值
+### §2.5 Maximize Minimum
 
 *   [3281. Maximize Score of Numbers in Ranges](https://leetcode.com/problems/maximize-score-of-numbers-in-ranges/) 1768
 *   [3620. Network Recovery Pathways](https://leetcode.com/problems/network-recovery-pathways/) 1998
@@ -212,10 +212,10 @@ Go
 *   [1102. Path with Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-minimum-value/) (Premium)
 *   [1231. Divide Chocolate](https://leetcode.com/problems/divide-chocolate/) (Premium)
 
-### §2.6 第 K 小/大
+### §2.6 Kth Smallest/Largest
 
-*   第 k 小等价于：求**最小**的 x，满足 ≤x 的数**至少**有 k 个。
-*   第 k 大等价于：求**最大**的 x，满足 ≥x 的数**至少**有 k 个。
+*   Kth smallest is equivalent to: find the **minimum** x such that there are **at least** k numbers ≤x.
+*   Kth largest is equivalent to: find the **maximum** x such that there are **at least** k numbers ≥x.
 
 > 
 
@@ -241,7 +241,7 @@ Go
 
 *   [1515. Best Position for a Service Centre](https://leetcode.com/problems/best-position-for-a-service-centre/) 2157
 
-四、其他
+## Others
 ----
 
 *   [69. Sqrtx](https://leetcode.com/problems/sqrtx/) m， m2≤x m2\>x  m，

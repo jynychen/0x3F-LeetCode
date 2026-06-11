@@ -2,7 +2,7 @@
 
 > Problem list from [0x3F's LeetCode Problem Lists](https://leetcode.cn/circle/discuss/mOr1u6/)
 
-### §0.1 枚举右，维护左
+### §0.1 Enumerate Right, Maintain Left
 
 #### §0.1.1 Basics
 
@@ -18,7 +18,7 @@
 *   [2815. Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/)
 *   [2342. Max Sum of a Pair with Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/)
 *   [1679. Max Number of K Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/)
-*   [面试题 16.24. Pairs with Sum Lcci](https://leetcode.com/problems/pairs-with-sum-lcci/)
+*   [Interview 16.24. Pairs with Sum Lcci](https://leetcode.com/problems/pairs-with-sum-lcci/)
 *   [3623. Count Number of Trapezoids I](https://leetcode.com/problems/count-number-of-trapezoids-i/) 1580
 *   [3371. Identify the Largest Outlier in an Array](https://leetcode.com/problems/identify-the-largest-outlier-in-an-array/) 1644
 *   [624. Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/)
@@ -45,17 +45,17 @@
 *   [1214. Two Sum Bsts](https://leetcode.com/problems/two-sum-bsts/) (Premium)
 *   [2964. Number of Divisible Triplet Sums](https://leetcode.com/problems/number-of-divisible-triplet-sums/) (Premium)
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [454. 4sum Ii](https://leetcode.com/problems/4sum-ii/)
 *   [3027. Find the Number of Ways to Place People Ii](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-ii/) 2020
 *   [3548. Equal Sum Grid Partition Ii](https://leetcode.com/problems/equal-sum-grid-partition-ii/) 2245
 *   [3713. Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/)
 
-### §0.2 枚举中间
+### §0.2 Enumerate Middle
 
-*   枚举 i，后续计算中还需保证 j<k。
-*   枚举 j，那么 i 和 k 自动被 j 隔开，互相独立，后续计算中无需关心 i 和 k 的位置关系。
+*   Enumerate i, subsequent computation must ensure j<k.
+*   Enumerate j, then i and k are automatically separated by j, independent of each other.
 
 *   [2909. Minimum Sum of Mountain Triplets Ii](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-ii/) 1479
 *   [3583. Count Special Triplets](https://leetcode.com/problems/count-special-triplets/) 1510
@@ -73,13 +73,13 @@
 *   [3257. Maximum Value Sum by Placing Three Rooks Ii](https://leetcode.com/problems/maximum-value-sum-by-placing-three-rooks-ii/) 2553
 *   [3073. Maximum Increasing Triplet Value](https://leetcode.com/problems/maximum-increasing-triplet-value/) (Premium)
 
-### §0.3 遍历对角线
+### §0.3 Traverse Diagonals
 
 *   [3446. Sort Matrix by Diagonals](https://leetcode.com/problems/sort-matrix-by-diagonals/) 1373
 *   [2711. Difference of Number of Distinct Values on Diagonals](https://leetcode.com/problems/difference-of-number-of-distinct-values-on-diagonals/) 1429
 *   [1329. Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/) 1548
 *   [498. Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)
-*   [面试题 17.23. Max Black Square Lcci](https://leetcode.com/problems/max-black-square-lcci/) ，2800
+*   [Interview 17.23. Max Black Square Lcci](https://leetcode.com/problems/max-black-square-lcci/) , 2800
 *   [562. Longest Line of Consecutive One in Matrix](https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/) (Premium)
 
 ## Prefix Sum
@@ -87,7 +87,7 @@
 
 ### §1.1 Basics
 
-**左闭右开公式**：子数组 \[left,right) 的元素和为 sum\[right\]−sum\[left\]。把下标区间定义成左闭右开，就不需要加一减一了。
+**Half-open interval formula**: The sum of subarray \[left,right) is sum\[right\]−sum\[left\]. Using half-open intervals eliminates off-by-one adjustments.
 
 *   [303. Range Sum Query Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
 *   [3427. Sum of Variable Length Subarrays](https://leetcode.com/problems/sum-of-variable-length-subarrays/)
@@ -101,11 +101,11 @@
 *   [3511. Make a Positive Array](https://leetcode.com/problems/make-a-positive-array/) (Premium)
 *   [3540. Minimum Time to Visit All Houses](https://leetcode.com/problems/minimum-time-to-visit-all-houses/) (Premium)
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [1523. Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) 1209
 
-### §1.2 前缀和与哈希表
+### §1.2 Prefix Sum with Hash Map
 
 *   [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
 *   [930. Binary Subarrays with Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) 1592
@@ -114,7 +114,7 @@
 *   [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) 974
 *   [2588. Count the Number of Beautiful Subarrays](https://leetcode.com/problems/count-the-number-of-beautiful-subarrays/) 1697
 *   [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/) 0  1
-*   [面试题 17.05. Find Longest Subarray Lcci](https://leetcode.com/problems/find-longest-subarray-lcci/)
+*   [Interview 17.05. Find Longest Subarray Lcci](https://leetcode.com/problems/find-longest-subarray-lcci/)
 *   [3026. Maximum Good Subarray Sum](https://leetcode.com/problems/maximum-good-subarray-sum/) 1817
 *   [1477. Find Two Non Overlapping Sub Arrays Each with Target Sum](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/) 1851
 *   [1546. Maximum Number of Non Overlapping Subarrays with Sum Equals Target](https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/) 1855
@@ -138,18 +138,18 @@
 *   [2031. Count Subarrays with More Ones than Zeros](https://leetcode.com/problems/count-subarrays-with-more-ones-than-zeros/) (Premium)
 *   [2950. Number of Divisible Substrings](https://leetcode.com/problems/number-of-divisible-substrings/) (Premium)， k\=9。
 
-**前缀和与有序集合**：
+**Prefix Sum with Sorted Set**:
 
 *   [3364. Minimum Positive Sum Subarray](https://leetcode.com/problems/minimum-positive-sum-subarray/)
 *   [363. Max Sum of Rectangle No Larger than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)
 *   [3739. Count Subarrays with Majority Element Ii](https://leetcode.com/problems/count-subarrays-with-majority-element-ii/) 2090
 *   [2031. Count Subarrays with More Ones than Zeros](https://leetcode.com/problems/count-subarrays-with-more-ones-than-zeros/) (Premium) O(n)
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [437. Path Sum Iii](https://leetcode.com/problems/path-sum-iii/)
 
-### §1.3 距离和
+### §1.3 Distance Sum
 
 
 *   [1685. Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/) 1496
@@ -160,7 +160,7 @@
 *   [3086. Minimum Moves to Pick K Ones](https://leetcode.com/problems/minimum-moves-to-pick-k-ones/) 2673
 *   [3422. Minimum Operations to Make Subarray Elements Equal](https://leetcode.com/problems/minimum-operations-to-make-subarray-elements-equal/) (Premium)
 
-### §1.4 状态压缩前缀和
+### §1.4 Bitmask Prefix Sum
 
 *   [1177. Can Make Palindrome from Substring](https://leetcode.com/problems/can-make-palindrome-from-substring/) 1848
 *   [1371. Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/) 2041
@@ -188,12 +188,12 @@
 *   [1788. Maximize the Beauty of the Garden](https://leetcode.com/problems/maximize-the-beauty-of-the-garden/) (Premium)
 *   [2819. Minimum Relative Loss after Buying Chocolates](https://leetcode.com/problems/minimum-relative-loss-after-buying-chocolates/) (Premium)
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [2300. Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)
 *   [1534. Count Good Triplets](https://leetcode.com/problems/count-good-triplets/)
 
-### §1.6 二维前缀和
+### §1.6 2D Prefix Sum
 
 *   [304. Range Sum Query 2d Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)
 *   [1314. Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/) 1484
@@ -207,14 +207,14 @@
 ## Difference Array
 ----
 
-### §2.1 一维差分
+### §2.1 1D Difference Array
 
 #### §2.1.1 Basics
 
 *   [2848. Points that Intersect with Cars](https://leetcode.com/problems/points-that-intersect-with-cars/) 1230
 *   [1893. Check If All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/) 1307
 *   [1854. Maximum Population Year](https://leetcode.com/problems/maximum-population-year/) 1370
-*   [面试题 16.10. Living People Lcci](https://leetcode.com/problems/living-people-lcci/)
+*   [Interview 16.10. Living People Lcci](https://leetcode.com/problems/living-people-lcci/)
 *   [2960. Count Tested Devices after Test Operations](https://leetcode.com/problems/count-tested-devices-after-test-operations/)
 *   [1094. Car Pooling](https://leetcode.com/problems/car-pooling/) 1441
 *   [1109. Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) 1570
@@ -249,7 +249,7 @@
 *   [3009. Maximum Number of Intersections on the Chart](https://leetcode.com/problems/maximum-number-of-intersections-on-the-chart/) (Premium)
 *   [3279. Maximum Total Area Occupied by Pistons](https://leetcode.com/problems/maximum-total-area-occupied-by-pistons/) (Premium)
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 *   [57. Insert Interval](https://leetcode.com/problems/insert-interval/)
@@ -258,7 +258,7 @@
 *   [253. Meeting Rooms Ii](https://leetcode.com/problems/meeting-rooms-ii/) (Premium)
 *   [759. Employee Free Time](https://leetcode.com/problems/employee-free-time/) (Premium)
 
-### §2.2 二维差分
+### §2.2 2D Difference Array
 
 *   [2536. Increment Submatrices by One](https://leetcode.com/problems/increment-submatrices-by-one/) 1583
 *   [850. Rectangle Area Ii](https://leetcode.com/problems/rectangle-area-ii/) 2236
@@ -291,7 +291,7 @@
 *   [2524. Maximum Frequency Score of a Subarray](https://leetcode.com/problems/maximum-frequency-score-of-a-subarray/) (Premium)
 *   [716. Max Stack](https://leetcode.com/problems/max-stack/) (Premium)
 
-### §3.3 邻项消除
+### §3.3 Adjacent Element Elimination
 
 *   [2696. Minimum String Length after Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/) 1282
 *   [1047. Remove All Adjacent Duplicates in String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) 1286
@@ -306,7 +306,7 @@
 *   [735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)
 *   [2751. Robot Collisions](https://leetcode.com/problems/robot-collisions/) 2092  735
 
-### §3.4 合法括号字符串（RBS）
+### §3.4 Valid Parentheses String (RBS)
 
 *   [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 *   [921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) 1242
@@ -322,7 +322,7 @@
 *   [2116. Check If a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/) 2038 ：CF1709C
 *   [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)
 
-### §3.5 表达式解析
+### §3.5 Expression Parsing
 
 *   [1006. Clumsy Factorial](https://leetcode.com/problems/clumsy-factorial/) 1408
 *   [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
@@ -345,11 +345,11 @@
 *   [1597. Build Binary Expression Tree from Infix Expression](https://leetcode.com/problems/build-binary-expression-tree-from-infix-expression/) (Premium)
 *   [1628. Design an Expression Tree with Evaluate Function](https://leetcode.com/problems/design-an-expression-tree-with-evaluate-function/) (Premium)
 
-### §3.6 对顶栈
+### §3.6 Dual Stack
 
 *   [2296. Design a Text Editor](https://leetcode.com/problems/design-a-text-editor/) 1912  Splay
 
-### §3.7 单调栈
+### §3.7 Monotonic Stack
 
 ## Queue
 ----
@@ -365,7 +365,7 @@
 *   [1429. First Unique Number](https://leetcode.com/problems/first-unique-number/) (Premium)
 *   [2534. Time Taken to Cross the Door](https://leetcode.com/problems/time-taken-to-cross-the-door/) (Premium)
 
-### §4.2 设计
+### §4.2 Design
 
 *   [1670. Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/) 1610
 *   [3508. Implement Router](https://leetcode.com/problems/implement-router/) 1851
@@ -374,20 +374,20 @@
 *   [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 *   [641. Design Circular Deque](https://leetcode.com/problems/design-circular-deque/)
 
-### §4.3 双端队列
+### §4.3 Deque
 
 *   [2810. Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/)
 *   [2071. Maximum Number of Tasks You Can Assign](https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/) 2648
 
-### §4.4 单调队列
+### §4.4 Monotonic Queue
 
-**单调队列 = 滑动窗口 + 单调栈**。必须先掌握滑动窗口和单调栈这两个知识点，再学单调队列。
+**Monotonic Queue = Sliding Window + Monotonic Stack**. Master sliding window and monotonic stack before learning monotonic queue.
 
-**问**：入队、出队、更新答案，这三步的顺序如何思考？
+**Q**: How to determine the order of enqueue, dequeue, and update answer?
 
-**答**：有两种情况。如果更新答案时，用到的数据包含当前元素，那么就需要先入队，再更新答案；如果用到的数据不包含当前元素，那么就需要先更新答案，再入队。至于出队，一般写在前面，每遍历到一个新的元素，就看看队首元素是否失效（不满足要求），失效则弹出队首。
+**A**: Two cases. If the answer update uses the current element, enqueue first then update; otherwise update first then enqueue. Dequeue is typically done first — check if the front element is expired and pop it if so.
 
-模板：
+Template:
 
 Python3
 
@@ -400,10 +400,10 @@ Go
     def maxSlidingWindow(nums: List[int], k: int) -> List[int]:
 
         for i, x in enumerate(nums):
-            # 1. 右边入
+            # 1. enqueue right
             while q and nums[q[-1]] <= x:
 
-            # 2. 左边出
+            # 2. dequeue left
                 q.popleft()
 
             if left >= 0:
@@ -483,13 +483,13 @@ Go
 *   [1199. Minimum Time to Build Blocks](https://leetcode.com/problems/minimum-time-to-build-blocks/) (Premium)
 *   [3506. Find Time Required to Eliminate Bacterial Strains](https://leetcode.com/problems/find-time-required-to-eliminate-bacterial-strains/) (Premium)
 
-**有序集合**：
+**Sorted Set**:
 
 *   [1348. Tweet Counts Per Frequency](https://leetcode.com/problems/tweet-counts-per-frequency/) 2037
 *   [855. Exam Room](https://leetcode.com/problems/exam-room/) 2067
 *   [1912. Design Movie Rental System](https://leetcode.com/problems/design-movie-rental-system/) 2182
 
-### §5.3 第 K 小/大
+### §5.3 Kth Smallest/Largest
 
 *   [264. Ugly Number Ii](https://leetcode.com/problems/ugly-number-ii/)
 *   [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
@@ -500,7 +500,7 @@ Go
 *   [3691. Maximum Total Subarray Value Ii](https://leetcode.com/problems/maximum-total-subarray-value-ii/) 2469
 *   [2386. Find the K Sum of an Array](https://leetcode.com/problems/find-the-k-sum-of-an-array/) 2648
 
-### §5.4 重排元素
+### §5.4 Rearrange Elements
 
 *   [984. String Without Aaa or Bbb](https://leetcode.com/problems/string-without-aaa-or-bbb/) 1474 ，
 *   [767. Reorganize String](https://leetcode.com/problems/reorganize-string/) 1681
@@ -510,7 +510,7 @@ Go
 *   [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)
 *   [358. Rearrange String K Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/) (Premium)
 
-### §5.5 反悔堆
+### §5.5 Regret Heap
 
 *   [LCP 30. P0nxjo](https://leetcode.com/problems/p0NxJO/)
 *   [1642. Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/) 1962
@@ -522,9 +522,9 @@ Go
 *   [3711. Maximum Transactions Without Negative Balance](https://leetcode.com/problems/maximum-transactions-without-negative-balance/) (Premium)
 *   [2599. Make the Prefix Sum Non Negative](https://leetcode.com/problems/make-the-prefix-sum-non-negative/) (Premium)
 
-### §5.6 懒删除堆
+### §5.6 Lazy Deletion Heap
 
-模板：
+Template:
 
 Python3
 
@@ -537,9 +537,9 @@ Go
     class LazyHeap:
         def __init__(self):
 
-        # 删除
+        # delete
         def remove(self, x: Any) -> None:
-            self.remove_cnt[x] += 1  # 懒删除
+            self.remove_cnt[x] += 1  # lazy deletion
             self.size -= 1
 
         def _apply_remove(self) -> None:
@@ -550,13 +550,13 @@ Go
         def top(self) -> Any:
             self._apply_remove()
 
-        # 出堆
+        # pop from heap
         def pop(self) -> Any:
             self._apply_remove()
             self.size -= 1
             return heappop(self.heap)
 
-        # 入堆
+        # push to heap
         def push(self, x: Any) -> None:
             if self.remove_cnt[x] > 0:
             else:
@@ -576,7 +576,7 @@ Go
 *   [3391. Design a 3d Binary Matrix with Efficient Layer Tracking](https://leetcode.com/problems/design-a-3d-binary-matrix-with-efficient-layer-tracking/) (Premium)
 *   [716. Max Stack](https://leetcode.com/problems/max-stack/) (Premium)
 
-### §5.7 对顶堆（滑动窗口第 K 小/大）
+### §5.7 Dual Heap (Sliding Window Kth Smallest/Largest)
 
 *   [2102. Sequentially Ordinal Rank Tracker](https://leetcode.com/problems/sequentially-ordinal-rank-tracker/) 2159
 *   [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
@@ -628,19 +628,19 @@ Go
 *   [1166. Design File System](https://leetcode.com/problems/design-file-system/) (Premium)
 *   [1858. Longest Word with All Prefixes](https://leetcode.com/problems/longest-word-with-all-prefixes/) (Premium)
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [440. K Th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/)
 
-### §6.3 字典树优化 DP
+### §6.3 Trie-Optimized DP
 
 *   [139. Word Break](https://leetcode.com/problems/word-break/)
 *   [140. Word Break Ii](https://leetcode.com/problems/word-break-ii/)
-*   [面试题 17.13. Re Space Lcci](https://leetcode.com/problems/re-space-lcci/)
+*   [Interview 17.13. Re Space Lcci](https://leetcode.com/problems/re-space-lcci/)
 *   [472. Concatenated Words](https://leetcode.com/problems/concatenated-words/) 2300
 *   [2977. Minimum Cost to Convert String Ii](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/) 2696
 
-### §6.4 0-1 字典树（异或字典树）
+### §6.4 0-1 Trie (XOR Trie)
 
 *   [421. Maximum Xor of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) 2000
 *   [2935. Maximum Strong Pair Xor Ii](https://leetcode.com/problems/maximum-strong-pair-xor-ii/) 2349
@@ -653,7 +653,7 @@ Go
 ## Union-Find
 -----
 
-模板：
+Template:
 
 Python3
 
@@ -665,7 +665,7 @@ Go
 
     class UnionFind:
         def __init__(self, n: int):
-            self._fa = list(range(n))  # 代表元
+            self._fa = list(range(n))  # representative
 
         def find(self, x: int) -> int:
             fa = self._fa
@@ -725,7 +725,7 @@ Go
 *   [2371. Minimize Maximum Value in a Grid](https://leetcode.com/problems/minimize-maximum-value-in-a-grid/) (Premium)
 *   [2459. Sort Array by Moving Items to Empty Space](https://leetcode.com/problems/sort-array-by-moving-items-to-empty-space/) (Premium)
 
-### §7.3 GCD 并查集
+### §7.3 GCD Union-Find
 
 *   [2709. Greatest Common Divisor Traversal](https://leetcode.com/problems/greatest-common-divisor-traversal/) 2172
 *   [1627. Graph Connectivity with Threshold](https://leetcode.com/problems/graph-connectivity-with-threshold/) 2221
@@ -733,7 +733,7 @@ Go
 *   [1998. Gcd Sort of an Array](https://leetcode.com/problems/gcd-sort-of-an-array/) 2429
 *   [3378. Count Connected Components in Lcm Graph](https://leetcode.com/problems/count-connected-components-in-lcm-graph/) 2532  1627
 
-### §7.4 数组上的并查集
+### §7.4 Union-Find on Arrays
 
 *   [1562. Find Latest Group of Size M](https://leetcode.com/problems/find-latest-group-of-size-m/) 1928
 *   [1488. Avoid Flood in the City](https://leetcode.com/problems/avoid-flood-in-the-city/) 1974
@@ -743,16 +743,16 @@ Go
 *   [3666. Minimum Operations to Equalize Binary String](https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/) 2477
 *   [2612. Minimum Reverse Operations](https://leetcode.com/problems/minimum-reverse-operations/) 2824
 
-### §7.5 区间并查集
+### §7.5 Interval Union-Find
 
 *   [3244. Shortest Distance after Road Addition Queries Ii](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-ii/) 2270
 *   [1851. Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/) 2286
 *   [LCP 52. Qo5kpg](https://leetcode.com/problems/QO5KpG/)
 *   [2158. Amount of New Area Painted Each Day](https://leetcode.com/problems/amount-of-new-area-painted-each-day/) (Premium)
 
-### §7.6 带权并查集（边权并查集）
+### §7.6 Weighted Union-Find
 
-模板：
+Template:
 
 Python3
 
@@ -764,7 +764,7 @@ Go
 
     class UnionFind:
         def __init__(self, n: int):
-            self.fa = list(range(n))  # 代表元
+            self.fa = list(range(n))  # representative
 
         def find(self, x: int) -> int:
             fa = self.fa
@@ -790,8 +790,8 @@ Go
             #    x --------- y
             #   /           /
             # from ------- to
-            # 由于 y-from = (y-x) + (x-from) = (y-to) + (to-from)
-            # 所以 y-x = (to-from) + (y-to) - (x-from) = value + dis[to] - dis[from]
+            # since y-from = (y-x) + (x-from) = (y-to) + (to-from)
+            # so y-x = (to-from) + (y-to) - (x-from) = value + dis[to] - dis[from]
             self.fa[x] = y
             return True
 
@@ -799,12 +799,12 @@ Go
 *   [3710. Maximum Partition Factor](https://leetcode.com/problems/maximum-partition-factor/) 2135
 *   [2307. Check for Contradictions in Equations](https://leetcode.com/problems/check-for-contradictions-in-equations/) (Premium)
 
-## Binary Indexed Tree (BIT)和线段树
+## Binary Indexed Tree (BIT) and Segment Tree
 ----------
 
-### §8.1 树状数组
+### §8.1 Binary Indexed Tree
 
-模板：
+Template:
 
 Python3
 
@@ -817,7 +817,7 @@ Go
     class FenwickTree:
         def __init__(self, n: int):
 
-        # a[i] 增加 val
+        # a[i] += val
         # 1 <= i <= n
         def update(self, i: int, val: int) -> None:
             t = self.tree
@@ -870,7 +870,7 @@ Go
 *   [2921. Maximum Profitable Triplets with Increasing Prices Ii](https://leetcode.com/problems/maximum-profitable-triplets-with-increasing-prices-ii/) (Premium)
 *   [308. Range Sum Query 2d Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/) (Premium)
 
-### §8.2 逆序对
+### §8.2 Inversions
 
 *   [LCR 170. Shu Zu Zhong De Ni Xu Dui Lcof](https://leetcode.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/)
 *   [315. Count of Smaller Numbers after Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
@@ -881,10 +881,10 @@ Go
 *   [2193. Minimum Number of Moves to Make Palindrome](https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/)
 *   [1885. Count Pairs in Two Arrays](https://leetcode.com/problems/count-pairs-in-two-arrays/) (Premium)
 
-### §8.3 线段树（无区间更新）
+### §8.3 Segment Tree (No Range Update)
 
-*   **询问**：把询问区间拆分成 O(logn) 个区间，对应着线段树的 O(logn) 个节点，把这 O(logn) 个节点的信息合并，即为答案。
-*   **单点更新**：有 O(logn) 个区间包含被修改的位置，需要更新 O(logn) 个节点的信息。
+*   **Query**: Split the query range into O(logn) intervals corresponding to O(logn) segment tree nodes, merge their information for the answer.
+*   **Point Update**: O(logn) intervals contain the modified position, requiring O(logn) node updates.
 
 Python3
 
@@ -909,7 +909,7 @@ Go
             self._tree[node] = self._merge_val(self._tree[node * 2], self._tree[node * 2 + 1])
 
         def _build(self, a: List[int], node: int, l: int, r: int) -> None:
-            if l == r:  # 叶子
+            if l == r:  # leaf
                 return
             m = (l + r) // 2
             self._maintain(node)
@@ -931,7 +931,7 @@ Go
             r_res = self._query(node * 2 + 1, m + 1, r, ql, qr)
             return self._merge_val(l_res, r_res)
 
-        # 更新 a[i] 为 _merge_val(a[i], val)
+        # update a[i] to _merge_val(a[i], val)
         def update(self, i: int, val: int) -> None:
             self._update(1, 0, self._n - 1, i, val)
 
@@ -952,15 +952,15 @@ Go
 *   [3501. Maximize Active Section with Trade Ii](https://leetcode.com/problems/maximize-active-section-with-trade-ii/) 2941  ST
 *   [LCP 81. Ryfuiz](https://leetcode.com/problems/ryfUiz/)
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [1157. Online Majority Element in Subarray](https://leetcode.com/problems/online-majority-element-in-subarray/) 2205
 *   [2407. Longest Increasing Subsequence Ii](https://leetcode.com/problems/longest-increasing-subsequence-ii/) 2280
 
-### §8.4 Lazy 线段树（有区间更新）
+### §8.4 Lazy Segment Tree (Range Update)
 
-*   **询问**：把询问区间拆分成 O(logn) 个区间，对应着线段树的 O(logn) 个节点，把这 O(logn) 个节点的信息合并，即为答案。
-*   **区间更新**：仍然是拆分成 O(logn) 个区间，对应着线段树的 O(logn) 个节点。但对于其中的非叶节点，不把更新的内容往下传递给子节点，而是记录「发生了更新，内容为 xxx」，把更新的内容记录下来。直到后续的询问或更新操作，需要访问或修改更下面的子节点信息时，才把更新的内容往下传。
+*   **Query**: Split the query range into O(logn) intervals corresponding to O(logn) segment tree nodes, merge their information for the answer.
+*   **Range Update**: Also splits into O(logn) intervals. For non-leaf nodes, instead of propagating updates to children immediately, record "an update occurred with value xxx". Only propagate when a subsequent query or update needs to access the children.
 
 Python3
 
@@ -1003,7 +1003,7 @@ Go
 
         def _build(self, a: List[int], node: int, l: int, r: int) -> None:
             self._tree[node].todo = self._TODO_INIT
-            if l == r:  # 叶子
+            if l == r:  # leaf
                 return
             m = (l + r) // 2
             self._maintain(node)
@@ -1047,7 +1047,7 @@ Go
 *   [2916. Subarrays Distinct Element Sum of Squares Ii](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii/) 2816
 *   [LCP 52. Qo5kpg](https://leetcode.com/problems/QO5KpG/)
 
-### §8.5 动态开点线段树
+### §8.5 Dynamic Segment Tree
 
 *   [699. Falling Squares](https://leetcode.com/problems/falling-squares/)
 *   [715. Range Module](https://leetcode.com/problems/range-module/)
@@ -1058,7 +1058,7 @@ Go
 *   [2770. Maximum Number of Jumps to Reach the Last Index](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/)
 *   [3590. Kth Smallest Path Xor Sum](https://leetcode.com/problems/kth-smallest-path-xor-sum/) 2646
 
-### §8.6 ST 表（Sparse Table）
+### §8.6 Sparse Table
 
 Python3
 
@@ -1080,7 +1080,7 @@ Go
             self.st = st
             self.op = op
 
-        # 返回 op(nums[l:r])
+        # return op(nums[l:r])
         def query(self, l: int, r: int) -> int:
             k = (r - l).bit_length() - 1
             return self.op(self.st[k][l], self.st[k][r - (1 << k)])
@@ -1099,14 +1099,14 @@ Go
 
 ------
 
-### §8.1 根号分解（Sqrt Decomposition）
+### §8.1 Sqrt Decomposition
 
 *   [3655. Xor after Range Multiplication Queries Ii](https://leetcode.com/problems/xor-after-range-multiplication-queries-ii/) 2454
 *   [LCP 16. You Le Yuan De You Lan Ji Hua](https://leetcode.com/problems/you-le-yuan-de-you-lan-ji-hua/)
 *   [1714. Sum of Special Evenly Spaced Elements in Array](https://leetcode.com/problems/sum-of-special-evenly-spaced-elements-in-array/) (Premium)
 *   [3400. Maximum Number of Matching Indices after Right Shifts](https://leetcode.com/problems/maximum-number-of-matching-indices-after-right-shifts/) (Premium)
 
-### §8.2 莫队算法
+### §8.2 Mo's Algorithm
 
 *   [3636. Threshold Majority Queries](https://leetcode.com/problems/threshold-majority-queries/) 2451
 *   [3590. Kth Smallest Path Xor Sum](https://leetcode.com/problems/kth-smallest-path-xor-sum/) 2646

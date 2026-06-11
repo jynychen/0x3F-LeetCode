@@ -2,14 +2,14 @@
 
 > Problem list from [0x3F's LeetCode Problem Lists](https://leetcode.cn/circle/discuss/tXLS3i/)
 
-前言
+Preface
 
-**记忆化搜索**是新手村神器（甚至可以用到游戏后期），推荐先看 [动态规划入门：从记忆化搜索到递推](/link/?target=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1Xj411K7oF%2F)。
+**Memoized search** is a beginner-friendly approach (useful even for advanced problems). Recommended: [DP Introduction: From Memoization to Tabulation](/link/?target=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1Xj411K7oF%2F).
 
 ## Basics DP
 -------
 
-### §1.1 爬楼梯
+### §1.1 Climbing Stairs
 
 *   [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 *   [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) 1500
@@ -19,13 +19,13 @@
 *   [2266. Count Number of Texts](https://leetcode.com/problems/count-number-of-texts/) 1857
 *   [2533. Number of Good Binary Strings](https://leetcode.com/problems/number-of-good-binary-strings/) (Premium)
 
-### §1.2 打家劫舍
+### §1.2 House Robber
 
-#### 答疑
+#### FAQ
 
-**问**：在 1:1 翻译的过程中，如何根据记忆化搜索，确定递推数组（DP 数组）的大小？为什么有时候要开 n+1 大小的数组，有时候要开 n+2 大小的数组？
+**Q**: When converting memoized search to tabulation, how to determine the DP array size? Why sometimes n+1, sometimes n+2?
 
-**答**：看记忆化搜索的参数的范围（最小值和最大值）。例如 i 最小是 −1（递归边界也算），最大是 n−1（递归入口），那么一共有 n+1 个不同的 i，就需要开 n+1 大小的 DP 数组。如果 i 最小是 −2，最大是 n−1，一共有 n+2 个不同的 i，就需要开 n+2 大小的 DP 数组。
+**A**: Check the range of the memoized search parameters (min and max). For example, if i ranges from −1 (boundary) to n−1 (entry), there are n+1 distinct values, so the DP array needs size n+1. If i ranges from −2 to n−1, the array needs size n+2.
 
 *   [198. House Robber](https://leetcode.com/problems/house-robber/)
 *   [213. House Robber Ii](https://leetcode.com/problems/house-robber-ii/)
@@ -33,11 +33,11 @@
 *   [740. Delete and Earn](https://leetcode.com/problems/delete-and-earn/)
 *   [3186. Maximum Total Damage with Spell Casting](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/) 1841
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [2140. Solving Questions with Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower/) 1709
 
-### §1.3 最大子数组和（最大子段和）
+### §1.3 Maximum Subarray Sum
 
 *   [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) ****
 *   [2606. Find the Substring with Maximum Cost](https://leetcode.com/problems/find-the-substring-with-maximum-cost/) 1422
@@ -46,12 +46,12 @@
 *   [918. Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/) 1777
 *   [2321. Maximum Score of Spliced Array](https://leetcode.com/problems/maximum-score-of-spliced-array/) 1791
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
 *   [1186. Maximum Subarray Sum with One Deletion](https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/) 1799
 
-### 思考题
+### Exercises
 
 ## Grid DP
 
@@ -70,7 +70,7 @@
 *   [3418. Maximum Amount of Money Robot Can Earn](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/) 1798
 *   [3742. Maximum Path Score in a Grid](https://leetcode.com/problems/maximum-path-score-in-a-grid/) 1804
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [1824. Minimum Sideway Jumps](https://leetcode.com/problems/minimum-sideway-jumps/) 1778
 
@@ -94,7 +94,7 @@
 ## Knapsack
 ----
 
-### §3.1 0-1 背包
+### §3.1 0-1 Knapsack
 
 *   [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
 *   [494. Target Sum](https://leetcode.com/problems/target-sum/)
@@ -102,7 +102,7 @@
 *   [2787. Ways to Express an Integer As Sum of Powers](https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/) 1818
 *   [3180. Maximum Total Reward Using Operations I](https://leetcode.com/problems/maximum-total-reward-using-operations-i/) 1849
 
-**进阶**：
+**Advanced**:
 
 *   [474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)
 *   [3489. Zero Array Transformation Iv](https://leetcode.com/problems/zero-array-transformation-iv/) 2068
@@ -122,7 +122,7 @@
 *   [3647. Maximum Weight in Two Bags](https://leetcode.com/problems/maximum-weight-in-two-bags/) (Premium)
 *   [2189. Number of Ways to Build House of Cards](https://leetcode.com/problems/number-of-ways-to-build-house-of-cards/) (Premium)
 
-### §3.2 完全背包
+### §3.2 Unbounded Knapsack
 
 *   [322. Coin Change](https://leetcode.com/problems/coin-change/)
 *   [518. Coin Change Ii](https://leetcode.com/problems/coin-change-ii/)
@@ -130,37 +130,37 @@
 *   [3610. Minimum Number of Primes to Sum to Target](https://leetcode.com/problems/minimum-number-of-primes-to-sum-to-target/) (Premium)
 *   [3183. The Number of Ways to Make the Sum](https://leetcode.com/problems/the-number-of-ways-to-make-the-sum/) (Premium)
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [3592. Inverse Coin Change](https://leetcode.com/problems/inverse-coin-change/) 1701
 *   [1449. Form Largest Integer with Digits that Add Up to Target](https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/) 1927
 
-### §3.3 多重背包（Optional）
+### §3.3 Bounded Knapsack (Optional)
 
-**求方案数**
+**Count Solutions**
 
 *   [2585. Number of Ways to Earn Points](https://leetcode.com/problems/number-of-ways-to-earn-points/) 1910
 *   [3333. Find the Original Typed String Ii](https://leetcode.com/problems/find-the-original-typed-string-ii/) 2629
 *   [2902. Count of Sub Multisets with Bounded Sum](https://leetcode.com/problems/count-of-sub-multisets-with-bounded-sum/) 2759
 
-**二进制优化**
+**Binary Optimization**
 
 *   [3489. Zero Array Transformation Iv](https://leetcode.com/problems/zero-array-transformation-iv/)
 
-### §3.4 分组背包
+### §3.4 Grouped Knapsack
 
 *   [1155. Number of Dice Rolls with Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) 1654
 *   [1981. Minimize the Difference Between Target and Chosen Elements](https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements/) 2010
 *   [2218. Maximum Value of K Coins from Piles](https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/) 2158
 
-### §3.5 树形背包（Optional）
+### §3.5 Tree Knapsack (Optional)
 
 *   [3562. Maximum Profit from Trading Stocks with Discounts](https://leetcode.com/problems/maximum-profit-from-trading-stocks-with-discounts/) 2458
 
 ## Classic Linear DP
 ---------
 
-### §4.1 最长公共子序列（LCS）
+### §4.1 Longest Common Subsequence (LCS)
 
 #### §4.1.1 Basics
 
@@ -171,7 +171,7 @@
 *   [1035. Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/) 1806
 *   [1458. Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences/) 1824
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)
 
@@ -187,9 +187,9 @@
 *   [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
 *   [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
 
-**思考题**：
+**Exercises**:
 
-### §4.2 最长递增子序列（LIS）
+### §4.2 Longest Increasing Subsequence (LIS)
 
 #### §4.2.1 Basics
 
@@ -211,19 +211,19 @@
 *   [1713. Minimum Operations to Make a Subsequence](https://leetcode.com/problems/minimum-operations-to-make-a-subsequence/) 2351  LIS  LCS
 *   [3288. Length of the Longest Increasing Path](https://leetcode.com/problems/length-of-the-longest-increasing-path/) 2450
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) 1800
 *   [2901. Longest Unequal Adjacent Groups Subsequence Ii](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-ii/) 1899
 
-**思考题**：
+**Exercises**:
 
-### §5.1 判定能否划分
+### §5.1 Can We Partition?
 
 *   [2369. Check If There is a Valid Partition for the Array](https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/) 1780
 *   [139. Word Break](https://leetcode.com/problems/word-break/)
 
-### §5.2 最优划分
+### §5.2 Optimal Partition
 
 *   [132. Palindrome Partitioning Ii](https://leetcode.com/problems/palindrome-partitioning-ii/)
 *   [2707. Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/) 1736
@@ -248,7 +248,7 @@
 *   [2052. Minimum Cost to Separate Sentence Into Rows](https://leetcode.com/problems/minimum-cost-to-separate-sentence-into-rows/) (Premium)
 *   [2464. Minimum Subarrays in a Valid Split](https://leetcode.com/problems/minimum-subarrays-in-a-valid-split/) (Premium)
 
-### §5.3 约束划分个数
+### §5.3 Constrained Partition Count
 
 *   [813. Largest Sum of Averages](https://leetcode.com/problems/largest-sum-of-averages/) 1937
 *   [3599. Partition Array to Minimize Xor](https://leetcode.com/problems/partition-array-to-minimize-xor/) 1955
@@ -268,7 +268,7 @@
 *   [2911. Minimum Changes to Make K Semi Palindromes](https://leetcode.com/problems/minimum-changes-to-make-k-semi-palindromes/) 2608
 *   [3117. Minimum Sum of Values by Dividing Array](https://leetcode.com/problems/minimum-sum-of-values-by-dividing-array/) 2735
 
-### §6.1 买卖股票
+### §6.1 Stock Trading
 
 *   [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 *   [122. Best Time to Buy and Sell Stock Ii](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
@@ -317,7 +317,7 @@
 
 ---------
 
-### §7.1 一维 DP
+### §7.1 1D DP
 
 *   [3147. Taking Maximum Energy from the Mystic Dungeon](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/) 1460
 *   [2944. Minimum Number of Coins for Fruits](https://leetcode.com/problems/minimum-number-of-coins-for-fruits/) 1709
@@ -339,7 +339,7 @@
 *   [2597. The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/) DP
 *   [2638. Count the Number of K Free Subsets](https://leetcode.com/problems/count-the-number-of-k-free-subsets/) (Premium)
 
-### §7.2 不相交区间
+### §7.2 Non-overlapping Intervals
 
 *   [2830. Maximize the Profit As the Salesman](https://leetcode.com/problems/maximize-the-profit-as-the-salesman/) 1851
 *   [2008. Maximum Earnings from Taxi](https://leetcode.com/problems/maximum-earnings-from-taxi/) 1872
@@ -348,7 +348,7 @@
 *   [1751. Maximum Number of Events that Can Be Attended Ii](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/) 2041
 *   [3414. Maximum Score of Non Overlapping Intervals](https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals/) 2723
 
-### §7.3 子数组 DP
+### §7.3 Subarray DP
 
 *   [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 *   [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
@@ -357,13 +357,13 @@
 *   [3524. Find X Value of Array I](https://leetcode.com/problems/find-x-value-of-array-i/) 2008
 *   [3448. Count Substrings Divisible by Last Digit](https://leetcode.com/problems/count-substrings-divisible-by-last-digit/) 2387
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [2262. Total Appeal of a String](https://leetcode.com/problems/total-appeal-of-a-string/) 2033
 *   [828. Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/) 2034
 *   [467. Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string/)
 
-### §7.4 合法子序列 DP
+### §7.4 Valid Subsequence DP
 
 *   [2501. Longest Square Streak in an Array](https://leetcode.com/problems/longest-square-streak-in-an-array/) 1480
 *   [1218. Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/) 1597
@@ -381,14 +381,14 @@
 *   [2901. Longest Unequal Adjacent Groups Subsequence Ii](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-ii/)
 *   [3299. Sum of Consecutive Subsequences](https://leetcode.com/problems/sum-of-consecutive-subsequences/) (Premium)
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [1048. Longest String Chain](https://leetcode.com/problems/longest-string-chain/) 1599
 *   [940. Distinct Subsequences Ii](https://leetcode.com/problems/distinct-subsequences-ii/) 1985
 *   [1987. Number of Unique Good Subsequences](https://leetcode.com/problems/number-of-unique-good-subsequences/) 2422
 *   [730. Count Different Palindromic Subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences/)
 
-### §7.5 子矩形 DP
+### §7.5 Sub-rectangle DP
 
 *   [3148. Maximum Difference Score in a Grid](https://leetcode.com/problems/maximum-difference-score-in-a-grid/) 1820
 *   [221. Maximal Square](https://leetcode.com/problems/maximal-square/)
@@ -396,7 +396,7 @@
 *   [2088. Count Fertile Pyramids in a Land](https://leetcode.com/problems/count-fertile-pyramids-in-a-land/) 2105
 *   [3197. Find the Minimum Area to Cover All Ones Ii](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-ii/)
 
-### §7.6 多维 DP
+### §7.6 Multi-dimensional DP
 
 *   [2222. Number of Ways to Select Buildings](https://leetcode.com/problems/number-of-ways-to-select-buildings/) 1657  3  k ？
 *   [2826. Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/) 1721
@@ -462,14 +462,14 @@
 *   [2143. Choose Numbers from Two Arrays in Range](https://leetcode.com/problems/choose-numbers-from-two-arrays-in-range/) (Premium)
 *   [3269. Constructing Two Increasing Arrays](https://leetcode.com/problems/constructing-two-increasing-arrays/) (Premium)
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [638. Shopping Offers](https://leetcode.com/problems/shopping-offers/)
 
-八、区间 DP
+## Interval DP
 -------
 
-### §8.1 最长回文子序列
+### §8.1 Longest Palindromic Subsequence
 
 *   [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)
 *   [1312. Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/) 1787
@@ -480,12 +480,12 @@
 *   [1216. Valid Palindrome Iii](https://leetcode.com/problems/valid-palindrome-iii/) (Premium)
 *   [1246. Palindrome Removal](https://leetcode.com/problems/palindrome-removal/) (Premium)
 
-### §8.2 区间 DP
+### §8.2 Interval DP
 
-*   根据性质 2，可以把 f(i,j) 缩小成子问题 f(i+1,j−1)。
-*   根据性质 3，可以枚举子串 B 的右端点，即枚举 k\=i+1,i+3,i+5,…,j−2，把 f(i,j) 划分成子问题 f(i,k) 和 f(k+1,j)。注意这里枚举 k 的步长是 2，因为每次消除 2 个字符，被消除的子串长度一定是偶数。
+*   By property 2, f(i,j) can be reduced to subproblem f(i+1,j−1).
+*   By property 3, enumerate the right endpoint of substring B, i.e., k=i+1,i+3,i+5,...,j−2, splitting f(i,j) into f(i,k) and f(k+1,j). Step size is 2 since each elimination removes 2 characters.
 
-答案：f(0,n−1)。
+Answer: f(0,n−1).
 
 *   [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 *   [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
@@ -498,7 +498,7 @@
 *   [1039. Minimum Score Triangulation of Polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/) 2130
 *   [1000. Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/) 2423
 *   [2019. The Score of Students Solving Math Expression](https://leetcode.com/problems/the-score-of-students-solving-math-expression/) 2584
-*   [面试题 08.14. Boolean Evaluation Lcci](https://leetcode.com/problems/boolean-evaluation-lcci/)
+*   [Interview 08.14. Boolean Evaluation Lcci](https://leetcode.com/problems/boolean-evaluation-lcci/)
 *   [3563. Lexicographically Smallest String after Adjacent Removals](https://leetcode.com/problems/lexicographically-smallest-string-after-adjacent-removals/) 2585
 *   [3277. Maximum Xor Score Subarray Queries](https://leetcode.com/problems/maximum-xor-score-subarray-queries/) 2693
 *   [87. Scramble String](https://leetcode.com/problems/scramble-string/)
@@ -510,9 +510,9 @@
 
 ----------------
 
-### §9.1 排列型状压 DP ① 相邻无关
+### §9.1 Permutation Bitmask DP ① Adjacent-Independent
 
-*   [从集合论到位运算，常见位运算技巧分类总结](https://leetcode.cn/circle/discuss/CaOJ45/)
+*   [From Set Theory to Bit Operations: Common Techniques](https://leetcode.cn/circle/discuss/CaOJ45/)
 
 *   [526. Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)
 *   [3376. Minimum Time to Break Locks I](https://leetcode.com/problems/minimum-time-to-break-locks-i/)
@@ -527,7 +527,7 @@
 *   [2403. Minimum Time to Kill All Monsters](https://leetcode.com/problems/minimum-time-to-kill-all-monsters/) (Premium)
 *   [1066. Campus Bikes Ii](https://leetcode.com/problems/campus-bikes-ii/) (Premium)
 
-### §9.2 排列型状压 DP ② 相邻相关
+### §9.2 Permutation Bitmask DP ② Adjacent-Dependent
 
 *   [2741. Special Permutations](https://leetcode.com/problems/special-permutations/) 2021
 *   [996. Number of Squareful Arrays](https://leetcode.com/problems/number-of-squareful-arrays/)
@@ -536,19 +536,19 @@
 *   [3283. Maximum Number of Moves to Kill All Pawns](https://leetcode.com/problems/maximum-number-of-moves-to-kill-all-pawns/) 2473
 *   [3149. Find the Minimum Cost Array Permutation](https://leetcode.com/problems/find-the-minimum-cost-array-permutation/) 2642
 
-### §9.3 旅行商问题（TSP）
+### §9.3 Traveling Salesman Problem (TSP)
 
 *   [943. Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/) 2186
 *   [847. Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) 2201
 *   [LCP 13. Xun Bao](https://leetcode.com/problems/xun-bao/)
 *   [2247. Maximum Cost of Trip with K Highways](https://leetcode.com/problems/maximum-cost-of-trip-with-k-highways/) (Premium)
 
-**相似问题**：
+**Similar Problems**:
 
 *   [3568. Minimum Moves to Clean the Classroom](https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/) 2143
 *   [864. Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/) 2259
 
-### §9.4 子集状压 DP
+### §9.4 Subset Bitmask DP
 
 *   [2305. Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/) 1887
 *   [1986. Minimum Number of Work Sessions to Finish the Tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/) 1995
@@ -567,7 +567,7 @@
 *   [465. Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/) (Premium)
 *   [2152. Minimum Number of Lines to Cover Points](https://leetcode.com/problems/minimum-number-of-lines-to-cover-points/) (Premium)
 
-**相关问题**：
+**Related Problems**:
 
 *   [3594. Minimum Time to Transport All Individuals](https://leetcode.com/problems/minimum-time-to-transport-all-individuals/) 2604
 
@@ -587,7 +587,7 @@ Go
 
         f = [0] * u
         for x in a:
-            f[x] += 1  # 初始值
+            f[x] += 1  # initial value
 
         for i in range(w):
             bit = 1 << i
@@ -611,7 +611,7 @@ Go
 
         f = [0] * u
         for x in a:
-            f[x] += 1  # 初始值
+            f[x] += 1  # initial value
 
         for i in range(w):
             bit = 1 << i
@@ -626,7 +626,7 @@ Go
 *   [2732. Find a Good Subset of the Matrix](https://leetcode.com/problems/find-a-good-subset-of-the-matrix/)
 *   [3757. Number of Effective Subsequences](https://leetcode.com/problems/number-of-effective-subsequences/)
 
-### §9.6 Others状压 DP
+### §9.6 Other Bitmask DP
 
 *   [1411. Number of Ways to Paint N 3 Grid](https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/) 1845
 *   [698. Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
@@ -648,10 +648,10 @@ Go
 *   [351. Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns/) (Premium)
 *   [2184. Number of Ways to Build Sturdy Brick Wall](https://leetcode.com/problems/number-of-ways-to-build-sturdy-brick-wall/) (Premium)
 
-十、数位 DP
+## Digit DP
 -------
 
-### §10.1 统计合法元素的数目
+### §10.1 Count Valid Elements
 
 Python3
 
@@ -661,7 +661,7 @@ C++
 
 Go
 
-    # 比如 digitDP(0, 10, 1) == 2
+    # e.g., digitDP(0, 10, 1) == 2
     def digitDP(low: int, high: int, target: int) -> int:
         high_s = list(map(int, str(high)))
         n = len(high_s)
@@ -670,7 +670,7 @@ Go
         @cache
         def dfs(i: int, cnt0: int, limit_low: bool, limit_high: bool) -> int:
             if cnt0 > target:
-                return 0  # 不合法
+                return 0  # invalid
             if i == n:
                 return 1 if cnt0 == target else 0
 
@@ -717,11 +717,11 @@ Go
 *   [1067. Digit Count in Range](https://leetcode.com/problems/digit-count-in-range/) (Premium)
 *   [3032. Count Numbers with Unique Digits Ii](https://leetcode.com/problems/count-numbers-with-unique-digits-ii/) (Premium)
 
-**从低到高**：
+**From Low to High**:
 
 *   [3704. Count No Zero Pairs that Sum to N](https://leetcode.com/problems/count-no-zero-pairs-that-sum-to-n/) 2419
 
-### §10.2 统计合法元素的价值总和
+### §10.2 Sum of Valid Element Values
 
 Python3
 
@@ -765,16 +765,16 @@ Go
         return dfs(0, 0, True, True)[1]
 
 *   [233. Number of Digit One](https://leetcode.com/problems/number-of-digit-one/)
-*   [面试题 17.06. Number of 2s in Range Lcci](https://leetcode.com/problems/number-of-2s-in-range-lcci/)
+*   [Interview 17.06. Number of 2s in Range Lcci](https://leetcode.com/problems/number-of-2s-in-range-lcci/)
 *   [3007. Maximum Number that Sum of the Prices is Less than or Equal to K](https://leetcode.com/problems/maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/) 2258
 *   [3753. Total Waviness of Numbers in Range Ii](https://leetcode.com/problems/total-waviness-of-numbers-in-range-ii/)
 
-### §10.3 Others数位 DP
+### §10.3 Other Digit DP
 
 *   [3677. Count Binary Palindromic Numbers](https://leetcode.com/problems/count-binary-palindromic-numbers/) 2223
 *   [3348. Smallest Divisible Digit Product Ii](https://leetcode.com/problems/smallest-divisible-digit-product-ii/) 3101
 
-### §11.1 前缀和优化 DP
+### §11.1 Prefix Sum Optimized DP
 
 *   [1871. Jump Game Vii](https://leetcode.com/problems/jump-game-vii/) 1896
 *   [2327. Number of People Aware of a Secret](https://leetcode.com/problems/number-of-people-aware-of-a-secret/)
@@ -792,14 +792,14 @@ Go
 *   [1977. Number of Ways to Separate Numbers](https://leetcode.com/problems/number-of-ways-to-separate-numbers/) 2817
 *   [3130. Find All Possible Stable Binary Arrays Ii](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-ii/) 2825
 
-### §11.2 单调栈优化 DP
+### §11.2 Monotonic Stack Optimized DP
 
 *   [1335. Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/) 2035
 *   [2866. Beautiful Towers Ii](https://leetcode.com/problems/beautiful-towers-ii/) 2072
 *   [2617. Minimum Number of Visited Cells in a Grid](https://leetcode.com/problems/minimum-number-of-visited-cells-in-a-grid/) 2582
 *   [2355. Maximum Number of Books You Can Take](https://leetcode.com/problems/maximum-number-of-books-you-can-take/) (Premium)
 
-### §11.3 单调队列优化 DP
+### §11.3 Monotonic Queue Optimized DP
 
 *   [2944. Minimum Number of Coins for Fruits](https://leetcode.com/problems/minimum-number-of-coins-for-fruits/) 1709
 *   [1696. Jump Game Vi](https://leetcode.com/problems/jump-game-vi/) 1954
@@ -812,7 +812,7 @@ Go
 *   [2945. Find Maximum Non Decreasing Array Length](https://leetcode.com/problems/find-maximum-non-decreasing-array-length/) 2943
 *   [2969. Minimum Number of Coins for Fruits Ii](https://leetcode.com/problems/minimum-number-of-coins-for-fruits-ii/) (Premium)
 
-### §11.4 树状数组/线段树优化 DP
+### §11.4 BIT/Segment Tree Optimized DP
 
 *   [1626. Best Team with No Conflicts](https://leetcode.com/problems/best-team-with-no-conflicts/) 2027
 *   [2407. Longest Increasing Subsequence Ii](https://leetcode.com/problems/longest-increasing-subsequence-ii/) 2280
@@ -822,17 +822,17 @@ Go
 *   [3671. Sum of Beautiful Subsequences](https://leetcode.com/problems/sum-of-beautiful-subsequences/) 2647
 *   [2916. Subarrays Distinct Element Sum of Squares Ii](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii/) 2816  2547
 
-### §11.5 字典树优化 DP
+### §11.5 Trie Optimized DP
 
 *   [139. Word Break](https://leetcode.com/problems/word-break/)
 *   [2707. Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/)
-*   [面试题 17.13. Re Space Lcci](https://leetcode.com/problems/re-space-lcci/)
+*   [Interview 17.13. Re Space Lcci](https://leetcode.com/problems/re-space-lcci/)
 *   [472. Concatenated Words](https://leetcode.com/problems/concatenated-words/) 2300
 *   [2977. Minimum Cost to Convert String Ii](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/) 2696
 
-### §11.6 矩阵快速幂优化 DP
+### §11.6 Matrix Exponentiation Optimized DP
 
-**进阶做法**：先用 **Berlekamp-Massey 算法**找规律，得到线性递推式，然后用 **Kitamasa 算法**（或者 Bostan-Mori 算法）优化。
+**Advanced Approach**: Use **Berlekamp-Massey algorithm** to find the linear recurrence, then optimize with **Kitamasa algorithm** (or Bostan-Mori algorithm).
 
 *   [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 *   [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
@@ -848,20 +848,20 @@ Go
 *   [2851. String Transformation](https://leetcode.com/problems/string-transformation/) 2858
 *   [2912. Number of Ways to Reach Destination in the Grid](https://leetcode.com/problems/number-of-ways-to-reach-destination-in-the-grid/) (Premium)
 
-### §11.7 斜率优化 DP
+### §11.7 Convex Hull Trick (Slope Optimization) DP
 
 *   [3494. Find the Minimum Amount of Time to Brew Potions](https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions/)
 *   [3500. Minimum Cost to Divide Array Into Subarrays](https://leetcode.com/problems/minimum-cost-to-divide-array-into-subarrays/)
 *   [3693. Climbing Stairs Ii](https://leetcode.com/problems/climbing-stairs-ii/) K\=3
 
-### §11.8 WQS 二分优化 DP
+### §11.8 WQS Binary Search Optimized DP
 
 *   [188. Best Time to Buy and Sell Stock Iv](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)
 *   [3573. Best Time to Buy and Sell Stock V](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-v/)
 *   [2209. Minimum White Tiles after Covering with Carpets](https://leetcode.com/problems/minimum-white-tiles-after-covering-with-carpets/)
 *   [3743. Maximize Cyclic Partition Score](https://leetcode.com/problems/maximize-cyclic-partition-score/)
 
-### §11.9 Others优化 DP
+### §11.9 Other Optimized DP
 
 *   [3654. Minimum Sum after Divisible Sum Deletions](https://leetcode.com/problems/minimum-sum-after-divisible-sum-deletions/) 2039
 *   [1937. Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/) 2106
@@ -877,7 +877,7 @@ Go
 *   [LCP 59. Nfy1m5](https://leetcode.com/problems/NfY1m5/) Slope Trick
 *   [2263. Make Array Non Decreasing or Non Increasing](https://leetcode.com/problems/make-array-non-decreasing-or-non-increasing/) (Premium)Slope Trick
 
-### §12.1 树的直径
+### §12.1 Tree Diameter
 
 *   [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
 *   [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)
@@ -892,18 +892,18 @@ Go
 *   [549. Binary Tree Longest Consecutive Sequence Ii](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/) (Premium)
 *   [3372. Maximize the Number of Target Nodes after Connecting Trees I](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i/)
 
-### §12.2 树上最大独立集
+### §12.2 Maximum Independent Set on Tree
 
 *   [337. House Robber Iii](https://leetcode.com/problems/house-robber-iii/)
 *   [2646. Minimize the Total Price of the Trips](https://leetcode.com/problems/minimize-the-total-price-of-the-trips/) 2238
 *   [3544. Subtree Inversion Sum](https://leetcode.com/problems/subtree-inversion-sum/) 2545  /
 *   [2378. Choose Edges to Maximize Score in a Tree](https://leetcode.com/problems/choose-edges-to-maximize-score-in-a-tree/) (Premium)
 
-### §12.3 树上最小支配集
+### §12.3 Minimum Dominating Set on Tree
 
 *   [968. Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/) 2124
 
-### §12.4 换根 DP
+### §12.4 Rerooting DP
 
 *   [834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/) 2197
 *   [2581. Count Number of Possible Root Nodes](https://leetcode.com/problems/count-number-of-possible-root-nodes/) 2228
@@ -912,7 +912,7 @@ Go
 *   [3241. Time Taken to Mark All Nodes](https://leetcode.com/problems/time-taken-to-mark-all-nodes/) 2522
 *   [3372. Maximize the Number of Target Nodes after Connecting Trees I](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i/) k)， n  m  k
 
-### §12.5 Others树形 DP
+### §12.5 Other Tree DP
 
 *   [2925. Maximum Score after Applying Operations on a Tree](https://leetcode.com/problems/maximum-score-after-applying-operations-on-a-tree/) 1940
 *   [3068. Find the Maximum Sum of Node Values](https://leetcode.com/problems/find-the-maximum-sum-of-node-values/) 2268
@@ -926,7 +926,7 @@ Go
 *   [LCP 64. U7wvvu](https://leetcode.com/problems/U7WvvU/)
 *   [2313. Minimum Flips in Binary Tree to Get Result](https://leetcode.com/problems/minimum-flips-in-binary-tree-to-get-result/) (Premium)
 
-十三、图 DP
+## Graph DP
 -------
 
 *   [3243. Shortest Distance after Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/) 1568
@@ -964,7 +964,7 @@ Go
 *   [1467. Probability of a Two Boxes Having the Same Number of Distinct Balls](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/) 2357
 *   [808. Soup Servings](https://leetcode.com/problems/soup-servings/) 2397
 *   [LCR 185. Nge Tou Zi De Dian Shu Lcof](https://leetcode.com/problems/nge-tou-zi-de-dian-shu-lcof/)
-*   [九坤-04. 筹码游戏](https://leetcode.com/contest/ubiquant2022/problems/I3Gm2h/)
+*   [Ubiquant-04. Chip Game](https://leetcode.com/contest/ubiquant2022/problems/I3Gm2h/)
 *   [1230. Toss Strange Coins](https://leetcode.com/problems/toss-strange-coins/) (Premium)
 
 ---------------
@@ -1063,7 +1063,7 @@ Go
 *   [656. Coin Path](https://leetcode.com/problems/coin-path/) (Premium)
 *   [2297. Jump Game Viii](https://leetcode.com/problems/jump-game-viii/) (Premium)
 
-其他
+Others
 
 *   [1387. Sort Integers by the Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/) 1507
 *   [823. Binary Trees with Factors](https://leetcode.com/problems/binary-trees-with-factors/) 1900

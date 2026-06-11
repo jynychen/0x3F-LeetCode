@@ -5,7 +5,7 @@
 ## Linked List
 ----
 
-### §1.1 遍历链表
+### §1.1 Traverse Linked List
 
 *   [1290. Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
 *   [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
@@ -17,7 +17,7 @@
 *   [3062. Winner of the Linked List Game](https://leetcode.com/problems/winner-of-the-linked-list-game/) (Premium)
 *   [3063. Linked List Frequency](https://leetcode.com/problems/linked-list-frequency/) (Premium)
 
-### §1.2 删除节点
+### §1.2 Delete Node
 
 *   [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
 *   [3217. Delete Nodes from Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/)
@@ -28,7 +28,7 @@
 *   [2487. Remove Nodes from Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/)
 *   [1836. Remove Duplicates from an Unsorted Linked List](https://leetcode.com/problems/remove-duplicates-from-an-unsorted-linked-list/) (Premium)
 
-### §1.3 插入节点
+### §1.3 Insert Node
 
 *   [2807. Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/)
 *   [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)
@@ -36,7 +36,7 @@
 *   [708. Insert Into a Sorted Circular Linked List](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/) (Premium)
 *   [2046. Sort Linked List Already Sorted Using Absolute Values](https://leetcode.com/problems/sort-linked-list-already-sorted-using-absolute-values/) (Premium)
 
-### §1.4 反转链表
+### §1.4 Reverse Linked List
 
 *   [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 *   [92. Reverse Linked List Ii](https://leetcode.com/problems/reverse-linked-list-ii/)
@@ -44,14 +44,14 @@
 *   [25. Reverse Nodes in K Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 *   [2074. Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)
 
-### §1.5 前后指针
+### §1.5 Front-Back Pointers
 
 *   [19. Remove Nth Node from End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 *   [61. Rotate List](https://leetcode.com/problems/rotate-list/)
 *   [1721. Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)
 *   [1474. Delete N Nodes after M Nodes of a Linked List](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/) (Premium)
 
-### §1.6 快慢指针
+### §1.6 Fast-Slow Pointers
 
 *   [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 *   [2095. Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)
@@ -63,17 +63,17 @@
 *   [457. Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)
 *   [2674. Split a Circular Linked List](https://leetcode.com/problems/split-a-circular-linked-list/) (Premium)
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
 
-### §1.7 双指针
+### §1.7 Two Pointers
 
 *   [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
 *   [86. Partition List](https://leetcode.com/problems/partition-list/)
 *   [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 
-### §1.8 合并链表
+### §1.8 Merge Linked Lists
 
 *   [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 *   [445. Add Two Numbers Ii](https://leetcode.com/problems/add-two-numbers-ii/)
@@ -82,12 +82,12 @@
 *   [369. Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/) (Premium)
 *   [1634. Add Two Polynomials Represented As Linked Lists](https://leetcode.com/problems/add-two-polynomials-represented-as-linked-lists/) (Premium)
 
-### §1.9 分治
+### §1.9 Divide and Conquer
 
 *   [23. Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 *   [148. Sort List](https://leetcode.com/problems/sort-list/)
 
-### §1.10 综合应用
+### §1.10 Comprehensive Applications
 
 *   [1019. Next Greater Node in Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)
 *   [1171. Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)
@@ -107,13 +107,13 @@
 ## Binary Tree
 -----
 
-**学习递归，从二叉树开始。**
+**Learn recursion, start with binary trees.**
 
-*   **先序遍历**：见 §2.2 自顶向下 DFS。
-*   **中序遍历**：见 §2.9 二叉搜索树。
-*   **后序遍历**：见 §2.3 自底向上 DFS。
+*   **Preorder Traversal**: See §2.2 Top-Down DFS.
+*   **Inorder Traversal**: See §2.9 Binary Search Tree.
+*   **Postorder Traversal**: See §2.3 Bottom-Up DFS.
 
-### §2.1 遍历二叉树
+### §2.1 Traverse Binary Tree
 
 *   [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
 *   [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
@@ -126,7 +126,7 @@
 *   [1214. Two Sum Bsts](https://leetcode.com/problems/two-sum-bsts/) (Premium)
 *   [2764. Is Array a Preorder of Some Binary Tree](https://leetcode.com/problems/is-array-a-preorder-of-some-binary-tree/) (Premium)
 
-### §2.2 自顶向下 DFS（先序遍历）
+### §2.2 Top-Down DFS (Preorder)
 
 *   [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 *   [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
@@ -146,7 +146,7 @@
 *   [1430. Check If a String is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://leetcode.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree/) (Premium)
 *   [545. Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree/) (Premium)
 
-### §2.3 自底向上 DFS（后序遍历）
+### §2.3 Bottom-Up DFS (Postorder)
 
 *   [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 *   [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
@@ -182,20 +182,20 @@
 *   [156. Binary Tree Upside Down](https://leetcode.com/problems/binary-tree-upside-down/) (Premium)
 *   [1612. Check If Two Expression Trees Are Equivalent](https://leetcode.com/problems/check-if-two-expression-trees-are-equivalent/) (Premium)
 
-### §2.4 自底向上 DFS：删点
+### §2.4 Bottom-Up DFS: Delete Nodes
 
 *   [814. Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/) 1380
 *   [1325. Delete Leaves with a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/) 1407
 *   [1110. Delete Nodes and Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/) 1511
 
-### §2.5 有递有归
+### §2.5 Recursion with Return Values
 
 *   [538. Convert Bst to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) 1375
 *   [1038. Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)
 *   [865. Smallest Subtree with All the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/) 1534
 *   [1080. Insufficient Nodes in Root to Leaf Paths](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/) 1805
 
-### §2.6 二叉树的直径
+### §2.6 Diameter of Binary Tree
 
 *   [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
 *   [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)
@@ -203,14 +203,14 @@
 *   [2385. Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/) 1711
 *   [549. Binary Tree Longest Consecutive Sequence Ii](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/) (Premium)
 
-### §2.7 回溯
+### §2.7 Backtracking
 
 *   [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)
 *   [113. Path Sum Ii](https://leetcode.com/problems/path-sum-ii/)
 *   [1457. Pseudo Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/) 1405
 *   [437. Path Sum Iii](https://leetcode.com/problems/path-sum-iii/)
 
-### §2.8 最近公共祖先
+### §2.8 Lowest Common Ancestor
 
 *   [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 *   [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
@@ -221,7 +221,7 @@
 *   [1650. Lowest Common Ancestor of a Binary Tree Iii](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/) (Premium)
 *   [1676. Lowest Common Ancestor of a Binary Tree Iv](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv/) (Premium)
 
-### §2.9 二叉搜索树
+### §2.9 Binary Search Tree
 
 *   [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
 *   [530. Minimum Absolute Difference in Bst](https://leetcode.com/problems/minimum-absolute-difference-in-bst/) 1303
@@ -244,7 +244,7 @@
 *   [255. Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/) (Premium)
 *   [1902. Depth of Bst Given Insertion Order](https://leetcode.com/problems/depth-of-bst-given-insertion-order/) (Premium)
 
-### §2.10 创建二叉树
+### §2.10 Construct Binary Tree
 
 *   [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 *   [654. Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)
@@ -260,7 +260,7 @@
 *   [1628. Design an Expression Tree with Evaluate Function](https://leetcode.com/problems/design-an-expression-tree-with-evaluate-function/) (Premium)
 *   [1597. Build Binary Expression Tree from Infix Expression](https://leetcode.com/problems/build-binary-expression-tree-from-infix-expression/) (Premium)
 
-### §2.11 插入/删除节点
+### §2.11 Insert/Delete Nodes
 
 *   [701. Insert Into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)
 *   [450. Delete Node in a Bst](https://leetcode.com/problems/delete-node-in-a-bst/)
@@ -268,7 +268,7 @@
 *   [776. Split Bst](https://leetcode.com/problems/split-bst/) (Premium)
 *   [1666. Change the Root of a Binary Tree](https://leetcode.com/problems/change-the-root-of-a-binary-tree/) (Premium)
 
-### §2.12 树形 DP
+### §2.12 Tree DP
 
 *   [337. House Robber Iii](https://leetcode.com/problems/house-robber-iii/)
 *   [968. Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)
@@ -277,7 +277,7 @@
 *   [LCP 64. U7wvvu](https://leetcode.com/problems/U7WvvU/)
 *   [2313. Minimum Flips in Binary Tree to Get Result](https://leetcode.com/problems/minimum-flips-in-binary-tree-to-get-result/) (Premium)
 
-### §2.13 二叉树 BFS
+### §2.13 Binary Tree BFS
 
 *   [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 *   [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
@@ -304,7 +304,7 @@
 *   [742. Closest Leaf in a Binary Tree](https://leetcode.com/problems/closest-leaf-in-a-binary-tree/) (Premium)
 *   [1660. Correct a Binary Tree](https://leetcode.com/problems/correct-a-binary-tree/) (Premium)
 
-### §2.14 链表+二叉树
+### §2.14 Linked List + Binary Tree
 
 *   [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
 *   [1367. Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/) 1650
@@ -313,7 +313,7 @@
 *   [117. Populating Next Right Pointers in Each Node Ii](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
 *   [426. Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) (Premium)
 
-### §2.15 N 叉树
+### §2.15 N-ary Tree
 
 *   [589. N Ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)
 *   [590. N Ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)
@@ -357,13 +357,13 @@
 
 -----
 
-### §3.1 遍历
+### §3.1 Traversal
 
 *   [2368. Reachable Nodes with Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/) 1477
 *   [1466. Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) 1634
 *   [582. Kill Process](https://leetcode.com/problems/kill-process/) (Premium)
 
-### §3.2 自顶向下 DFS
+### §3.2 Top-Down DFS
 
 *   [1376. Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/) 1561
 *   [3528. Unit Conversion I](https://leetcode.com/problems/unit-conversion-i/) 1580
@@ -377,7 +377,7 @@
 *   [2791. Count Paths that Can Form a Palindrome in a Tree](https://leetcode.com/problems/count-paths-that-can-form-a-palindrome-in-a-tree/) 2677
 *   [3535. Unit Conversion Ii](https://leetcode.com/problems/unit-conversion-ii/) (Premium)
 
-### §3.3 自底向上 DFS
+### §3.3 Bottom-Up DFS
 
 *   [690. Employee Importance](https://leetcode.com/problems/employee-importance/)
 *   [3249. Count the Number of Good Nodes](https://leetcode.com/problems/count-the-number-of-good-nodes/) 1566
@@ -391,12 +391,12 @@
 *   [1273. Delete Tree Nodes](https://leetcode.com/problems/delete-tree-nodes/) (Premium)
 *   [3004. Maximum Subtree of the Same Color](https://leetcode.com/problems/maximum-subtree-of-the-same-color/) (Premium)
 
-### §3.4 有递有归
+### §3.4 Recursion with Return Values
 
 *   [3593. Minimum Increments to Equalize Leaf Paths](https://leetcode.com/problems/minimum-increments-to-equalize-leaf-paths/) 1959
 *   [3331. Find Subtree Sizes after Changes](https://leetcode.com/problems/find-subtree-sizes-after-changes/) 2046
 
-### §3.5 树的直径
+### §3.5 Tree Diameter
 
 *   [2246. Longest Path with Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/) 2126
 *   [3203. Find Minimum Diameter after Merging Two Trees](https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/) 2266
@@ -405,12 +405,12 @@
 *   [1245. Tree Diameter](https://leetcode.com/problems/tree-diameter/) (Premium)
 *   [3313. Find the Last Marked Nodes in Tree](https://leetcode.com/problems/find-the-last-marked-nodes-in-tree/) (Premium)
 
-### §3.6 树的拓扑排序
+### §3.6 Tree Topological Sort
 
 *   [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)
 *   [2603. Collect Coins in a Tree](https://leetcode.com/problems/collect-coins-in-a-tree/) 2712
 
-### §3.7 DFS 时间戳
+### §3.7 DFS Timestamps
 
 *   [3515. Shortest Path in a Weighted Tree](https://leetcode.com/problems/shortest-path-in-a-weighted-tree/) 2312
 *   [LCP 05. Coin Bonus](https://leetcode.com/problems/coin-bonus/)
@@ -418,7 +418,7 @@
 *   [3327. Check If Dfs Strings Are Palindromes](https://leetcode.com/problems/check-if-dfs-strings-are-palindromes/) 2454
 *   [3590. Kth Smallest Path Xor Sum](https://leetcode.com/problems/kth-smallest-path-xor-sum/) 2646
 
-### §3.8 最近公共祖先（LCA）、倍增算法
+### §3.8 Lowest Common Ancestor (LCA) & Binary Lifting
 
 Python3
 
@@ -490,24 +490,24 @@ Go
 *   [2646. Minimize the Total Price of the Trips](https://leetcode.com/problems/minimize-the-total-price-of-the-trips/) **Tarjan  LCA + **
 *   [2277. Closest Node to Path in Tree](https://leetcode.com/problems/closest-node-to-path-in-tree/) (Premium)
 
-**数组上的倍增**：
+**Binary Lifting on Arrays**:
 
 *   [3534. Path Existence Queries in a Graph Ii](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/) 2507
 *   [2836. Maximize Value of Function in a Ball Passing Game](https://leetcode.com/problems/maximize-value-of-function-in-a-ball-passing-game/) 2769
 *   [3464. Maximize the Distance Between Points on a Square](https://leetcode.com/problems/maximize-the-distance-between-points-on-a-square/)
 
-### §3.9 树上滑动窗口
+### §3.9 Sliding Window on Tree
 
 *   [3425. Longest Special Path](https://leetcode.com/problems/longest-special-path/) 2435
 *   [3486. Longest Special Path Ii](https://leetcode.com/problems/longest-special-path-ii/) 2925
 
-### §3.10 树上启发式合并
+### §3.10 DSU on Tree (Small-to-Large Merging)
 
 *   [2003. Smallest Missing Genetic Value in Each Subtree](https://leetcode.com/problems/smallest-missing-genetic-value-in-each-subtree/) 2415
 *   [3590. Kth Smallest Path Xor Sum](https://leetcode.com/problems/kth-smallest-path-xor-sum/) 2646 C++  pbds
 *   [3575. Maximum Good Subtree Score](https://leetcode.com/problems/maximum-good-subtree-score/)
 
-### §3.11 点分治
+### §3.11 Centroid Decomposition
 
 *   [3372. Maximize the Number of Target Nodes after Connecting Trees I](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i/)
 
@@ -518,14 +518,14 @@ Go
 *   [1719. Number of Ways to Reconstruct a Tree](https://leetcode.com/problems/number-of-ways-to-reconstruct-a-tree/) 3018
 *   [2479. Maximum Xor of Two Non Overlapping Subtrees](https://leetcode.com/problems/maximum-xor-of-two-non-overlapping-subtrees/) (Premium)
 
-四、回溯
+## Backtracking
 ----
 
-### §4.1 入门回溯
+### §4.1 Intro to Backtracking
 
 *   [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 
-### §4.2 子集型回溯
+### §4.2 Subset Backtracking
 
 *   [78. Subsets](https://leetcode.com/problems/subsets/)
 *   [1863. Sum of All Subset Xor Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) 1372
@@ -546,12 +546,12 @@ Go
 *   [320. Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/) (Premium)
 *   [254. Factor Combinations](https://leetcode.com/problems/factor-combinations/) (Premium)
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
 *   [2002. Maximum Product of the Length of Two Palindromic Subsequences](https://leetcode.com/problems/maximum-product-of-the-length-of-two-palindromic-subsequences/) 1869
 
-### §4.3 划分型回溯
+### §4.3 Partition Backtracking
 
 *   [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 *   [2698. Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/) 1679
@@ -561,7 +561,7 @@ Go
 *   [140. Word Break Ii](https://leetcode.com/problems/word-break-ii/)
 *   [291. Word Pattern Ii](https://leetcode.com/problems/word-pattern-ii/) (Premium)
 
-### §4.4 组合型回溯
+### §4.4 Combination Backtracking
 
 *   [77. Combinations](https://leetcode.com/problems/combinations/)
 *   [216. Combination Sum Iii](https://leetcode.com/problems/combination-sum-iii/)
@@ -569,7 +569,7 @@ Go
 *   [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) 2n  n ， n
 *   [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)
 
-### §4.5 排列型回溯
+### §4.5 Permutation Backtracking
 
 *   [46. Permutations](https://leetcode.com/problems/permutations/)
 *   [3376. Minimum Time to Break Locks I](https://leetcode.com/problems/minimum-time-to-break-locks-i/) 1793
@@ -582,7 +582,7 @@ Go
 *   [3437. Permutations Iii](https://leetcode.com/problems/permutations-iii/) (Premium)
 *   [267. Palindrome Permutation Ii](https://leetcode.com/problems/palindrome-permutation-ii/) (Premium)
 
-### §4.6 有重复元素的回溯
+### §4.6 Backtracking with Duplicates
 
 *   [90. Subsets Ii](https://leetcode.com/problems/subsets-ii/)
 *   [40. Combination Sum Ii](https://leetcode.com/problems/combination-sum-ii/)
@@ -592,7 +592,7 @@ Go
 *   [3646. Next Special Palindrome Number](https://leetcode.com/problems/next-special-palindrome-number/) 2445
 *   [2014. Longest Subsequence Repeated K Times](https://leetcode.com/problems/longest-subsequence-repeated-k-times/) 2558
 
-### §4.7 搜索
+### §4.7 Search
 
 *   [3211. Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/) 1353
 *   [967. Numbers with Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/) 1433
@@ -617,7 +617,7 @@ Go
 *   [3509. Maximum Product of Subsequences with an Alternating Sum Equal to K](https://leetcode.com/problems/maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k/) 2703
 *   [488. Zuma Game](https://leetcode.com/problems/zuma-game/)
 *   [LCP 58. De4qbb](https://leetcode.com/problems/De4qBB/)
-*   [面试题 17.25. Word Rectangle Lcci](https://leetcode.com/problems/word-rectangle-lcci/)
+*   [Interview 17.25. Word Rectangle Lcci](https://leetcode.com/problems/word-rectangle-lcci/)
 *   [2664. The Knights Tour](https://leetcode.com/problems/the-knights-tour/) (Premium)
 *   [3565. Sequential Grid Path Cover](https://leetcode.com/problems/sequential-grid-path-cover/) (Premium)
 *   [247. Strobogrammatic Number Ii](https://leetcode.com/problems/strobogrammatic-number-ii/) (Premium)
@@ -625,9 +625,9 @@ Go
 *   [411. Minimum Unique Word Abbreviation](https://leetcode.com/problems/minimum-unique-word-abbreviation/) (Premium)
 *   [1088. Confusing Number Ii](https://leetcode.com/problems/confusing-number-ii/) (Premium)
 
-### §4.8 折半枚举
+### §4.8 Meet in the Middle
 
-英文名 meet in the middle。
+Also known as meet in the middle.
 
 *   [805. Split Array with Same Average](https://leetcode.com/problems/split-array-with-same-average/) 1983
 *   [494. Target Sum](https://leetcode.com/problems/target-sum/)

@@ -55,7 +55,7 @@
 ## Variable-Length Sliding Window
 ---------
 
-### §2.1 越短越合法/求最长/最大
+### §2.1 Shorter is Valid / Find Longest / Maximum
 
 #### §2.1.1 Basics
 
@@ -95,7 +95,7 @@
 *   [159. Longest Substring with at Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) (Premium)
 *   [340. Longest Substring with at Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) (Premium)
 
-### §2.2 越长越合法/求最短/最小
+### §2.2 Longer is Valid / Find Shortest / Minimum
 
 *   [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 *   [2904. Shortest and Lexicographically Smallest Beautiful String](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/)
@@ -104,9 +104,9 @@
 *   [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 *   [632. Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)
 
-### §2.3 求子数组个数
+### §2.3 Count Subarrays
 
-#### §2.3.1 越短越合法
+#### §2.3.1 Shorter is Valid
 
 *   [713. Subarray Product Less than K](https://leetcode.com/problems/subarray-product-less-than-k/)
 *   [3258. Count Substrings that Satisfy K Constraint I](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i/)
@@ -115,12 +115,12 @@
 *   [LCP 68. 1gxjyy](https://leetcode.com/problems/1GxJYY/)
 *   [2743. Count Substrings Without Repeating Character](https://leetcode.com/problems/count-substrings-without-repeating-character/) (Premium)
 
-**思维扩展（选做）**
+**Advanced Thinking (Optional)**
 
 *   [3134. Find the Median of the Uniqueness Array](https://leetcode.com/problems/find-the-median-of-the-uniqueness-array/) 2451
 *   [3261. Count Substrings that Satisfy K Constraint Ii](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-ii/) 2659
 
-#### §2.3.2 越长越合法
+#### §2.3.2 Longer is Valid
 
 *   [1358. Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) 1646
 *   [2962. Count Subarrays Where Max Element Appears at Least K Times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/) 1701
@@ -130,12 +130,12 @@
 *   [3298. Count Substrings that Can Be Rearranged to Contain a String Ii](https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/) 1909
 *   [2495. Number of Subarrays Having Even Product](https://leetcode.com/problems/number-of-subarrays-having-even-product/) (Premium)
 
-#### §2.3.3 恰好型滑动窗口
+#### §2.3.3 Exact Match Sliding Window
 
-*   计算有多少个元素和 ≥k 的子数组。
-*   计算有多少个元素和 \>k，也就是 ≥k+1 的子数组。
+*   Count subarrays with sum ≥k.
+*   Count subarrays with sum >k, i.e., ≥k+1.
 
-**总结**：「恰好」可以拆分成两个「至少」，也就是两个「越长越合法」的滑窗问题。
+**Summary**: "Exactly" can be decomposed into two "at least" problems, i.e., two "longer is valid" sliding window problems.
 
 *   [930. Binary Subarrays with Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) 1592
 *   [1248. Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/) 1624
@@ -155,7 +155,7 @@
 
 ## Single Array Two Pointers
 
-### §3.1 相向双指针
+### §3.1 Opposite-Direction Two Pointers
 
 *   [344. Reverse String](https://leetcode.com/problems/reverse-string/)
 *   [3643. Flip Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/) 1235
@@ -191,7 +191,7 @@
 *   [2422. Merge Operations to Turn Array Into a Palindrome](https://leetcode.com/problems/merge-operations-to-turn-array-into-a-palindrome/) (Premium)
 *   [259. 3sum Smaller](https://leetcode.com/problems/3sum-smaller/) (Premium)
 
-### §3.2 同向双指针
+### §3.2 Same-Direction Two Pointers
 
 *   [611. Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)
 *   [3649. Number of Perfect Pairs](https://leetcode.com/problems/number-of-perfect-pairs/) 1716
@@ -205,12 +205,12 @@
 *   [581. Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)
 *   [3555. Smallest Subarray to Sort in Every Sliding Window](https://leetcode.com/problems/smallest-subarray-to-sort-in-every-sliding-window/) (Premium)
 
-### §3.3 背向双指针
+### §3.3 Expanding Two Pointers
 
 *   [1793. Maximum Score of a Good Subarray](https://leetcode.com/problems/maximum-score-of-a-good-subarray/) 1946
 *   [976. Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)
 
-### §3.4 原地修改
+### §3.4 In-Place Modification
 
 *   [27. Remove Element](https://leetcode.com/problems/remove-element/)
 *   [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
@@ -225,7 +225,7 @@
 *   [1089. Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)
 *   [75. Sort Colors](https://leetcode.com/problems/sort-colors/)
 
-**思维扩展（选做）**：
+**Advanced Thinking (Optional)**：
 
 *   [1920. Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)
 *   [442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
@@ -234,7 +234,7 @@
 
 ## Two Arrays Two Pointers
 
-### §4.1 双指针
+### §4.1 Two Pointers
 
 *   [2109. Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/) 1315
 *   [2540. Minimum Common Value](https://leetcode.com/problems/minimum-common-value/)
@@ -250,7 +250,7 @@
 *   [777. Swap Adjacent in Lr String](https://leetcode.com/problems/swap-adjacent-in-lr-string/)
 *   [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)
 *   [986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)
-*   [面试题 16.06. Smallest Difference Lcci](https://leetcode.com/problems/smallest-difference-lcci/)
+*   [Interview 16.06. Smallest Difference Lcci](https://leetcode.com/problems/smallest-difference-lcci/)
 *   [1537. Get the Maximum Score](https://leetcode.com/problems/get-the-maximum-score/) 1961
 *   [244. Shortest Word Distance Ii](https://leetcode.com/problems/shortest-word-distance-ii/) (Premium)
 *   [2838. Maximum Coins Heroes Can Collect](https://leetcode.com/problems/maximum-coins-heroes-can-collect/) (Premium)
@@ -258,7 +258,7 @@
 *   [1570. Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/) (Premium)
 *   [1868. Product of Two Run Length Encoded Arrays](https://leetcode.com/problems/product-of-two-run-length-encoded-arrays/) (Premium)
 
-### §4.2 判断子序列
+### §4.2 Subsequence Check
 
 *   [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/)
 *   [524. Longest Word in Dictionary Through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/)
@@ -269,7 +269,7 @@
 *   [522. Longest Uncommon Subsequence Ii](https://leetcode.com/problems/longest-uncommon-subsequence-ii/) 1700
 *   [1826. Faulty Sensor](https://leetcode.com/problems/faulty-sensor/) (Premium)
 
-**进阶**：
+**Advanced**:
 
 *   [1898. Maximum Number of Removable Characters](https://leetcode.com/problems/maximum-number-of-removable-characters/) 1913
 *   [2565. Subsequence with the Minimum Score](https://leetcode.com/problems/subsequence-with-the-minimum-score/) 2432
@@ -285,19 +285,19 @@
 *   [3347. Maximum Frequency of an Element after Performing Operations Ii](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-ii/) 2156
 *   [1213. Intersection of Three Sorted Arrays](https://leetcode.com/problems/intersection-of-three-sorted-arrays/) (Premium)
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [3464. Maximize the Distance Between Points on a Square](https://leetcode.com/problems/maximize-the-distance-between-points-on-a-square/) 2806
 
 ## Group Loop
 ------
 
-**适用场景**：按照题目要求，数组会被分割成若干组，每一组的判断/处理逻辑是相同的。
+**Use case**: The array is split into groups according to problem requirements, with the same logic applied to each group.
 
-**核心思想**：
+**Core idea**:
 
-*   外层循环负责遍历组之前的准备工作（记录开始位置），和遍历组之后的统计工作（更新答案最大值）。
-*   内层循环负责遍历组，找出这一组最远在哪结束。
+*   The outer loop handles preparation before traversing a group (recording start position) and statistics after (updating the answer).
+*   The inner loop traverses the group and finds where it ends.
 
 *   [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)
 *   [1446. Consecutive Characters](https://leetcode.com/problems/consecutive-characters/) 1165

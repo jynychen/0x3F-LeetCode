@@ -4,7 +4,7 @@
 
 ------
 
-### §1.1 深度优先搜索（DFS）
+### §1.1 Depth-First Search (DFS)
 
 Python3
 
@@ -18,7 +18,7 @@ Go
         g = [[] for _ in range(n)]
         for x, y in edges:
             g[x].append(y)
-            g[y].append(x)  # 无向图
+            g[y].append(x)  # undirected graph
 
         vis = [False] * n
 
@@ -60,11 +60,11 @@ Go
 *   [261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) (Premium)
 *   [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) (Premium)
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [1298. Maximum Candies You Can Get from Boxes](https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/) 1825
 
-### §1.2 广度优先搜索（BFS）
+### §1.2 Breadth-First Search (BFS)
 
 Python3
 
@@ -78,7 +78,7 @@ Go
         g = [[] for _ in range(n)]
         for x, y in edges:
             g[x].append(y)
-            g[y].append(x)  # 无向图
+            g[y].append(x)  # undirected graph
 
         dis[start] = 0
         q = deque([start])
@@ -98,7 +98,7 @@ Go
 *   [2608. Shortest Cycle in a Graph](https://leetcode.com/problems/shortest-cycle-in-a-graph/) 1904
 *   [815. Bus Routes](https://leetcode.com/problems/bus-routes/) 1964
 
-### §1.3 图论建模 + BFS 最短路
+### §1.3 Graph Modeling + BFS Shortest Path
 
 *   [433. Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)
 *   [1284. Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/) 1811
@@ -114,7 +114,7 @@ Go
 *   [1197. Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/) (Premium)
 *   [3141. Maximum Hamming Distances](https://leetcode.com/problems/maximum-hamming-distances/) (Premium)
 
-**专题：跳跃游戏**
+**Topic: Jump Game**
 
 *   [2998. Minimum Number of Operations to Make X and Y Equal](https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal/) 1795
 *   [1345. Jump Game Iv](https://leetcode.com/problems/jump-game-iv/) 1810
@@ -125,9 +125,9 @@ Go
 
 ------
 
-### §2.1 拓扑排序
+### §2.1 Topological Sort
 
-模板：
+Template:
 
 Python3
 
@@ -165,12 +165,12 @@ Go
 *   [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) (Premium)
 *   [1059. All Paths from Source Lead to Destination](https://leetcode.com/problems/all-paths-from-source-lead-to-destination/) (Premium)
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)
 *   [1361. Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/)
 
-### §2.2 在拓扑序上 DP
+### §2.2 DP on Topological Order
 
 *   [851. Loud and Rich](https://leetcode.com/problems/loud-and-rich/) 1783
 *   [2050. Parallel Courses Iii](https://leetcode.com/problems/parallel-courses-iii/) 2084
@@ -178,7 +178,7 @@ Go
 *   [1857. Largest Color Value in a Directed Graph](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/) 2313
 *   [1136. Parallel Courses](https://leetcode.com/problems/parallel-courses/) (Premium)
 
-### §2.3 基环树
+### §2.3 Functional Graph (Rho Graph)
 
 *   [2359. Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/) 1715
 *   [2360. Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/) 1897
@@ -190,15 +190,15 @@ Go
 *   [LCP 21. Za25ha](https://leetcode.com/problems/Za25hA/)
 *   [2204. Distance to a Cycle in Undirected Graph](https://leetcode.com/problems/distance-to-a-cycle-in-undirected-graph/) (Premium)
 
-**思维扩展**：
+**Advanced Thinking**:
 
 *   [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
 
 -----
 
-### §3.1 单源最短路：Dijkstra 算法
+### §3.1 Single-Source Shortest Path: Dijkstra
 
-模板：
+Template:
 
 Python3
 
@@ -209,7 +209,7 @@ C++
 Go
 
     def shortestPathDijkstra(n: int, edges: List[List[int]], start: int) -> List[int]:
-        g = [[] for _ in range(n)]  # 邻接表
+        g = [[] for _ in range(n)]  # adjacency list
         for x, y, wt in edges:
             g[x].append((y, wt))
 
@@ -254,20 +254,20 @@ Go
 *   [2473. Minimum Cost to Buy Apples](https://leetcode.com/problems/minimum-cost-to-buy-apples/) (Premium)
 *   [2737. Find the Closest Marked Node](https://leetcode.com/problems/find-the-closest-marked-node/) (Premium)
 
-**分层图最短路**：
+**Layered Graph Shortest Path**:
 
 *   [LCP 35. Dfpefj](https://leetcode.com/problems/DFPeFJ/)
 *   [3599. Partition Array to Minimize Xor](https://leetcode.com/problems/partition-array-to-minimize-xor/)
 *   [3594. Minimum Time to Transport All Individuals](https://leetcode.com/problems/minimum-time-to-transport-all-individuals/) 2604
 *   [2714. Find Shortest Path with K Hops](https://leetcode.com/problems/find-shortest-path-with-k-hops/) (Premium)
 
-**SPFA 与差分约束**：
+**SPFA and Difference Constraints**:
 
 *   [2589. Minimum Time to Complete All Tasks](https://leetcode.com/problems/minimum-time-to-complete-all-tasks/) 2381
 
-### §3.2 全源最短路：Floyd 算法
+### §3.2 All-Pairs Shortest Path: Floyd
 
-模板：
+Template:
 
 Python3
 
@@ -283,7 +283,7 @@ Go
             f[i][i] = 0
 
         for x, y, wt in edges:
-            f[y][x] = min(f[y][x], wt)  # 无向图
+            f[y][x] = min(f[y][x], wt)  # undirected graph
 
         for k in range(n):
             for i in range(n):
@@ -298,7 +298,7 @@ Go
 *   [2959. Number of Possible Sets of Closing Branches](https://leetcode.com/problems/number-of-possible-sets-of-closing-branches/) 2077
 *   [2977. Minimum Cost to Convert String Ii](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/) 2696
 
-**Bitset 优化 Floyd**
+**Bitset-Optimized Floyd**
 
 *   [1462. Course Schedule Iv](https://leetcode.com/problems/course-schedule-iv/) 1693
 *   [2101. Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)
@@ -315,7 +315,7 @@ Go
 
     class UnionFind:
         def __init__(self, n: int):
-            self._fa = list(range(n))  # 代表元
+            self._fa = list(range(n))  # representative
 
         def find(self, x: int) -> int:
             if self._fa[x] != x:
@@ -344,7 +344,7 @@ Go
 *   [1135. Connecting Cities with Minimum Cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost/) (Premium)
 *   [1168. Optimize Water Distribution in a Village](https://leetcode.com/problems/optimize-water-distribution-in-a-village/) (Premium)
 
-**思维扩展**
+**Advanced Thinking**
 
 *   [3219. Minimum Cost for Cutting Cake Ii](https://leetcode.com/problems/minimum-cost-for-cutting-cake-ii/)
 
@@ -361,7 +361,7 @@ Go
 *   [LCP 54. S5kipk](https://leetcode.com/problems/s5kipK/)
 *   [3383. Minimum Runes to Add to Cast Spell](https://leetcode.com/problems/minimum-runes-to-add-to-cast-spell/) (Premium)
 
-## Bipartite Graph染色
+## Bipartite Graph Coloring
 -------
 
 Python3
@@ -414,7 +414,7 @@ Go
 *   [1066. Campus Bikes Ii](https://leetcode.com/problems/campus-bikes-ii/) (Premium)，
 *   [2123. Minimum Operations to Remove Adjacent Ones in Matrix](https://leetcode.com/problems/minimum-operations-to-remove-adjacent-ones-in-matrix/) (Premium)
 
-**模拟费用流**
+**Simulated Min-Cost Flow**
 
 *   [2463. Minimum Total Distance Traveled](https://leetcode.com/problems/minimum-total-distance-traveled/) log(n+m))
 
