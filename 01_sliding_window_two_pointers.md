@@ -98,6 +98,7 @@
 ### §2.2 Longer is Valid / Find Shortest / Minimum
 
 *   [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
+*   [3726. Minimum Subarray Length with Distinct Sum at Least K](https://leetcode.com/problems/minimum-subarray-length-with-distinct-sum-at-least-k/)
 *   [2904. Shortest and Lexicographically Smallest Beautiful String](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/)
 *   [1234. Replace the Substring for Balanced String](https://leetcode.com/problems/replace-the-substring-for-balanced-string/) 1878
 *   [2875. Minimum Size Subarray in Infinite Array](https://leetcode.com/problems/minimum-size-subarray-in-infinite-array/) 1914
@@ -125,6 +126,7 @@
 *   [1358. Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) 1646
 *   [2962. Count Subarrays Where Max Element Appears at Least K Times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/) 1701
 *   [3325. Count Substrings with K Frequency Characters I](https://leetcode.com/problems/count-substrings-with-k-frequency-characters-i/)
+*   [2062. Count Vowel Substrings of a String](https://leetcode.com/problems/count-vowel-substrings-of-a-string/)
 *   [2799. Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/)
 *   [2537. Count the Number of Good Subarrays](https://leetcode.com/problems/count-the-number-of-good-subarrays/) 1892
 *   [3298. Count Substrings that Can Be Rearranged to Contain a String Ii](https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/) 1909
@@ -141,6 +143,7 @@
 *   [1248. Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/) 1624
 *   [3306. Count of Substrings Containing Every Vowel and K Consonants Ii](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/) 2200
 *   [992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) 2210
+*   [3519. Count Subarrays with K Distinct Integers](https://leetcode.com/problems/count-subarrays-with-k-distinct-integers/) (Premium)
 
 ### §2.4 Others (Optional)
 
@@ -158,10 +161,19 @@
 ### §3.1 Opposite-Direction Two Pointers
 
 *   [344. Reverse String](https://leetcode.com/problems/reverse-string/)
+*   [2000. Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/)
+*   [2120. Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)
 *   [3643. Flip Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/) 1235
+*   [832. Flipping an Image](https://leetcode.com/problems/flipping-an-image/)
+*   [3734. Reverse Letters Then Special Characters in a String](https://leetcode.com/problems/reverse-letters-then-special-characters-in-a-string/)
 *   [541. Reverse String Ii](https://leetcode.com/problems/reverse-string-ii/)
 *   [557. Reverse Words in a String Iii](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
+*   [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)
+*   [3738. Reverse Words with Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/)
 *   [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)
+*   [3735. Reverse K Subarrays](https://leetcode.com/problems/reverse-k-subarrays/) (Premium)
+*   [186. Reverse Words in a String Ii](https://leetcode.com/problems/reverse-words-in-a-string-ii/) (Premium)
+*   [2697. Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/)
 *   [917. Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/)
 *   [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 *   [1750. Minimum Length of String after Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/) 1502
@@ -179,6 +191,7 @@
 *   [18. 4sum](https://leetcode.com/problems/4sum/)
 *   [611. Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)
 *   [1577. Number of Ways Where Square of Number is Equal to Product of Two Numbers](https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/)
+*   [3728. Find the Smallest Balanced Index](https://leetcode.com/problems/find-the-smallest-balanced-index/)
 *   [923. 3sum with Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/) 1711
 *   [948. Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/) 1762
 *   [11. Container with Most Water](https://leetcode.com/problems/container-with-most-water/)
@@ -190,11 +203,15 @@
 *   [360. Sort Transformed Array](https://leetcode.com/problems/sort-transformed-array/) (Premium)
 *   [2422. Merge Operations to Turn Array Into a Palindrome](https://leetcode.com/problems/merge-operations-to-turn-array-into-a-palindrome/) (Premium)
 *   [259. 3sum Smaller](https://leetcode.com/problems/3sum-smaller/) (Premium)
+*   [3729. Number of Ways to Paint Sheets](https://leetcode.com/problems/number-of-ways-to-paint-sheets/)
+*   [1861. Rotating the Box](https://leetcode.com/problems/rotating-the-box/)
+*   [3730. Maximum Capacity Within Budget](https://leetcode.com/problems/maximum-capacity-within-budget/)
 
 ### §3.2 Same-Direction Two Pointers
 
 *   [611. Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)
 *   [3649. Number of Perfect Pairs](https://leetcode.com/problems/number-of-perfect-pairs/) 1716
+*   [1871. Jump Game Vii](https://leetcode.com/problems/jump-game-vii/)
 *   [1574. Shortest Subarray to Be Removed to Make Array Sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/) 1932
 *   [2972. Count the Number of Incremovable Subarrays Ii](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-ii/) 2153
 *   [2122. Recover the Original Array](https://leetcode.com/problems/recover-the-original-array/) 2159
@@ -224,6 +241,7 @@
 *   [2460. Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/)
 *   [1089. Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)
 *   [75. Sort Colors](https://leetcode.com/problems/sort-colors/)
+*   [1752. Check If Array is Good](https://leetcode.com/problems/check-if-array-is-good/)
 
 **Advanced Thinking (Optional)**：
 
@@ -231,6 +249,8 @@
 *   [442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
 *   [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
 *   [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
+*   [240. Search a 2d Matrix Ii](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+*   [1351. Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)
 
 ## Two Arrays Two Pointers
 
@@ -251,6 +271,7 @@
 *   [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)
 *   [986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)
 *   [Interview 16.06. Smallest Difference Lcci](https://leetcode.com/problems/smallest-difference-lcci/)
+*   [475. Heaters](https://leetcode.com/problems/heaters/)
 *   [1537. Get the Maximum Score](https://leetcode.com/problems/get-the-maximum-score/) 1961
 *   [244. Shortest Word Distance Ii](https://leetcode.com/problems/shortest-word-distance-ii/) (Premium)
 *   [2838. Maximum Coins Heroes Can Collect](https://leetcode.com/problems/maximum-coins-heroes-can-collect/) (Premium)
@@ -304,7 +325,9 @@
 *   [1869. Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/) 1205
 *   [2414. Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/) 1222
 *   [3456. Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/) 1244
+*   [830. Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/)
 *   [2273. Find Resultant Array after Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/) 1295
+*   [2264. Largest 3 Same Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/)
 *   [2348. Number of Zero Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/) 1316
 *   [1513. Number of Substrings with Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/) 1351
 *   [1957. Delete Characters to Make Fancy String](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) 1358
@@ -321,22 +344,29 @@
 *   [2900. Longest Unequal Adjacent Groups Subsequence I](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/) 1469
 *   [1759. Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings/) 1491
 *   [3011. Find If Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) 1497
+*   [1861. Rotating the Box](https://leetcode.com/problems/rotating-the-box/)
 *   [1578. Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) 1574
 *   [1839. Longest Substring of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/) 1580
 *   [2765. Longest Alternating Subarray](https://leetcode.com/problems/longest-alternating-subarray/) 1581
 *   [3255. Find the Power of K Size Subarrays Ii](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-ii/) 1595
 *   [3350. Adjacent Increasing Subarrays Detection Ii](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-ii/) 1600
 *   [3105. Longest Strictly Increasing or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/)
+*   [3737. Count Valid Word Occurrences](https://leetcode.com/problems/count-valid-word-occurrences/)
 *   [838. Push Dominoes](https://leetcode.com/problems/push-dominoes/) 1638
 *   [467. Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string/) 1700
 *   [3499. Maximize Active Section with Trade I](https://leetcode.com/problems/maximize-active-section-with-trade-i/) 1729
 *   [413. Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)
+*   [2771. Longest Non Decreasing Subarray after Replacing at Most One Element](https://leetcode.com/problems/longest-non-decreasing-subarray-after-replacing-at-most-one-element/)
+*   [2147. Number of Ways to Divide a Long Corridor](https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/)
 *   [68. Text Justification](https://leetcode.com/problems/text-justification/)
 *   [135. Candy](https://leetcode.com/problems/candy/)
+*   [3731. Longest Arithmetic Sequence after Changing at Most One Element](https://leetcode.com/problems/longest-arithmetic-sequence-after-changing-at-most-one-element/)
 *   [2948. Make Lexicographically Smallest Array by Swapping Elements](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/) 2047
+*   [3736. Longest Alternating Subarray after Removing at Most One Element](https://leetcode.com/problems/longest-alternating-subarray-after-removing-at-most-one-element/)
 *   [2593. Find Score of an Array after Marking All Elements](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements/)
 *   [3640. Trionic Array Ii](https://leetcode.com/problems/trionic-array-ii/) 2278
 *   [2393. Count Strictly Increasing Subarrays](https://leetcode.com/problems/count-strictly-increasing-subarrays/) (Premium)
+*   [3732. Maximum Number of Equal Length Runs](https://leetcode.com/problems/maximum-number-of-equal-length-runs/) (Premium)
 *   [2436. Minimum Split Into Subarrays with Gcd Greater than One](https://leetcode.com/problems/minimum-split-into-subarrays-with-gcd-greater-than-one/) (Premium)
 *   [2495. Number of Subarrays Having Even Product](https://leetcode.com/problems/number-of-subarrays-having-even-product/) (Premium)
 *   [3063. Linked List Frequency](https://leetcode.com/problems/linked-list-frequency/) (Premium)
