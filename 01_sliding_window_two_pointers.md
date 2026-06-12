@@ -261,7 +261,7 @@ Study roadmap: [How to Study Systematically](https://leetcode.com/circle/discuss
 
 ### §3.6 Two Pointers on Matrix
 
-- [240. Search A 2d Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+- [240. Search A 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 - [1351. Count Negative Numbers In A Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)
 
 ## IV. Two-Sequence Two Pointers
@@ -272,7 +272,7 @@ Study roadmap: [How to Study Systematically](https://leetcode.com/circle/discuss
 - [2540. Minimum Common Value](https://leetcode.com/problems/minimum-common-value/) (O(n+m) required)
 - [350. Intersection Of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) (solve follow-up)
 - [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) (O(n+m) required)
-- [2570. Merge Two 2d Arrays By Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/) (O(n+m) required)
+- [2570. Merge Two 2D Arrays By Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/) (O(n+m) required)
 - [LCP 18. Breakfast Combo](https://leetcode.com/problems/2vYnGI/)
 - [1855. Maximum Distance Between A Pair Of Values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/) 1515
 - [1385. Find The Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
