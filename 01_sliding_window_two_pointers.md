@@ -113,7 +113,7 @@ Variable-length sliding window covers three categories: find longest subarray, f
 - [3258. Count Substrings That Satisfy K Constraint I](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i/) (O(n) required)
 - [2302. Count Subarrays With Score Less Than K](https://leetcode.com/problems/count-subarrays-with-score-less-than-k/) 1808
 - [2762. Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays/) 1940
-- [LCP 68. Bouquet of Flowers](https://leetcode.com/problems/1GxJYY/)
+- [LCP 68. Bouquet of Flowers](https://leetcode.cn/problems/1GxJYY/)
 - [2743. Count Substrings Without Repeating Character](https://leetcode.com/problems/count-substrings-without-repeating-character/) 🔒
 
 **Mind Extensions**:
@@ -189,7 +189,7 @@ Study roadmap: [How to Study Systematically](https://leetcode.com/circle/discuss
 - [167. Two Sum II Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 - [633. Sum Of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)
 - [2824. Count Pairs Whose Sum Is Less Than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/) (non-brute-force)
-- [LCP 28. Purchasing Plan](https://leetcode.com/problems/4xy4Wx/) (same as 2824)
+- [LCP 28. Purchasing Plan](https://leetcode.cn/problems/4xy4Wx/) (same as 2824)
 - [16. 3sum Closest](https://leetcode.com/problems/3sum-closest/)
 - [15. 3sum](https://leetcode.com/problems/3sum/)
 - [18. 4sum](https://leetcode.com/problems/4sum/)
@@ -273,7 +273,7 @@ Study roadmap: [How to Study Systematically](https://leetcode.com/circle/discuss
 - [350. Intersection Of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) (solve follow-up)
 - [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) (O(n+m) required)
 - [2570. Merge Two 2D Arrays By Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/) (O(n+m) required)
-- [LCP 18. Breakfast Combo](https://leetcode.com/problems/2vYnGI/)
+- [LCP 18. Breakfast Combo](https://leetcode.cn/problems/2vYnGI/)
 - [1855. Maximum Distance Between A Pair Of Values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/) 1515
 - [1385. Find The Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
 - [925. Long Pressed Name](https://leetcode.com/problems/long-pressed-name/) (O(n+m) required)
