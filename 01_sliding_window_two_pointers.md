@@ -279,7 +279,7 @@ Study roadmap: [How to Study Systematically](https://leetcode.com/circle/discuss
 - [925. Long Pressed Name](https://leetcode.com/problems/long-pressed-name/) (O(n+m) required)
 - [809. Expressive Words](https://leetcode.com/problems/expressive-words/) 1605
 - [2337. Move Pieces To Obtain A String](https://leetcode.com/problems/move-pieces-to-obtain-a-string/) 1693
-- [777. Swap Adjacent In Lr String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) (same as 2337)
+- [777. Swap Adjacent In LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) (same as 2337)
 - [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) (O(1) extra space)
 - [986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) (O(n+m) required)
 - [Interview 16.06. Smallest Difference](https://leetcode.com/problems/smallest-difference-lcci/)
