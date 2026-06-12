@@ -28,7 +28,7 @@ Problem list from [0x3F's LeetCode Study Plan](https://leetcode.com/discuss/post
 - [3679. Minimum Discards To Balance Inventory](https://leetcode.com/problems/minimum-discards-to-balance-inventory/) 1639
 - [3439. Reschedule Meetings For Maximum Free Time I](https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-i/) 1729
 - [3694. Distinct Points Reachable After Substring Removal](https://leetcode.com/problems/distinct-points-reachable-after-substring-removal/) 1739
-- [2134. Minimum Swaps To Group All 1s Together Ii](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/) 1748
+- [2134. Minimum Swaps To Group All 1s Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/) 1748
 - [1652. Defuse The Bomb](https://leetcode.com/problems/defuse-the-bomb/) (O(n) required)
 - [1297. Maximum Number Of Occurrences Of A Substring](https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/) 1748
 - [3652. Best Time To Buy And Sell Stock Using Strategy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/)
@@ -68,7 +68,7 @@ Variable-length sliding window covers three categories: find longest subarray, f
 - [1695. Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/) 1529
 - [2958. Length Of Longest Subarray With At Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) 1535
 - [2024. Maximize The Confusion Of An Exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/) 1643
-- [1004. Max Consecutive Ones Iii](https://leetcode.com/problems/max-consecutive-ones-iii/) 1656
+- [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) 1656
 - [3641. Longest Semi Repeating Subarray](https://leetcode.com/problems/longest-semi-repeating-subarray/) 🔒
 
 #### §2.1.2 Advanced (Optional)
@@ -90,8 +90,8 @@ Variable-length sliding window covers three categories: find longest subarray, f
 - [395. Longest Substring With At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)
 - [1763. Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/) (non-brute-force)
 - [2968. Apply Operations To Maximize Frequency Score](https://leetcode.com/problems/apply-operations-to-maximize-frequency-score/) 2444
-- [1040. Moving Stones Until Consecutive Ii](https://leetcode.com/problems/moving-stones-until-consecutive-ii/) 2456
-- [487. Max Consecutive Ones Ii](https://leetcode.com/problems/max-consecutive-ones-ii/) 🔒
+- [1040. Moving Stones Until Consecutive II](https://leetcode.com/problems/moving-stones-until-consecutive-ii/) 2456
+- [487. Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/) 🔒
 - [159. Longest Substring With At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) 🔒
 - [340. Longest Substring With At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) 🔒
 
@@ -113,13 +113,13 @@ Variable-length sliding window covers three categories: find longest subarray, f
 - [3258. Count Substrings That Satisfy K Constraint I](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i/) (O(n) required)
 - [2302. Count Subarrays With Score Less Than K](https://leetcode.com/problems/count-subarrays-with-score-less-than-k/) 1808
 - [2762. Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays/) 1940
-- [1gxjyy](https://leetcode.com/problems/1GxJYY/)
+- [LCP 68. Bouquet of Flowers](https://leetcode.com/problems/1GxJYY/)
 - [2743. Count Substrings Without Repeating Character](https://leetcode.com/problems/count-substrings-without-repeating-character/) 🔒
 
 **Mind Extensions**:
 
 - [3134. Find The Median Of The Uniqueness Array](https://leetcode.com/problems/find-the-median-of-the-uniqueness-array/) 2451
-- [3261. Count Substrings That Satisfy K Constraint Ii](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-ii/) 2659 (substring of substrings)
+- [3261. Count Substrings That Satisfy K Constraint II](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-ii/) 2659 (substring of substrings)
 
 #### §2.3.2 Advanced (Optional)
 
@@ -129,14 +129,14 @@ Variable-length sliding window covers three categories: find longest subarray, f
 - [2062. Count Vowel Substrings Of A String](https://leetcode.com/problems/count-vowel-substrings-of-a-string/) (O(n) required)
 - [2799. Count Complete Subarrays In An Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/) (O(n) required)
 - [2537. Count The Number Of Good Subarrays](https://leetcode.com/problems/count-the-number-of-good-subarrays/) 1892
-- [3298. Count Substrings That Can Be Rearranged To Contain A String Ii](https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/) 1909 (same as 76)
+- [3298. Count Substrings That Can Be Rearranged To Contain A String II](https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/) 1909 (same as 76)
 - [2495. Number Of Subarrays Having Even Product](https://leetcode.com/problems/number-of-subarrays-having-even-product/) 🔒
 
 #### §2.3.3 Other Advanced
 
 - [930. Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) 1592
 - [1248. Count Number Of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/) 1624
-- [3306. Count Of Substrings Containing Every Vowel And K Consonants Ii](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/) 2200
+- [3306. Count Of Substrings Containing Every Vowel And K Consonants II](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/) 2200
 - [992. Subarrays With K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) 2210
 - [3859. Count Subarrays With K Distinct Integers](https://leetcode.com/problems/count-subarrays-with-k-distinct-integers/) 2302
 
@@ -148,7 +148,7 @@ Variable-length sliding window covers three categories: find longest subarray, f
 - [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
 - [438. Find All Anagrams In A String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) (fixed-length and variable-length approaches)
 - [1712. Ways To Split Array Into Three Subarrays](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/) 2079
-- [He Wei Sde Lian Xu Zheng Shu Xu Lie Lcof](https://leetcode.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/)
+- [LCR 180. File Combination](https://leetcode.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/)
 - [1918. Kth Smallest Subarray Sum](https://leetcode.com/problems/kth-smallest-subarray-sum/) 🔒
 
 ---
@@ -170,28 +170,28 @@ Study roadmap: [How to Study Systematically](https://leetcode.com/circle/discuss
 - [3643. Flip Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/) 1235
 - [832. Flipping An Image](https://leetcode.com/problems/flipping-an-image/) 1243
 - [3823. Reverse Letters Then Special Characters In A String](https://leetcode.com/problems/reverse-letters-then-special-characters-in-a-string/) 1250
-- [541. Reverse String Ii](https://leetcode.com/problems/reverse-string-ii/)
-- [557. Reverse Words In A String Iii](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
+- [541. Reverse String II](https://leetcode.com/problems/reverse-string-ii/)
+- [557. Reverse Words In A String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
 - [151. Reverse Words In A String](https://leetcode.com/problems/reverse-words-in-a-string/)
 - [3775. Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) 1392
 - [917. Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/)
 - [345. Reverse Vowels Of A String](https://leetcode.com/problems/reverse-vowels-of-a-string/)
 - [3865. Reverse K Subarrays](https://leetcode.com/problems/reverse-k-subarrays/) 🔒
-- [186. Reverse Words In A String Ii](https://leetcode.com/problems/reverse-words-in-a-string-ii/) 🔒
+- [186. Reverse Words In A String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/) 🔒
 
 ### §3.2 Two Pointers on Sorted Array/String
 
 - [2697. Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/) 1304
 - [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 - [1750. Minimum Length Of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/) 1502
-- [2105. Watering Plants Ii](https://leetcode.com/problems/watering-plants-ii/) 1507
+- [2105. Watering Plants II](https://leetcode.com/problems/watering-plants-ii/) 1507
 - [977. Squares Of A Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) (O(n) required)
 - [658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)
 - [1471. The K Strongest Values In An Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)
-- [167. Two Sum Ii Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+- [167. Two Sum II Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 - [633. Sum Of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)
 - [2824. Count Pairs Whose Sum Is Less Than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/) (non-brute-force)
-- [4xy4wx](https://leetcode.com/problems/4xy4Wx/) (same as 2824)
+- [LCP 28. Purchasing Plan](https://leetcode.com/problems/4xy4Wx/) (same as 2824)
 - [16. 3sum Closest](https://leetcode.com/problems/3sum-closest/)
 - [15. 3sum](https://leetcode.com/problems/3sum/)
 - [18. 4sum](https://leetcode.com/problems/4sum/)
@@ -222,9 +222,9 @@ Study roadmap: [How to Study Systematically](https://leetcode.com/circle/discuss
 - [2200. Find All K Distant Indices In An Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/) (O(n) required)
 - [611. Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)
 - [3649. Number Of Perfect Pairs](https://leetcode.com/problems/number-of-perfect-pairs/) 1716
-- [1871. Jump Game Vii](https://leetcode.com/problems/jump-game-vii/) 1896 (multiple approaches)
+- [1871. Jump Game VII](https://leetcode.com/problems/jump-game-vii/) 1896 (multiple approaches)
 - [1574. Shortest Subarray To Be Removed To Make Array Sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/) 1932
-- [2972. Count The Number Of Incremovable Subarrays Ii](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-ii/) 2153
+- [2972. Count The Number Of Incremovable Subarrays II](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-ii/) 2153
 - [2122. Recover The Original Array](https://leetcode.com/problems/recover-the-original-array/) 2159
 - [2234. Maximum Total Beauty Of The Gardens](https://leetcode.com/problems/maximum-total-beauty-of-the-gardens/) 2562
 - [1989. Maximum Number Of People That Can Be Caught In Tag](https://leetcode.com/problems/maximum-number-of-people-that-can-be-caught-in-tag/) 🔒
@@ -242,12 +242,12 @@ Study roadmap: [How to Study Systematically](https://leetcode.com/circle/discuss
 
 - [27. Remove Element](https://leetcode.com/problems/remove-element/)
 - [26. Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
-- [80. Remove Duplicates From Sorted Array Ii](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
+- [80. Remove Duplicates From Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
 - [2273. Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/)
 - [3684. Maximize Sum Of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/)
 - [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)
 - [905. Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)
-- [922. Sort Array By Parity Ii](https://leetcode.com/problems/sort-array-by-parity-ii/)
+- [922. Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)
 - [3467. Transform Array By Parity](https://leetcode.com/problems/transform-array-by-parity/)
 - [2460. Apply Operations To An Array](https://leetcode.com/problems/apply-operations-to-an-array/)
 - [1089. Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)
@@ -263,7 +263,7 @@ Study roadmap: [How to Study Systematically](https://leetcode.com/circle/discuss
 
 ### §3.6 Two Pointers on Matrix
 
-- [240. Search A 2d Matrix Ii](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+- [240. Search A 2d Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 - [1351. Count Negative Numbers In A Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)
 
 ## IV. Two-Sequence Two Pointers
@@ -272,10 +272,10 @@ Study roadmap: [How to Study Systematically](https://leetcode.com/circle/discuss
 
 - [2109. Adding Spaces To A String](https://leetcode.com/problems/adding-spaces-to-a-string/) 1315
 - [2540. Minimum Common Value](https://leetcode.com/problems/minimum-common-value/) (O(n+m) required)
-- [350. Intersection Of Two Arrays Ii](https://leetcode.com/problems/intersection-of-two-arrays-ii/) (solve follow-up)
+- [350. Intersection Of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) (solve follow-up)
 - [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) (O(n+m) required)
 - [2570. Merge Two 2d Arrays By Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/) (O(n+m) required)
-- [2vyngi](https://leetcode.com/problems/2vYnGI/)
+- [LCP 18. Breakfast Combo](https://leetcode.com/problems/2vYnGI/)
 - [1855. Maximum Distance Between A Pair Of Values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/) 1515
 - [1385. Find The Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
 - [925. Long Pressed Name](https://leetcode.com/problems/long-pressed-name/) (O(n+m) required)
@@ -284,10 +284,10 @@ Study roadmap: [How to Study Systematically](https://leetcode.com/circle/discuss
 - [777. Swap Adjacent In Lr String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) (same as 2337)
 - [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) (O(1) extra space)
 - [986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) (O(n+m) required)
-- [Smallest Difference Lcci](https://leetcode.com/problems/smallest-difference-lcci/)
+- [Interview 16.06. Smallest Difference](https://leetcode.com/problems/smallest-difference-lcci/)
 - [475. Heaters](https://leetcode.com/problems/heaters/)
 - [1537. Get The Maximum Score](https://leetcode.com/problems/get-the-maximum-score/) 1961
-- [244. Shortest Word Distance Ii](https://leetcode.com/problems/shortest-word-distance-ii/) 🔒
+- [244. Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/) 🔒
 - [2838. Maximum Coins Heroes Can Collect](https://leetcode.com/problems/maximum-coins-heroes-can-collect/) 🔒
 - [1229. Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/) 🔒
 - [1570. Dot Product Of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/) 🔒
@@ -300,8 +300,8 @@ Study roadmap: [How to Study Systematically](https://leetcode.com/circle/discuss
 - [2486. Append Characters To String To Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/) 1363
 - [2825. Make String A Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments/) 1415
 - [1023. Camelcase Matching](https://leetcode.com/problems/camelcase-matching/) 1537
-- [3132. Find The Integer Added To Array Ii](https://leetcode.com/problems/find-the-integer-added-to-array-ii/) 1620
-- [522. Longest Uncommon Subsequence Ii](https://leetcode.com/problems/longest-uncommon-subsequence-ii/) ~1700
+- [3132. Find The Integer Added To Array II](https://leetcode.com/problems/find-the-integer-added-to-array-ii/) 1620
+- [522. Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii/) ~1700
 - [1826. Faulty Sensor](https://leetcode.com/problems/faulty-sensor/) 🔒
 
 - [1898. Maximum Number Of Removable Characters](https://leetcode.com/problems/maximum-number-of-removable-characters/) 1913
@@ -314,7 +314,7 @@ Study roadmap: [How to Study Systematically](https://leetcode.com/circle/discuss
 - [2563. Count The Number Of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs/) 1721
 - [795. Number Of Subarrays With Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/) 1817
 - [2444. Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/) 2093
-- [3347. Maximum Frequency Of An Element After Performing Operations Ii](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-ii/) 2156
+- [3347. Maximum Frequency Of An Element After Performing Operations II](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-ii/) 2156
 - [1213. Intersection Of Three Sorted Arrays](https://leetcode.com/problems/intersection-of-three-sorted-arrays/) 🔒
 
 **Mind Extensions**:
@@ -362,8 +362,8 @@ This pattern keeps logic blocks clear and avoids special-casing the last group (
 - [1578. Minimum Time To Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) 1574
 - [1839. Longest Substring Of All Vowels In Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/) 1580
 - [2765. Longest Alternating Subarray](https://leetcode.com/problems/longest-alternating-subarray/) 1581
-- [3255. Find The Power Of K Size Subarrays Ii](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-ii/) 1595
-- [3350. Adjacent Increasing Subarrays Detection Ii](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-ii/) 1600
+- [3255. Find The Power Of K Size Subarrays II](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-ii/) 1595
+- [3350. Adjacent Increasing Subarrays Detection II](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-ii/) 1600
 - [3105. Longest Strictly Increasing Or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/)
 - [3926. Count Valid Word Occurrences](https://leetcode.com/problems/count-valid-word-occurrences/) 1608
 - [838. Push Dominoes](https://leetcode.com/problems/push-dominoes/) 1638
@@ -378,7 +378,7 @@ This pattern keeps logic blocks clear and avoids special-casing the last group (
 - [3872. Longest Arithmetic Sequence After Changing At Most One Element](https://leetcode.com/problems/longest-arithmetic-sequence-after-changing-at-most-one-element/) 2042
 - [2948. Make Lexicographically Smallest Array By Swapping Elements](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/) 2047
 - [3830. Longest Alternating Subarray After Removing At Most One Element](https://leetcode.com/problems/longest-alternating-subarray-after-removing-at-most-one-element/) 2162
-- [3640. Trionic Array Ii](https://leetcode.com/problems/trionic-array-ii/) 2278
+- [3640. Trionic Array II](https://leetcode.com/problems/trionic-array-ii/) 2278
 - [2393. Count Strictly Increasing Subarrays](https://leetcode.com/problems/count-strictly-increasing-subarrays/) 🔒
 - [3773. Maximum Number Of Equal Length Runs](https://leetcode.com/problems/maximum-number-of-equal-length-runs/) 🔒
 - [2436. Minimum Split Into Subarrays With Gcd Greater Than One](https://leetcode.com/problems/minimum-split-into-subarrays-with-gcd-greater-than-one/) 🔒
