@@ -67,7 +67,7 @@ Problem list from [0x3F's LeetCode Study Plan](https://leetcode.cn/discuss/post/
 ## III. Contribution Technique
 
 - [907. Sum Of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) 1976
-- [2104. Sum Of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/) (max − min; O(n) approach ~2000)
+- [2104. Sum Of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/) (max - min; O(n) approach ~2000)
 - [1856. Maximum Subarray Min-Product](https://leetcode.com/problems/maximum-subarray-min-product/) 2051
 - [3878. Count Good Subarrays](https://leetcode.com/problems/count-good-subarrays/) 2230
 - [2818. Apply Operations To Maximize Score](https://leetcode.com/problems/apply-operations-to-maximize-score/) 2397
