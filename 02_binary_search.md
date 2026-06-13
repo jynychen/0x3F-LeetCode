@@ -1,6 +1,6 @@
 # Binary Search
 
-Problem list from [0x3F's LeetCode Study Plan](https://leetcode.com/discuss/post/3579164/) — problems sorted by difficulty rating.
+Problem list from [0x3F's LeetCode Study Plan](https://leetcode.cn/discuss/post/3579164/) — problems sorted by difficulty rating.
 
 > **Tip**: For beginners, focus on problems with difficulty rating below 1700. Higher-rated problems often combine binary search with other algorithms (data structures, graph theory, etc.).
 

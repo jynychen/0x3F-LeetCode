@@ -1,6 +1,6 @@
 # Sliding Window & Two Pointers
 
-Problem list from [0x3F's LeetCode Study Plan](https://leetcode.com/discuss/post/3578981/) — problems sorted by difficulty rating.
+Problem list from [0x3F's LeetCode Study Plan](https://leetcode.cn/discuss/post/3578981/) — problems sorted by difficulty rating.
 
 ## I. Fixed-Length Sliding Window
 
