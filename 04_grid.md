@@ -58,7 +58,7 @@ Suitable for problems that count the number or size of connected components. Som
 
 ## III. Grid 0-1 BFS
 
-Problems where edge weights are only 0 and 1 can also be solved with BFS.
+Problems where edge weights are only 0 and 1 can be solved with **0-1 BFS** (deque-based BFS).
 
 - [3286. Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) (achieve O(mn))
 - [2290. Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/) 2138
