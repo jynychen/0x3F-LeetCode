@@ -29,7 +29,7 @@ Find connected components, detect cycles (e.g. problem 207), etc. Some problems 
 - [928. Minimize Malware Spread II](https://leetcode.com/problems/minimize-malware-spread-ii/) 1985
 - [2092. Find All People With Secret](https://leetcode.com/problems/find-all-people-with-secret/) 2004
 - [3108. Minimum Cost Walk in Weighted Graph](https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph/) 2109
-- [LCP 07. Pass Messages](https://leetcode.com/problems/chuan-di-xin-xi/)
+- [LCP 07. Pass Messages](https://leetcode.cn/problems/chuan-di-xin-xi/)
 - [261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) 🔒
 - [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) 🔒
 
@@ -75,7 +75,7 @@ Abstract each state as a node in a graph, then traverse it with BFS to find the 
 - [2059. Minimum Operations to Convert Number](https://leetcode.com/problems/minimum-operations-to-convert-number/) 1850
 - [1654. Minimum Jumps to Reach Home](https://leetcode.com/problems/minimum-jumps-to-reach-home/) 2124
 - [3629. Minimum Jumps to Reach End via Prime Teleportation](https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/) 2139
-- [LCP 09. Minimum Jumps](https://leetcode.com/problems/zui-xiao-tiao-yue-ci-shu/)
+- [LCP 09. Minimum Jumps](https://leetcode.cn/problems/zui-xiao-tiao-yue-ci-shu/)
 
 > **Note**: For grid-graph DFS and BFS, see the [Grid problem list](04_grid.md).
 
@@ -125,7 +125,7 @@ Usually done with the push (forward) method.
 - [2876. Count Visited Nodes in a Directed Graph](https://leetcode.com/problems/count-visited-nodes-in-a-directed-graph/) 2210
 - [2127. Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/) 2449
 - [2836. Maximize Value of Function in a Ball Passing Game](https://leetcode.com/problems/maximize-value-of-function-in-a-ball-passing-game/) 2769 (multiple approaches)
-- [LCP 21. Chase Game](https://leetcode.com/problems/Za25hA/)
+- [LCP 21. Chase Game](https://leetcode.cn/problems/Za25hA/)
 - [2204. Distance to a Cycle in Undirected Graph](https://leetcode.com/problems/distance-to-a-cycle-in-undirected-graph/) 🔒
 
 **Mind Extensions**:
@@ -167,7 +167,7 @@ Usually done with the push (forward) method.
 
 **Layered Graph Shortest Path**:
 
-- [LCP 35. Electric Car City Tour](https://leetcode.com/problems/DFPeFJ/)
+- [LCP 35. Electric Car City Tour](https://leetcode.cn/problems/DFPeFJ/)
 - [3599. Partition Array to Minimize XOR](https://leetcode.com/problems/partition-array-to-minimize-xor/) (multiple approaches)
 - [3594. Minimum Time to Transport All Individuals](https://leetcode.com/problems/minimum-time-to-transport-all-individuals/) 2604
 - [3778. Minimum Distance Excluding One Maximum Weighted Edge](https://leetcode.com/problems/minimum-distance-excluding-one-maximum-weighted-edge/) 🔒
@@ -222,7 +222,7 @@ Involves Tarjan's algorithm.
 
 - [1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) 2085
 - [1568. Minimum Number of Days to Disconnect Island](https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island/) 2209
-- [LCP 54. Recapture Strongholds](https://leetcode.com/problems/s5kipK/)
+- [LCP 54. Recapture Strongholds](https://leetcode.cn/problems/s5kipK/)
 - [3383. Minimum Runes to Add to Cast Spell](https://leetcode.com/problems/minimum-runes-to-add-to-cast-spell/) 🔒
 
 ## VII. Bipartite Coloring
@@ -244,8 +244,8 @@ Since alternative approaches exist (e.g. bitmask DP), the difficulty ratings are
 - [3276. Select Cells in Grid with Maximum Score](https://leetcode.com/problems/select-cells-in-grid-with-maximum-score/) 2403
 - [1595. Minimum Cost to Connect Two Groups of Points](https://leetcode.com/problems/minimum-cost-to-connect-two-groups-of-points/) 2538 (weighted bipartite minimum edge cover)
 - [3257. Maximum Value Sum by Placing Three Rooks II](https://leetcode.com/problems/maximum-value-sum-by-placing-three-rooks-ii/) 2553
-- [LCP 04. Broken Board Dominoes](https://leetcode.com/problems/broken-board-dominoes/) (bipartite maximum matching template)
-- [LCP 38. Guard the Castle](https://leetcode.com/problems/7rLGCR/) (minimum cut)
+- [LCP 04. Broken Board Dominoes](https://leetcode.cn/problems/broken-board-dominoes/) (bipartite maximum matching template)
+- [LCP 38. Guard the Castle](https://leetcode.cn/problems/7rLGCR/) (minimum cut)
 - [1820. Maximum Number of Accepted Invitations](https://leetcode.com/problems/maximum-number-of-accepted-invitations/) 🔒 (bipartite maximum matching template)
 - [2403. Minimum Time to Kill All Monsters](https://leetcode.com/problems/minimum-time-to-kill-all-monsters/) 🔒 (same as 3376)
 - [3385. Minimum Time to Break Locks II](https://leetcode.com/problems/minimum-time-to-break-locks-ii/) 🔒 (same as 3376)
@@ -271,7 +271,7 @@ Since alternative approaches exist (e.g. bitmask DP), the difficulty ratings are
 - [2612. Minimum Reverse Operations](https://leetcode.com/problems/minimum-reverse-operations/) 2824 (advanced BFS)
 - [3435. Frequencies of Shortest Supersequences](https://leetcode.com/problems/frequencies-of-shortest-supersequences/) 3028
 - [466. Count The Repetitions](https://leetcode.com/problems/count-the-repetitions/) (achieve O(|s1|+|s2|))
-- [LCP 16. Amusement Park Tour Plan](https://leetcode.com/problems/you-le-yuan-de-you-lan-ji-hua/)
+- [LCP 16. Amusement Park Tour Plan](https://leetcode.cn/problems/you-le-yuan-de-you-lan-ji-hua/)
 - [277. Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/) 🔒
 - [1724. Checking Existence of Edge Length Limited Paths II](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths-ii/) 🔒
 - [2077. Paths in Maze That Lead to Same Room](https://leetcode.com/problems/paths-in-maze-that-lead-to-same-room/) 🔒 (triangle counting)
