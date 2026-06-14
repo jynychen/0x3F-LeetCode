@@ -25,7 +25,7 @@ Suitable for problems that count the number or size of connected components. Som
 - [529. Minesweeper](https://leetcode.com/problems/minesweeper/)
 - [1559. Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/) 1838
 - [827. Making A Large Island](https://leetcode.com/problems/making-a-large-island/) 1934 (variant in my solution)
-- [LCP 63. Marble Game](https://leetcode.com/problems/EXvqDp/) (can also be solved without DFS)
+- [LCP 63. Marble Game](https://leetcode.cn/problems/EXvqDp/) (can also be solved without DFS)
 - [305. Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/) 🔒
 - [2061. Number of Spaces Cleaning Robot Cleaned](https://leetcode.com/problems/number-of-spaces-cleaning-robot-cleaned/) 🔒 (can also be solved iteratively)
 - [2852. Sum of Remoteness of All Cells](https://leetcode.com/problems/sum-of-remoteness-of-all-cells/) 🔒
@@ -65,7 +65,7 @@ Problems where edge weights are only 0 and 1 can also be solved with BFS.
 - [1368. Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) 2069
 - [3552. Grid Teleportation Traversal](https://leetcode.com/problems/grid-teleportation-traversal/) 2036
 - [1824. Minimum Sideway Jumps](https://leetcode.com/problems/minimum-sideway-jumps/)
-- [LCP 56. Token Delivery](https://leetcode.com/problems/6UEx57/)
+- [LCP 56. Token Delivery](https://leetcode.cn/problems/6UEx57/)
 
 ## IV. Grid Dijkstra
 
@@ -84,10 +84,10 @@ See "§3.1 Single-Source Shortest Path: Dijkstra" in the Graph Theory problem li
 - [2556. Disconnect Path in a Binary Matrix by at Most One Flip](https://leetcode.com/problems/disconnect-path-in-a-binary-matrix-by-at-most-one-flip/) 2369
 - [2577. Minimum Time to Visit a Cell in a Grid](https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid/) 2382
 - [2617. Minimum Number of Visited Cells in a Grid](https://leetcode.com/problems/minimum-number-of-visited-cells-in-a-grid/) 2582
-- [LCP 13. Treasure Hunt](https://leetcode.com/problems/xun-bao/) (bitmask DP)
-- [LCP 31. Transforming Maze](https://leetcode.com/problems/Db3wC1/)
-- [LCP 45. Bicycle Stunt Arena](https://leetcode.com/problems/kplEvH/)
-- [LCP 75. Teleport Scroll](https://leetcode.com/problems/rdmXM7/)
+- [LCP 13. Treasure Hunt](https://leetcode.cn/problems/xun-bao/) (bitmask DP)
+- [LCP 31. Transforming Maze](https://leetcode.cn/problems/Db3wC1/)
+- [LCP 45. Bicycle Stunt Arena](https://leetcode.cn/problems/kplEvH/)
+- [LCP 75. Teleport Scroll](https://leetcode.cn/problems/rdmXM7/)
 - [1778. Shortest Path in a Hidden Grid](https://leetcode.com/problems/shortest-path-in-a-hidden-grid/) 🔒
 - [694. Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/) 🔒
 - [711. Number of Distinct Islands II](https://leetcode.com/problems/number-of-distinct-islands-ii/) 🔒
