@@ -40,7 +40,7 @@ Problem list from [0x3F's LeetCode Study Plan](https://leetcode.cn/circle/discus
 
 ## II. Properties of XOR (Exclusive OR)
 
-Essentially, this is addition in the residue system modulo 2.
+XOR is bitwise addition modulo 2 (i.e., addition in GF(2) for each bit, without carry).
 
 - [1486. XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) 1181
 - [1720. Decode XORed Array](https://leetcode.com/problems/decode-xored-array/) 1284
