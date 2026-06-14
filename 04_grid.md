@@ -69,7 +69,7 @@ Problems where edge weights are only 0 and 1 can also be solved with BFS.
 
 ## IV. Grid Dijkstra
 
-See "§3.1 Single-Source Shortest Path: Dijkstra" in the Graph Theory problem list, where the grid problems are marked.
+See **§3.1 Single-Source Shortest Path: Dijkstra** in [06_graph.md](06_graph.md), where the grid problems are marked.
 
 ## V. Comprehensive Applications
 
