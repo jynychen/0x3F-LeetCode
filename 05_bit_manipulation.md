@@ -173,7 +173,7 @@ Greedy, brain teasers, etc.
 - [3307. Find the K-th Character in String Game II](https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii/) 2232
 - [1611. Minimum One Bit Operations to Make Integers Zero](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/) 2345
 - [3514. Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) (Fast Walsh–Hadamard Transform / FWT)
-- [LCP 81. NAND Puzzle](https://leetcode.com/problems/ryfUiz/)
+- [LCP 81. NAND Puzzle](https://leetcode.cn/problems/ryfUiz/)
 - [751. IP to CIDR](https://leetcode.com/problems/ip-to-cidr/) 🔒
 - [3595. Once Twice](https://leetcode.com/problems/once-twice/) 🔒 (combines the ideas of 137 and 260)
 - [3141. Maximum Hamming Distances](https://leetcode.com/problems/maximum-hamming-distances/) 🔒
