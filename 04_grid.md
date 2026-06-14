@@ -12,7 +12,7 @@ Suitable for problems that count the number or size of connected components. Som
 - [2658. Maximum Number of Fish in a Grid](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/) 1490
 - [Interview 16.19. Pond Sizes](https://leetcode.com/problems/pond-sizes-lcci/)
 - [LCS 03. Subject Space](https://leetcode.com/problems/YesdPw/)
-- [463. Island Perimeter](https://leetcode.com/problems/island-perimeter/) thinking extension: [892. Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/)
+- [463. Island Perimeter](https://leetcode.com/problems/island-perimeter/) (mind extension: [892. Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/))
 - [733. Flood Fill](https://leetcode.com/problems/flood-fill/)
 - [1034. Coloring A Border](https://leetcode.com/problems/coloring-a-border/) 1579
 - [1020. Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) 1615
