@@ -81,7 +81,7 @@ The more numbers you OR together, the larger the result.
 
 ### AND/OR LogTrick
 
-Note: some of the problems below can be solved in optimal O(n) time using a sliding window + stack.
+Note: some of the problems below can be solved in O(n log U) time (U = max value) by maintaining a merged list/stack of distinct AND/OR results for subarrays ending at each index.
 
 - [3171. Find Subarray With Bitwise OR Closest to K](https://leetcode.com/problems/find-subarray-with-bitwise-or-closest-to-k/) (example)
 - [1521. Find a Value of a Mysterious Function Closest to Target](https://leetcode.com/problems/find-a-value-of-a-mysterious-function-closest-to-target/) (same as 3171, OR → AND)
