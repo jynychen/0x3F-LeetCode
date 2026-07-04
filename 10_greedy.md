@@ -334,7 +334,7 @@ Essentially the same as non-overlapping intervals.
 
 The definition of **lexicographic order**:
 
-- For two strings a and b, compare characters a[i] and b[i] by ASCII value, from left to right.
+- For two strings a and b, compare characters a[i] and b[i] by their character value (code point), from left to right.
 - At the first position where a[i]≠b[i]: if a[i]<b[i], then a is lexicographically smaller, otherwise b is smaller.
 - If no such position exists, the shorter string is lexicographically smaller.
 - If both strings have the same length and content, they have the same lexicographic order.
