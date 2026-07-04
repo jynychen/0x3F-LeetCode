@@ -473,7 +473,7 @@ Given array nums, each operation can increment or decrement one element by one. 
 
 Making all elements equal to the **median** of nums is optimal.
 
-[Proof](https://leetcode.cn/link/?target=https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F1922938031687595039)
+[Proof](https://zhuanlan.zhihu.com/p/1922938031687595039)
 
 - [462. Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)
 - [2033. Minimum Operations to Make a Uni-Value Grid](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/) 1672
