@@ -754,7 +754,7 @@ The way of thinking is the same as the "Thinking Checklist" in Chapter V — loo
 - [280. Wiggle Sort](https://leetcode.com/problems/wiggle-sort/) 🔒
 - [484. Find Permutation](https://leetcode.com/problems/find-permutation/) 🔒
 
-For more construction problems, search [constructive algorithms](https://leetcode.cn/link/?target=https%3A%2F%2Fcodeforces.com%2Fproblemset%3Forder%3DBY_SOLVED_DESC%26tags%3Dconstructive%2Balgorithms%2C900-) on Codeforces.
+For more construction problems, search [constructive algorithms](https://codeforces.com/problemset?order=BY_SOLVED_DESC&tags=constructive+algorithms,900-) on Codeforces.
 
 ## VII. Interactive Problems
 
