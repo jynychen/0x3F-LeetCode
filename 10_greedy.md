@@ -222,7 +222,7 @@ In the problems below, let n be the length of array a, and m be the count of the
 
 **Answer**: At least max(⌈n/2⌉, m) operations.
 
-[Proof + concrete construction](https://leetcode.cn/link/?target=https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F1945782212176909162)
+[Proof + concrete construction](https://zhuanlan.zhihu.com/p/1945782212176909162)
 
 - [2335. Minimum Amount of Time to Fill Cups](https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/) 1360
 - [3659. Partition Array Into K Distinct Groups](https://leetcode.com/problems/partition-array-into-k-distinct-groups/) 1440
