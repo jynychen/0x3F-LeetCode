@@ -154,7 +154,7 @@ Variable-length sliding window covers three categories: find longest subarray, f
 ---
 > **Note**: Sliding window problems end here. Continue to the next study plan.
 
-Study roadmap: [How to Study Systematically](https://leetcode.com/circle/discuss/RvFUtj/)
+Study roadmap: [How to Study Systematically](https://leetcode.cn/circle/discuss/RvFUtj/)
 
 ---
 
