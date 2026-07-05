@@ -317,7 +317,7 @@ Usually solved with an inorder traversal.
 - [968. Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)
 - [LCP 10. Binary Tree Task Scheduling](https://leetcode.cn/problems/er-cha-shu-ren-wu-diao-du/)
 - [LCP 34. Binary Tree Coloring](https://leetcode.cn/problems/er-cha-shu-ran-se-UGC/)
-- [LCP 64. Binary Tree Lights](https://leetcode.com/problems/U7WvvU/)
+- [LCP 64. Binary Tree Lights](https://leetcode.cn/problems/U7WvvU/)
 - [2313. Minimum Flips in Binary Tree to Get Result](https://leetcode.com/problems/minimum-flips-in-binary-tree-to-get-result/) 🔒
 
 For more tree DP problems, see "Tree DP" in the [Dynamic Programming list](07_dynamic_programming.md).
