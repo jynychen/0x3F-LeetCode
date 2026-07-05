@@ -547,7 +547,7 @@ Can also be solved with **binary/bitmask enumeration**.
 - [784. Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)
 - [3566. Partition Array Into Two Equal Product Subsets](https://leetcode.com/problems/partition-array-into-two-equal-product-subsets/) 1459
 - [2044. Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/) 1568
-- [LCP 51. Cooking Dishes](https://leetcode.com/problems/UEcfPD/)
+- [LCP 51. Cooking Dishes](https://leetcode.cn/problems/UEcfPD/)
 - [2397. Maximum Rows Covered by Columns](https://leetcode.com/problems/maximum-rows-covered-by-columns/) 1719
 - [1239. Maximum Length of a Concatenated String With Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/) 1720
 - [2212. Maximum Points in an Archery Competition](https://leetcode.com/problems/maximum-points-in-an-archery-competition/) 1869
