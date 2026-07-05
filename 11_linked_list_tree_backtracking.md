@@ -469,7 +469,7 @@ For more tree DP problems, see "Tree DP" in the [Dynamic Programming list](07_dy
 Tree problems can often be converted into array problems — for example, an operation on a subtree becomes an operation on a subarray. This is usually combined with other data structures.
 
 - [3515. Shortest Path In A Weighted Tree](https://leetcode.com/problems/shortest-path-in-a-weighted-tree/) 2312
-- [LCP 05. Distribute LeetCoin](https://leetcode.com/problems/coin-bonus/) (same as 3515)
+- [LCP 05. Distribute LeetCoin](https://leetcode.cn/problems/coin-bonus/) (same as 3515)
 - [2322. Minimum Score After Removals on a Tree](https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/) 2392
 - [3327. Check If DFS Strings Are Palindromes](https://leetcode.com/problems/check-if-dfs-strings-are-palindromes/) 2454
 - [3590. Kth Smallest Path XOR Sum](https://leetcode.com/problems/kth-smallest-path-xor-sum/) 2646 (more than one approach exists)
