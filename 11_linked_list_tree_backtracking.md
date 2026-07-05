@@ -203,7 +203,7 @@ Compute the answer on the way back up (the "ascent").
 - [1145. Binary Tree Coloring Game](https://leetcode.com/problems/binary-tree-coloring-game/) 1741
 - [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) (achieve O(n) time)
 - [1530. Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/) (achieve better than O(n²) time)
-- [LCP 67. Decorate the Tree](https://leetcode.com/problems/KnLfVT/)
+- [LCP 67. Decorate the Tree](https://leetcode.cn/problems/KnLfVT/)
 - [298. Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/) 🔒
 - [250. Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/) 🔒
 - [1973. Count Nodes Equal to Sum of Descendants](https://leetcode.com/problems/count-nodes-equal-to-sum-of-descendants/) 🔒
