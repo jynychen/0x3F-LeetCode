@@ -668,7 +668,7 @@ Also known as "meet in the middle".
 - [2035. Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/) 2490
 - [3801. Minimum Cost to Merge Sorted Lists](https://leetcode.com/problems/minimum-cost-to-merge-sorted-lists/) (optimization)
 - [3267. Count Almost Equal Pairs II](https://leetcode.com/problems/count-almost-equal-pairs-ii/) (optimization)
-- [LCP 82. Tree of All Spirits](https://leetcode.com/problems/cnHoX6/)
+- [LCP 82. Tree of All Spirits](https://leetcode.cn/problems/cnHoX6/)
 
 ### Other Recursion / Divide and Conquer
 

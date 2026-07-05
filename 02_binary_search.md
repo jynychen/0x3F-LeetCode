@@ -175,4 +175,4 @@ Problem list from [0x3F's LeetCode Study Plan](https://leetcode.cn/discuss/post/
 ---
 > **Note**: Binary search problems end here. Continue to the next study plan.
 
-Study roadmap: [How to Study Systematically](https://leetcode.com/circle/discuss/RvFUtj/)
+Study roadmap: [How to Study Systematically](https://leetcode.cn/circle/discuss/RvFUtj/)
