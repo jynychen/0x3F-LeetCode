@@ -95,7 +95,7 @@ Problems using **center expansion** (and its underlying idea):
 
 Most problems in this list can be solved with string hashing.
 
-We recommend doing [2156. Find Substring With Given Hash Value](https://leetcode.com/problems/find-substring-with-given-hash-value/) and [3756. Concatenate Non Zero Digits And Multiply By Sum II](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/) first — they'll help you understand how to compute a **polynomial hash**.
+We recommend doing [2156. Find Substring With Given Hash Value](https://leetcode.com/problems/find-substring-with-given-hash-value/) and [3756. Concatenate Non-Zero Digits And Multiply By Sum II](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/) first — they'll help you understand how to compute a **polynomial hash**.
 
 **Template code** is available in [my solution](https://leetcode.com/problems/construct-string-with-minimum-cost/solutions/2833949/hou-zhui-shu-zu-by-endlesscheng-32h9/), covering both single-modulus and double-modulus hashing.
 
