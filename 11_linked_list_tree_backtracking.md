@@ -392,8 +392,8 @@ For more tree DP problems, see "Tree DP" in the [Dynamic Programming list](07_dy
 - [2673. Make Costs of Paths Equal in a Binary Tree](https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree/) 1917
 - [2509. Cycle Length Queries in a Tree](https://leetcode.com/problems/cycle-length-queries-in-a-tree/) 1948
 - [2458. Height of Binary Tree After Subtree Removal Queries](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/) 2299 (recommended)
-- [LCP 26. Navigation Device](https://leetcode.com/problems/hSRGyL/)
-- [LCP 60. LeetCode Bubble Shooter](https://leetcode.com/problems/WInSav/)
+- [LCP 26. Navigation Device](https://leetcode.cn/problems/hSRGyL/)
+- [LCP 60. LeetCode Bubble Shooter](https://leetcode.cn/problems/WInSav/)
 - [314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) 🔒
 - [666. Path Sum IV](https://leetcode.com/problems/path-sum-iv/) 🔒
 - [1586. Binary Search Tree Iterator II](https://leetcode.com/problems/binary-search-tree-iterator-ii/) 🔒
