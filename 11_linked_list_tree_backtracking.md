@@ -670,7 +670,7 @@ Also known as "meet in the middle".
 - [3267. Count Almost Equal Pairs II](https://leetcode.com/problems/count-almost-equal-pairs-ii/) (optimization)
 - [LCP 82. Tree of All Spirits](https://leetcode.com/problems/cnHoX6/)
 
-## V. Other Recursion / Divide and Conquer
+### Other Recursion / Divide and Conquer
 
 - [3537. Fill a Special Grid](https://leetcode.com/problems/fill-a-special-grid/) 1542
 - [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) (do this before problem 912)
