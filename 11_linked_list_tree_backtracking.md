@@ -645,7 +645,7 @@ Some of these problems can also be solved with bitmask DP.
 - [2386. Find the K-Sum of an Array](https://leetcode.com/problems/find-the-k-sum-of-an-array/) 2648
 - [3509. Maximum Product of Subsequences With an Alternating Sum Equal to K](https://leetcode.com/problems/maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k/) 2703
 - [488. Zuma Game](https://leetcode.com/problems/zuma-game/)
-- [LCP 58. Assembling Building Blocks](https://leetcode.com/problems/De4qBB/)
+- [LCP 58. Assembling Building Blocks](https://leetcode.cn/problems/De4qBB/)
 - [Interview 17.25. Word Rectangle](https://leetcode.com/problems/word-rectangle-lcci/)
 - [2664. The Knight's Tour](https://leetcode.com/problems/the-knights-tour/) 🔒
 - [3565. Sequential Grid Path Cover](https://leetcode.com/problems/sequential-grid-path-cover/) 🔒
