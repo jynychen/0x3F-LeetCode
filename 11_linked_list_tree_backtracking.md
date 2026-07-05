@@ -144,7 +144,7 @@ Work through the problems below while thinking about:
 - [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 - [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
 - [872. Leaf Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) 1288
-- [LCP 44. Opening Ceremony Fireworks](https://leetcode.com/problems/sZ59z6/)
+- [LCP 44. Opening Ceremony Fireworks](https://leetcode.cn/problems/sZ59z6/)
 - [404. Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)
 - [671. Second Minimum Node in a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)
 - [1469. Find All the Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/) 🔒
