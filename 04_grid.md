@@ -10,8 +10,8 @@ Suitable for problems that count the number or size of connected components. Som
 - [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
 - [3619. Count Islands With Total Value Divisible by K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/) 1461
 - [2658. Maximum Number of Fish in a Grid](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/) 1490
-- [Interview 16.19. Pond Sizes](https://leetcode.com/problems/pond-sizes-lcci/)
-- [LCS 03. Subject Space](https://leetcode.com/problems/YesdPw/)
+- [Interview 16.19. Pond Sizes](https://leetcode.cn/problems/pond-sizes-lcci/)
+- [LCS 03. Subject Space](https://leetcode.cn/problems/YesdPw/)
 - [463. Island Perimeter](https://leetcode.com/problems/island-perimeter/) (mind extension: [892. Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/))
 - [733. Flood Fill](https://leetcode.com/problems/flood-fill/)
 - [1034. Coloring A Border](https://leetcode.com/problems/coloring-a-border/) 1579
@@ -39,6 +39,7 @@ Suitable for problems that count the number or size of connected components. Som
 - [1162. As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/) 1666
 - [542. 01 Matrix](https://leetcode.com/problems/01-matrix/)
 - [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
+- [3905. Multi Source Flood Fill](https://leetcode.com/problems/multi-source-flood-fill/) 1671
 - [1765. Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak/) 1783
 - [934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) 1826
 - [2146. K Highest Ranked Items Within a Price Range](https://leetcode.com/problems/k-highest-ranked-items-within-a-price-range/) 1837
@@ -53,6 +54,7 @@ Suitable for problems that count the number or size of connected components. Som
 - [490. The Maze](https://leetcode.com/problems/the-maze/) 🔒
 - [505. The Maze II](https://leetcode.com/problems/the-maze-ii/) 🔒
 - [499. The Maze III](https://leetcode.com/problems/the-maze-iii/) 🔒
+- [1197. Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/) 🔒
 - [317. Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings/) 🔒
 - [2814. Minimum Time Takes to Reach Destination Without Drowning](https://leetcode.com/problems/minimum-time-takes-to-reach-destination-without-drowning/) 🔒
 
@@ -73,9 +75,10 @@ See **§3.1 Single-Source Shortest Path: Dijkstra** in [06_graph.md](06_graph.md
 
 ## V. Comprehensive Applications
 
+- [3882. Minimum XOR Path in a Grid](https://leetcode.com/problems/minimum-xor-path-in-a-grid/) 1771
 - [1631. Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/) 1948
+- [2267. Check if There Is a Valid Parentheses String Path](https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/) 2085
 - [778. Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) 2097
-- [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)
 - [3568. Minimum Moves to Clean the Classroom](https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/) 2143 (bitmask BFS / layered-graph shortest path)
 - [1036. Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/) 2165
 - [864. Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/) 2259 (bitmask BFS / layered-graph shortest path)

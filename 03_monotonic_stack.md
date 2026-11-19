@@ -55,6 +55,7 @@ Problem list from [0x3F's LeetCode Study Plan](https://leetcode.cn/discuss/post/
 - [1793. Maximum Score Of A Good Subarray](https://leetcode.com/problems/maximum-score-of-a-good-subarray/) 1946
 - [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
 - [221. Maximal Square](https://leetcode.com/problems/maximal-square/)
+- [4016. Maximum Area of Two Non-Overlapping Square Submatrices](https://leetcode.com/problems/maximum-area-of-two-non-overlapping-square-submatrices/) 1959
 - [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) (multiple approaches)
 - [1504. Count Submatrices With All Ones](https://leetcode.com/problems/count-submatrices-with-all-ones/)
 - [1277. Count Square Submatrices With All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)
@@ -78,7 +79,6 @@ Problem list from [0x3F's LeetCode Study Plan](https://leetcode.cn/discuss/post/
 **Mind Extensions**:
 
 - [2334. Subarray With Elements Greater Than Varying Threshold](https://leetcode.com/problems/subarray-with-elements-greater-than-varying-threshold/) 2381
-- [2962. Count Subarrays Where Max Element Appears At Least K Times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/) (thinking exercise)
 
 ## IV. Lexicographically Smallest
 

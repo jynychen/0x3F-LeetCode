@@ -65,7 +65,7 @@ Abstract each state as a node in a graph, then traverse it with BFS to find the 
 - [854. K-Similar Strings](https://leetcode.com/problems/k-similar-strings/) 2377
 - [127. Word Ladder](https://leetcode.com/problems/word-ladder/) (bidirectional BFS)
 - [488. Zuma Game](https://leetcode.com/problems/zuma-game/)
-- [1197. Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/) 🔒
+- [3991. Sort Array Using Prefix Reversals](https://leetcode.com/problems/sort-array-using-prefix-reversals/) 🔒
 - [3141. Maximum Hamming Distances](https://leetcode.com/problems/maximum-hamming-distances/) 🔒
 
 **Topic: Jump Game**
@@ -95,7 +95,7 @@ Before learning topological sort, first complete [1557. Minimum Number of Vertic
 - [1203. Sort Items by Groups Respecting Dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/) 2419
 - [1632. Rank Transform of a Matrix](https://leetcode.com/problems/rank-transform-of-a-matrix/) 2530
 - [2603. Collect Coins in a Tree](https://leetcode.com/problems/collect-coins-in-a-tree/) 2712
-- [LCR 114. Alien Dictionary](https://leetcode.com/problems/Jf1JuT/)
+- [LCR 114. Alien Dictionary](https://leetcode.cn/problems/Jf1JuT/)
 - [444. Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction/) 🔒 (is the topological order unique)
 - [3481. Apply Substitutions](https://leetcode.com/problems/apply-substitutions/) 🔒 (can also use memoized search)
 - [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) 🔒
@@ -146,12 +146,17 @@ Usually done with the push (forward) method.
 - [3342. Find Minimum Time to Reach Last Room II](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii/) 1862 (grid)
 - [1631. Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/) 1948 (grid, multiple approaches)
 - [1786. Number of Restricted Paths From First to Last Node](https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node/) 2079
+- [3924. Minimum Threshold Path With Limited Heavy Edges](https://leetcode.com/problems/minimum-threshold-path-with-limited-heavy-edges/) 2080 (0-1 BFS also works)
 - [3123. Find Edges in Shortest Paths](https://leetcode.com/problems/find-edges-in-shortest-paths/) 2093
 - [1976. Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/) 2095
 - [778. Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) 2097 (grid, multiple approaches)
 - [2662. Minimum Cost of a Path With Special Roads](https://leetcode.com/problems/minimum-cost-of-a-path-with-special-roads/) 2154
 - [3377. Digit Operations to Make Two Integers Equal](https://leetcode.com/problems/digit-operations-to-make-two-integers-equal/) 2186
+- [3928. Minimum Cost to Buy Apples II](https://leetcode.com/problems/minimum-cost-to-buy-apples-ii/) 2187
 - [2045. Second Minimum Time to Reach Destination](https://leetcode.com/problems/second-minimum-time-to-reach-destination/) 2202 (can also use BFS)
+- [322. Coin Change](https://leetcode.com/problems/coin-change/)
+- [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)
+- [3877. Minimum Removals to Achieve Target XOR](https://leetcode.com/problems/minimum-removals-to-achieve-target-xor/) 1745
 - [3419. Minimize the Maximum Edge Weight of Graph](https://leetcode.com/problems/minimize-the-maximum-edge-weight-of-graph/) 2243 (multiple approaches)
 - [882. Reachable Nodes In Subdivided Graph](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph/) 2328
 - [2203. Minimum Weighted Subgraph With the Required Paths](https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths/) 2364
@@ -167,6 +172,8 @@ Usually done with the push (forward) method.
 
 **Layered Graph Shortest Path**:
 
+- [3970. Shortest Path With At Most K Consecutive Identical Characters](https://leetcode.com/problems/shortest-path-with-at-most-k-consecutive-identical-characters/) 1840
+- [3977. Minimum Time to Reach Target With Limited Power](https://leetcode.com/problems/minimum-time-to-reach-target-with-limited-power/) 2103
 - [LCP 35. Electric Car City Tour](https://leetcode.cn/problems/DFPeFJ/)
 - [3599. Partition Array to Minimize XOR](https://leetcode.com/problems/partition-array-to-minimize-xor/) (multiple approaches)
 - [3594. Minimum Time to Transport All Individuals](https://leetcode.com/problems/minimum-time-to-transport-all-individuals/) 2604
@@ -250,6 +257,7 @@ Since alternative approaches exist (e.g. bitmask DP), the difficulty ratings are
 - [2403. Minimum Time to Kill All Monsters](https://leetcode.com/problems/minimum-time-to-kill-all-monsters/) 🔒 (same as 3376)
 - [3385. Minimum Time to Break Locks II](https://leetcode.com/problems/minimum-time-to-break-locks-ii/) 🔒 (same as 3376)
 - [1066. Campus Bikes II](https://leetcode.com/problems/campus-bikes-ii/) 🔒 (one-to-one, but not perfect matching)
+- [4004. Minimum Moves to Balance Circular Array II](https://leetcode.com/problems/minimum-moves-to-balance-circular-array-ii/) 🔒
 - [2123. Minimum Operations to Remove Adjacent Ones in Matrix](https://leetcode.com/problems/minimum-operations-to-remove-adjacent-ones-in-matrix/) 🔒 (bipartite maximum independent set)
 
 **Simulated Cost Flow**:

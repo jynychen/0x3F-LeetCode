@@ -18,8 +18,9 @@ Problem list from [0x3F's LeetCode Study Plan](https://leetcode.cn/circle/discus
 - [868. Binary Gap](https://leetcode.com/problems/binary-gap/) 1307
 - [2917. Find the K-or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array/) 1389
 - [693. Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)
+- [3950. Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/)
 - [2657. Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/)
-- [Interview 05.01. Insert Into Bits LCCI](https://leetcode.com/problems/insert-into-bits-lcci/)
+- [Interview 05.01. Insert Into Bits LCCI](https://leetcode.cn/problems/insert-into-bits-lcci/)
 - [231. Power of Two](https://leetcode.com/problems/power-of-two/)
 - [342. Power of Four](https://leetcode.com/problems/power-of-four/)
 - [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
@@ -35,6 +36,7 @@ Problem list from [0x3F's LeetCode Study Plan](https://leetcode.cn/circle/discus
 **Reverse a binary number**:
 
 - [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)
+- [4030. Check ASCII Palindromic](https://leetcode.com/problems/check-ascii-palindromic/) 1165
 - [3750. Minimum Number of Flips to Reverse Binary String](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/) 1289
 - [3769. Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/) 1364
 
@@ -89,6 +91,7 @@ Note: some of the problems below can be solved in O(n log U) time (U = max value
 - [2411. Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/) 1938
 - [3209. Number of Subarrays With AND Value of K](https://leetcode.com/problems/number-of-subarrays-with-and-value-of-k/) 2050
 - [898. Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/)
+- [3878. Count Good Subarrays](https://leetcode.com/problems/count-good-subarrays/) 2230
 
 ### GCD LogTrick
 
@@ -115,8 +118,10 @@ Note: some of the problems below can be solved in O(n log U) time (U = max value
 ## V. Trial-and-Fill (Greedy Bit Construction)
 
 - [421. Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)
+- [3858. Minimum Bitwise OR From Grid](https://leetcode.com/problems/minimum-bitwise-or-from-grid/) 1947
 - [3806. Maximum Bitwise AND After Increment Operations](https://leetcode.com/problems/maximum-bitwise-and-after-increment-operations/) 2259
 - [2935. Maximum Strong Pair XOR II](https://leetcode.com/problems/maximum-strong-pair-xor-ii/) 2349
+- [3845. Maximum Subarray XOR with Bounded Range](https://leetcode.com/problems/maximum-subarray-xor-with-bounded-range/)
 - [3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K](https://leetcode.com/problems/maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/)
 - [3145. Find Products of Elements of Big Array](https://leetcode.com/problems/find-products-of-elements-of-big-array/) 2859 (similar to Champernowne number)
 - [3022. Minimize OR of Remaining Elements Using Operations](https://leetcode.com/problems/minimize-or-of-remaining-elements-using-operations/) 2918
@@ -163,9 +168,12 @@ Greedy, brain teasers, etc.
 - [201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)
 - [2438. Range Product Queries of Powers](https://leetcode.com/problems/range-product-queries-of-powers/) 1610
 - [1680. Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) 1630
+- [1415. The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) (O(n) time required)
 - [1261. Find Elements in a Contaminated Binary Tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/) (O(1) extra space)
+- [1545. Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) (O(1) time required)
 - [89. Gray Code](https://leetcode.com/problems/gray-code/)
 - [1238. Circular Permutation in Binary Representation](https://leetcode.com/problems/circular-permutation-in-binary-representation/) 1775
+- [2126. Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/) (O(n) required)
 - [3766. Minimum Operations to Make Binary Palindrome](https://leetcode.com/problems/minimum-operations-to-make-binary-palindrome/) (non-brute-force)
 - [3782. Last Remaining Integer After Alternating Deletion Operations](https://leetcode.com/problems/last-remaining-integer-after-alternating-deletion-operations/) 2074
 - [390. Elimination Game](https://leetcode.com/problems/elimination-game/) (similar to 3782)
